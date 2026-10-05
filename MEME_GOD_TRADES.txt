@@ -449,3 +449,30 @@ Entry Reason: MOMENTUM CONTINUATION
 5M Buys: 661
 5M Sells: 227
 Buy Pressure: 74.44%
+
+================================================================================
+EXIT [2026-10-05 16:09:14 UTC]
+Symbol: AGENTCAT
+Token ID: CZJfrAmMs5Cz4H22PWzfqTJu5FkP7Q2Vvx1oPVL9pump
+Pair ID: HyLTPacbYR4V8yQw5bbWwAETZkjcsRw9xzCbayMnU45o
+Pair URL: https://dexscreener.com/solana/hyltpacbyr4v8yqw5bbwwaetzkjcsrw9xzcbaymnu45o
+Entry: $0.023180
+Highest: $0.028020
+Exit: $0.024820
+Multiple: 1.07X
+P/L: $0.71
+Exit Reason: TRAILING STOP
+
+================================================================================
+ENTRY [2026-10-05 16:09:32 UTC]
+Symbol: AGENTCAT
+Token ID: CZJfrAmMs5Cz4H22PWzfqTJu5FkP7Q2Vvx1oPVL9pump
+Pair ID: HyLTPacbYR4V8yQw5bbWwAETZkjcsRw9xzCbayMnU45o
+Pair URL: https://dexscreener.com/solana/hyltpacbyr4v8yqw5bbwwaetzkjcsrw9xzcbaymnu45o
+Entry Price: $0.026060
+Stake: $10.00
+Entry Score: 98/100
+Entry Reason: MOMENTUM CONTINUATION
+5M Buys: 772
+5M Sells: 129
+Buy Pressure: 85.68%

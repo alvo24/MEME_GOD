@@ -6483,3 +6483,2963 @@ Liquidity: $33,237.84
 5M Buys: 1297
 5M Sells: 999
 Buy Pressure: 56.49%
+
+================================================================================
+[2026-10-05 15:50:50 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00022500
+Score: 100/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $42,550.96
+5M Volume: $66,227.67
+5M Buys: 898
+5M Sells: 404
+Buy Pressure: 68.97%
+
+================================================================================
+[2026-10-05 15:50:53 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00019520
+Score: 80/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $40,795.01
+5M Volume: $45,360.96
+5M Buys: 489
+5M Sells: 108
+Buy Pressure: 81.91%
+
+================================================================================
+[2026-10-05 15:50:58 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00015570
+Score: 85/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $35,941.17
+5M Volume: $351,109.21
+5M Buys: 1109
+5M Sells: 835
+Buy Pressure: 57.05%
+
+================================================================================
+[2026-10-05 15:51:12 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00022500
+Score: 99/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $42,550.96
+5M Volume: $66,227.67
+5M Buys: 898
+5M Sells: 404
+Buy Pressure: 68.97%
+
+================================================================================
+[2026-10-05 15:51:12 UTC]
+Symbol: lemonbob
+Name: LemonBob
+Token ID: 6FKwzYKmVyDT9CWAHuiidi5AFQBrVLdYJAhGmR6ACzpF
+Pair ID: 6kEgK29qVWyEZazdhzZ9pyDUxezQtacBpeZaX4qGionj
+Pair URL: https://dexscreener.com/solana/6kegk29qvwyezazdhzz9pyduxezqtacbpezax4qgionj
+Price: $0.00011600
+Score: 75/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $31,335.52
+5M Volume: $851.77
+5M Buys: 14
+5M Sells: 12
+Buy Pressure: 53.85%
+
+================================================================================
+[2026-10-05 15:51:15 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00019730
+Score: 91/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $41,033.54
+5M Volume: $46,974.74
+5M Buys: 497
+5M Sells: 112
+Buy Pressure: 81.61%
+
+================================================================================
+[2026-10-05 15:51:17 UTC]
+Symbol: SHIBO
+Name: SHIBO INU
+Token ID: 3sfF6VyrW9MJwWoFvYC51UK4pPp7P5H4wRPqqHTbpump
+Pair ID: 9SMtZ6zxsRXzUjQWmsrUbbGnMfuSoL4rhfqeF8yA9G8R
+Pair URL: https://dexscreener.com/solana/9smtz6zxsrxzujqwmsrubbgnmfusol4rhfqef8ya9g8r
+Price: $0.00001803
+Score: 74/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $10,401.94
+5M Volume: $403.28
+5M Buys: 9
+5M Sells: 2
+Buy Pressure: 81.82%
+
+================================================================================
+[2026-10-05 15:51:19 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00020620
+Score: 100/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $41,733.71
+5M Volume: $379,494.55
+5M Buys: 1175
+5M Sells: 906
+Buy Pressure: 56.46%
+
+================================================================================
+[2026-10-05 15:51:29 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00023970
+Score: 100/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $43,992.09
+5M Volume: $63,494.36
+5M Buys: 779
+5M Sells: 382
+Buy Pressure: 67.10%
+
+================================================================================
+[2026-10-05 15:51:30 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00022080
+Score: 89/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $43,528.70
+5M Volume: $36,381.37
+5M Buys: 387
+5M Sells: 90
+Buy Pressure: 81.13%
+
+================================================================================
+[2026-10-05 15:51:33 UTC]
+Symbol: SHIBO
+Name: SHIBO INU
+Token ID: 3sfF6VyrW9MJwWoFvYC51UK4pPp7P5H4wRPqqHTbpump
+Pair ID: 9SMtZ6zxsRXzUjQWmsrUbbGnMfuSoL4rhfqeF8yA9G8R
+Pair URL: https://dexscreener.com/solana/9smtz6zxsrxzujqwmsrubbgnmfusol4rhfqef8ya9g8r
+Price: $0.00001805
+Score: 74/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $10,408.25
+5M Volume: $408.12
+5M Buys: 10
+5M Sells: 2
+Buy Pressure: 83.33%
+
+================================================================================
+[2026-10-05 15:51:34 UTC]
+Symbol: SOLBORN
+Name: Solborn
+Token ID: 26ZixeXtGBQe3DBrN4448oZaY5rnhwPrZNhAjZPopump
+Pair ID: 2npVxnSmAcomogFm5mYj7Bpq9fz7X3F4ESTZ8o882PJ1
+Pair URL: https://dexscreener.com/solana/2npvxnsmacomogfm5myj7bpq9fz7x3f4estz8o882pj1
+Price: $0.00044000
+Score: 85/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $66,835.64
+5M Volume: $33,909.28
+5M Buys: 96
+5M Sells: 213
+Buy Pressure: 31.07%
+
+================================================================================
+[2026-10-05 15:51:34 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00020620
+Score: 89/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $41,733.71
+5M Volume: $379,494.55
+5M Buys: 1175
+5M Sells: 906
+Buy Pressure: 56.46%
+
+================================================================================
+[2026-10-05 15:52:46 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00026030
+Score: 100/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $45,939.53
+5M Volume: $56,134.30
+5M Buys: 755
+5M Sells: 360
+Buy Pressure: 67.71%
+
+================================================================================
+[2026-10-05 15:52:48 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00020260
+Score: 89/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $41,635.76
+5M Volume: $35,391.01
+5M Buys: 318
+5M Sells: 89
+Buy Pressure: 78.13%
+
+================================================================================
+[2026-10-05 15:52:51 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00009190
+Score: 74/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $27,296.66
+5M Volume: $293,059.85
+5M Buys: 925
+5M Sells: 801
+Buy Pressure: 53.59%
+
+================================================================================
+[2026-10-05 15:53:04 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00026380
+Score: 100/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $46,279.25
+5M Volume: $63,675.00
+5M Buys: 866
+5M Sells: 414
+Buy Pressure: 67.66%
+
+================================================================================
+[2026-10-05 15:53:07 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00018720
+Score: 88/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $39,949.37
+5M Volume: $40,310.22
+5M Buys: 340
+5M Sells: 104
+Buy Pressure: 76.58%
+
+================================================================================
+[2026-10-05 15:53:11 UTC]
+Symbol: SOLBORN
+Name: Solborn
+Token ID: 26ZixeXtGBQe3DBrN4448oZaY5rnhwPrZNhAjZPopump
+Pair ID: 2npVxnSmAcomogFm5mYj7Bpq9fz7X3F4ESTZ8o882PJ1
+Pair URL: https://dexscreener.com/solana/2npvxnsmacomogfm5myj7bpq9fz7x3f4estz8o882pj1
+Price: $0.00044440
+Score: 70/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $73,199.59
+5M Volume: $43,557.63
+5M Buys: 155
+5M Sells: 191
+Buy Pressure: 44.80%
+
+================================================================================
+[2026-10-05 15:53:11 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00009190
+Score: 74/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $27,296.66
+5M Volume: $293,059.85
+5M Buys: 925
+5M Sells: 801
+Buy Pressure: 53.59%
+
+================================================================================
+[2026-10-05 15:53:25 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00028220
+Score: 100/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $47,965.87
+5M Volume: $59,038.87
+5M Buys: 765
+5M Sells: 374
+Buy Pressure: 67.16%
+
+================================================================================
+[2026-10-05 15:53:28 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00017080
+Score: 91/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $38,077.69
+5M Volume: $31,762.77
+5M Buys: 238
+5M Sells: 88
+Buy Pressure: 73.01%
+
+================================================================================
+[2026-10-05 15:53:32 UTC]
+Symbol: SOLBORN
+Name: Solborn
+Token ID: 26ZixeXtGBQe3DBrN4448oZaY5rnhwPrZNhAjZPopump
+Pair ID: 2npVxnSmAcomogFm5mYj7Bpq9fz7X3F4ESTZ8o882PJ1
+Pair URL: https://dexscreener.com/solana/2npvxnsmacomogfm5myj7bpq9fz7x3f4estz8o882pj1
+Price: $0.00044570
+Score: 75/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $72,251.23
+5M Volume: $43,970.95
+5M Buys: 164
+5M Sells: 191
+Buy Pressure: 46.20%
+
+================================================================================
+[2026-10-05 15:53:44 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00028220
+Score: 99/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $47,965.87
+5M Volume: $59,038.87
+5M Buys: 765
+5M Sells: 374
+Buy Pressure: 67.16%
+
+================================================================================
+[2026-10-05 15:53:48 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00017080
+Score: 85/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $38,077.69
+5M Volume: $31,762.77
+5M Buys: 238
+5M Sells: 88
+Buy Pressure: 73.01%
+
+================================================================================
+[2026-10-05 15:53:52 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00011750
+Score: 80/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $31,205.85
+5M Volume: $260,576.19
+5M Buys: 808
+5M Sells: 763
+Buy Pressure: 51.43%
+
+================================================================================
+[2026-10-05 15:54:04 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00020700
+Score: 89/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $40,783.87
+5M Volume: $77,872.10
+5M Buys: 896
+5M Sells: 453
+Buy Pressure: 66.42%
+
+================================================================================
+[2026-10-05 15:54:08 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00019050
+Score: 100/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $40,308.61
+5M Volume: $33,015.60
+5M Buys: 265
+5M Sells: 92
+Buy Pressure: 74.23%
+
+================================================================================
+[2026-10-05 15:54:11 UTC]
+Symbol: SOLBORN
+Name: Solborn
+Token ID: 26ZixeXtGBQe3DBrN4448oZaY5rnhwPrZNhAjZPopump
+Pair ID: 2npVxnSmAcomogFm5mYj7Bpq9fz7X3F4ESTZ8o882PJ1
+Pair URL: https://dexscreener.com/solana/2npvxnsmacomogfm5myj7bpq9fz7x3f4estz8o882pj1
+Price: $0.00047180
+Score: 75/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $62,805.37
+5M Volume: $39,000.92
+5M Buys: 172
+5M Sells: 137
+Buy Pressure: 55.66%
+
+================================================================================
+[2026-10-05 15:54:25 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00024460
+Score: 100/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $44,525.48
+5M Volume: $59,670.41
+5M Buys: 783
+5M Sells: 371
+Buy Pressure: 67.85%
+
+================================================================================
+[2026-10-05 15:54:28 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00019060
+Score: 88/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $40,318.28
+5M Volume: $30,346.18
+5M Buys: 175
+5M Sells: 78
+Buy Pressure: 69.17%
+
+================================================================================
+[2026-10-05 15:54:33 UTC]
+Symbol: SOLBORN
+Name: Solborn
+Token ID: 26ZixeXtGBQe3DBrN4448oZaY5rnhwPrZNhAjZPopump
+Pair ID: GWgcLfRFFTcUB8vtr6pGycWDGvjM4PD81uU1Xfj3saTA
+Pair URL: https://dexscreener.com/solana/gwgclfrfftcub8vtr6pgycwdgvjm4pd81uu1xfj3sata
+Price: $0.00040890
+Score: 77/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $59,697.57
+5M Volume: $133,992.89
+5M Buys: 1149
+5M Sells: 930
+Buy Pressure: 55.27%
+
+================================================================================
+[2026-10-05 15:54:33 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00018920
+Score: 90/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $40,201.38
+5M Volume: $207,425.49
+5M Buys: 632
+5M Sells: 613
+Buy Pressure: 50.76%
+
+================================================================================
+[2026-10-05 15:54:44 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00024460
+Score: 96/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $44,525.48
+5M Volume: $59,670.41
+5M Buys: 783
+5M Sells: 371
+Buy Pressure: 67.85%
+
+================================================================================
+[2026-10-05 15:54:49 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00019060
+Score: 82/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $40,318.28
+5M Volume: $30,346.18
+5M Buys: 175
+5M Sells: 78
+Buy Pressure: 69.17%
+
+================================================================================
+[2026-10-05 15:55:54 UTC]
+Symbol: LLM
+Name: Latina Language Model
+Token ID: 6UEXtQXShpAu9GUvyYirMNjSw6kpciKowRgepYKPic16
+Pair ID: 4ntiFejDXzJGowxYGLLf5xWdfQLxXcShz79pTmpJ66VQ
+Pair URL: https://dexscreener.com/solana/4ntifejdxzjgowxygllf5xwdfqlxxcshz79ptmpj66vq
+Price: $0.00007543
+Score: 85/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $25,606.30
+5M Volume: $53,409.06
+5M Buys: 590
+5M Sells: 473
+Buy Pressure: 55.50%
+
+================================================================================
+[2026-10-05 15:56:02 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00024800
+Score: 100/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $44,867.26
+5M Volume: $56,774.16
+5M Buys: 926
+5M Sells: 390
+Buy Pressure: 70.36%
+
+================================================================================
+[2026-10-05 15:56:08 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00020370
+Score: 93/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $41,766.24
+5M Volume: $32,556.68
+5M Buys: 195
+5M Sells: 87
+Buy Pressure: 69.15%
+
+================================================================================
+[2026-10-05 15:56:12 UTC]
+Symbol: SHIBO
+Name: SHIBO INU
+Token ID: 3sfF6VyrW9MJwWoFvYC51UK4pPp7P5H4wRPqqHTbpump
+Pair ID: 9SMtZ6zxsRXzUjQWmsrUbbGnMfuSoL4rhfqeF8yA9G8R
+Pair URL: https://dexscreener.com/solana/9smtz6zxsrxzujqwmsrubbgnmfusol4rhfqef8ya9g8r
+Price: $0.00002093
+Score: 74/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $11,363.36
+5M Volume: $496.17
+5M Buys: 6
+5M Sells: 0
+Buy Pressure: 100.00%
+
+================================================================================
+[2026-10-05 15:56:15 UTC]
+Symbol: SOLBORN
+Name: Solborn
+Token ID: 26ZixeXtGBQe3DBrN4448oZaY5rnhwPrZNhAjZPopump
+Pair ID: 2npVxnSmAcomogFm5mYj7Bpq9fz7X3F4ESTZ8o882PJ1
+Pair URL: https://dexscreener.com/solana/2npvxnsmacomogfm5myj7bpq9fz7x3f4estz8o882pj1
+Price: $0.00045720
+Score: 99/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $63,478.80
+5M Volume: $25,100.21
+5M Buys: 166
+5M Sells: 70
+Buy Pressure: 70.34%
+
+================================================================================
+[2026-10-05 15:56:16 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00009590
+Score: 74/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $28,162.75
+5M Volume: $229,320.24
+5M Buys: 657
+5M Sells: 657
+Buy Pressure: 50.00%
+
+================================================================================
+[2026-10-05 15:56:25 UTC]
+Symbol: LLM
+Name: Latina Language Model
+Token ID: 6UEXtQXShpAu9GUvyYirMNjSw6kpciKowRgepYKPic16
+Pair ID: 4ntiFejDXzJGowxYGLLf5xWdfQLxXcShz79pTmpJ66VQ
+Pair URL: https://dexscreener.com/solana/4ntifejdxzjgowxygllf5xwdfqlxxcshz79ptmpj66vq
+Price: $0.00006089
+Score: 86/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $23,126.36
+5M Volume: $58,283.33
+5M Buys: 648
+5M Sells: 515
+Buy Pressure: 55.72%
+
+================================================================================
+[2026-10-05 15:56:31 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00025510
+Score: 92/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $45,539.74
+5M Volume: $52,909.71
+5M Buys: 813
+5M Sells: 341
+Buy Pressure: 70.45%
+
+================================================================================
+[2026-10-05 15:56:36 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00021510
+Score: 100/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $42,984.36
+5M Volume: $21,833.81
+5M Buys: 155
+5M Sells: 65
+Buy Pressure: 70.45%
+
+================================================================================
+[2026-10-05 15:56:41 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00022930
+Score: 93/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $44,751.54
+5M Volume: $188,648.96
+5M Buys: 550
+5M Sells: 545
+Buy Pressure: 50.23%
+
+================================================================================
+[2026-10-05 15:56:49 UTC]
+Symbol: LLM
+Name: Latina Language Model
+Token ID: 6UEXtQXShpAu9GUvyYirMNjSw6kpciKowRgepYKPic16
+Pair ID: 4ntiFejDXzJGowxYGLLf5xWdfQLxXcShz79pTmpJ66VQ
+Pair URL: https://dexscreener.com/solana/4ntifejdxzjgowxygllf5xwdfqlxxcshz79ptmpj66vq
+Price: $0.00006089
+Score: 76/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $23,126.36
+5M Volume: $58,283.33
+5M Buys: 648
+5M Sells: 515
+Buy Pressure: 55.72%
+
+================================================================================
+[2026-10-05 15:56:52 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00027770
+Score: 100/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $47,600.85
+5M Volume: $54,424.51
+5M Buys: 912
+5M Sells: 382
+Buy Pressure: 70.48%
+
+================================================================================
+[2026-10-05 15:56:53 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00021510
+Score: 97/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $42,984.36
+5M Volume: $21,833.81
+5M Buys: 155
+5M Sells: 65
+Buy Pressure: 70.45%
+
+================================================================================
+[2026-10-05 15:57:57 UTC]
+Symbol: LLM
+Name: Latina Language Model
+Token ID: 6UEXtQXShpAu9GUvyYirMNjSw6kpciKowRgepYKPic16
+Pair ID: 4ntiFejDXzJGowxYGLLf5xWdfQLxXcShz79pTmpJ66VQ
+Pair URL: https://dexscreener.com/solana/4ntifejdxzjgowxygllf5xwdfqlxxcshz79ptmpj66vq
+Price: $0.00006252
+Score: 75/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $22,914.26
+5M Volume: $53,802.90
+5M Buys: 615
+5M Sells: 476
+Buy Pressure: 56.37%
+
+================================================================================
+[2026-10-05 15:58:04 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00034360
+Score: 100/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $53,237.83
+5M Volume: $59,418.00
+5M Buys: 931
+5M Sells: 410
+Buy Pressure: 69.43%
+
+================================================================================
+[2026-10-05 15:58:09 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00027920
+Score: 100/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $49,274.01
+5M Volume: $19,030.38
+5M Buys: 180
+5M Sells: 49
+Buy Pressure: 78.60%
+
+================================================================================
+[2026-10-05 15:58:14 UTC]
+Symbol: SOLBORN
+Name: Solborn
+Token ID: 26ZixeXtGBQe3DBrN4448oZaY5rnhwPrZNhAjZPopump
+Pair ID: GWgcLfRFFTcUB8vtr6pGycWDGvjM4PD81uU1Xfj3saTA
+Pair URL: https://dexscreener.com/solana/gwgclfrfftcub8vtr6pgycwdgvjm4pd81uu1xfj3sata
+Price: $0.00036780
+Score: 77/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $56,588.16
+5M Volume: $86,544.86
+5M Buys: 861
+5M Sells: 660
+Buy Pressure: 56.61%
+
+================================================================================
+[2026-10-05 15:58:15 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00030150
+Score: 100/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $51,816.04
+5M Volume: $250,761.09
+5M Buys: 681
+5M Sells: 584
+Buy Pressure: 53.83%
+
+================================================================================
+[2026-10-05 15:58:15 UTC]
+Symbol: Stompy
+Name: Stompy
+Token ID: 9KAPRaT35wY9FF1NYhfKyLtt9sq3CgGtB6ChrMgVSTNK
+Pair ID: 9iZxBRz4qMXKDJ3y5ZWwKemxc2CJqvLMQ2PM8QXT5Gh1
+Pair URL: https://dexscreener.com/solana/9izxbrz4qmxkdj3y5zwwkemxc2cjqvlmq2pm8qxt5gh1
+Price: $0.00010120
+Score: 77/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $31,540.98
+5M Volume: $1,514.91
+5M Buys: 15
+5M Sells: 8
+Buy Pressure: 65.22%
+
+================================================================================
+[2026-10-05 15:58:23 UTC]
+Symbol: LLM
+Name: Latina Language Model
+Token ID: 6UEXtQXShpAu9GUvyYirMNjSw6kpciKowRgepYKPic16
+Pair ID: 4ntiFejDXzJGowxYGLLf5xWdfQLxXcShz79pTmpJ66VQ
+Pair URL: https://dexscreener.com/solana/4ntifejdxzjgowxygllf5xwdfqlxxcshz79ptmpj66vq
+Price: $0.00006252
+Score: 70/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $22,914.26
+5M Volume: $53,802.90
+5M Buys: 615
+5M Sells: 476
+Buy Pressure: 56.37%
+
+================================================================================
+[2026-10-05 15:58:27 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00025380
+Score: 93/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $45,491.53
+5M Volume: $51,365.31
+5M Buys: 804
+5M Sells: 372
+Buy Pressure: 68.37%
+
+================================================================================
+[2026-10-05 15:58:29 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00027860
+Score: 100/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $49,225.19
+5M Volume: $20,354.10
+5M Buys: 172
+5M Sells: 54
+Buy Pressure: 76.11%
+
+================================================================================
+[2026-10-05 15:58:31 UTC]
+Symbol: SOLBORN
+Name: Solborn
+Token ID: 26ZixeXtGBQe3DBrN4448oZaY5rnhwPrZNhAjZPopump
+Pair ID: GWgcLfRFFTcUB8vtr6pGycWDGvjM4PD81uU1Xfj3saTA
+Pair URL: https://dexscreener.com/solana/gwgclfrfftcub8vtr6pgycwdgvjm4pd81uu1xfj3sata
+Price: $0.00040110
+Score: 78/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $59,217.74
+5M Volume: $78,603.25
+5M Buys: 767
+5M Sells: 629
+Buy Pressure: 54.94%
+
+================================================================================
+[2026-10-05 15:58:31 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00022640
+Score: 92/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $44,683.36
+5M Volume: $234,892.83
+5M Buys: 634
+5M Sells: 511
+Buy Pressure: 55.37%
+
+================================================================================
+[2026-10-05 15:58:40 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00025380
+Score: 93/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $45,491.53
+5M Volume: $51,365.31
+5M Buys: 804
+5M Sells: 372
+Buy Pressure: 68.37%
+
+================================================================================
+[2026-10-05 15:59:53 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00022060
+Score: 89/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $42,311.66
+5M Volume: $68,694.31
+5M Buys: 955
+5M Sells: 481
+Buy Pressure: 66.50%
+
+================================================================================
+[2026-10-05 15:59:58 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00025880
+Score: 100/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $47,390.28
+5M Volume: $28,309.10
+5M Buys: 228
+5M Sells: 83
+Buy Pressure: 73.31%
+
+================================================================================
+[2026-10-05 16:00:02 UTC]
+Symbol: SOLBORN
+Name: Solborn
+Token ID: 26ZixeXtGBQe3DBrN4448oZaY5rnhwPrZNhAjZPopump
+Pair ID: GWgcLfRFFTcUB8vtr6pGycWDGvjM4PD81uU1Xfj3saTA
+Pair URL: https://dexscreener.com/solana/gwgclfrfftcub8vtr6pgycwdgvjm4pd81uu1xfj3sata
+Price: $0.00031180
+Score: 77/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $52,148.54
+5M Volume: $129,845.01
+5M Buys: 1138
+5M Sells: 959
+Buy Pressure: 54.27%
+
+================================================================================
+[2026-10-05 16:00:02 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00034020
+Score: 100/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $55,411.29
+5M Volume: $249,448.13
+5M Buys: 695
+5M Sells: 511
+Buy Pressure: 57.63%
+
+================================================================================
+[2026-10-05 16:00:13 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00022060
+Score: 84/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $42,311.66
+5M Volume: $68,694.31
+5M Buys: 955
+5M Sells: 481
+Buy Pressure: 66.50%
+
+================================================================================
+[2026-10-05 16:00:16 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00025880
+Score: 98/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $47,390.28
+5M Volume: $28,309.10
+5M Buys: 228
+5M Sells: 83
+Buy Pressure: 73.31%
+
+================================================================================
+[2026-10-05 16:00:17 UTC]
+Symbol: SOLBORN
+Name: Solborn
+Token ID: 26ZixeXtGBQe3DBrN4448oZaY5rnhwPrZNhAjZPopump
+Pair ID: GWgcLfRFFTcUB8vtr6pGycWDGvjM4PD81uU1Xfj3saTA
+Pair URL: https://dexscreener.com/solana/gwgclfrfftcub8vtr6pgycwdgvjm4pd81uu1xfj3sata
+Price: $0.00031180
+Score: 72/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $52,148.54
+5M Volume: $129,845.01
+5M Buys: 1138
+5M Sells: 959
+Buy Pressure: 54.27%
+
+================================================================================
+[2026-10-05 16:00:18 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00034020
+Score: 87/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $55,411.29
+5M Volume: $249,448.13
+5M Buys: 695
+5M Sells: 511
+Buy Pressure: 57.63%
+
+================================================================================
+[2026-10-05 16:00:30 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00023720
+Score: 84/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $43,954.02
+5M Volume: $65,683.28
+5M Buys: 874
+5M Sells: 455
+Buy Pressure: 65.76%
+
+================================================================================
+[2026-10-05 16:00:34 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00029090
+Score: 100/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $50,380.88
+5M Volume: $27,448.12
+5M Buys: 228
+5M Sells: 87
+Buy Pressure: 72.38%
+
+================================================================================
+[2026-10-05 16:01:45 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00025650
+Score: 81/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $45,805.80
+5M Volume: $62,202.94
+5M Buys: 811
+5M Sells: 455
+Buy Pressure: 64.06%
+
+================================================================================
+[2026-10-05 16:01:49 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00032160
+Score: 100/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $53,095.33
+5M Volume: $30,048.58
+5M Buys: 264
+5M Sells: 104
+Buy Pressure: 71.74%
+
+================================================================================
+[2026-10-05 16:01:54 UTC]
+Symbol: SOLBORN
+Name: Solborn
+Token ID: 26ZixeXtGBQe3DBrN4448oZaY5rnhwPrZNhAjZPopump
+Pair ID: GWgcLfRFFTcUB8vtr6pGycWDGvjM4PD81uU1Xfj3saTA
+Pair URL: https://dexscreener.com/solana/gwgclfrfftcub8vtr6pgycwdgvjm4pd81uu1xfj3sata
+Price: $0.00036430
+Score: 83/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $56,622.48
+5M Volume: $132,757.81
+5M Buys: 1162
+5M Sells: 981
+Buy Pressure: 54.22%
+
+================================================================================
+[2026-10-05 16:01:54 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00035140
+Score: 100/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $56,643.07
+5M Volume: $274,368.40
+5M Buys: 741
+5M Sells: 519
+Buy Pressure: 58.81%
+
+================================================================================
+[2026-10-05 16:02:06 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00023700
+Score: 91/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $43,949.30
+5M Volume: $65,346.04
+5M Buys: 890
+5M Sells: 494
+Buy Pressure: 64.31%
+
+================================================================================
+[2026-10-05 16:02:10 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00029750
+Score: 100/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $50,999.60
+5M Volume: $35,483.73
+5M Buys: 290
+5M Sells: 116
+Buy Pressure: 71.43%
+
+================================================================================
+[2026-10-05 16:02:12 UTC]
+Symbol: SOLBORN
+Name: Solborn
+Token ID: 26ZixeXtGBQe3DBrN4448oZaY5rnhwPrZNhAjZPopump
+Pair ID: GWgcLfRFFTcUB8vtr6pGycWDGvjM4PD81uU1Xfj3saTA
+Pair URL: https://dexscreener.com/solana/gwgclfrfftcub8vtr6pgycwdgvjm4pd81uu1xfj3sata
+Price: $0.00036950
+Score: 88/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $57,053.83
+5M Volume: $140,973.32
+5M Buys: 1243
+5M Sells: 1037
+Buy Pressure: 54.52%
+
+================================================================================
+[2026-10-05 16:02:12 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00035140
+Score: 92/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $56,643.07
+5M Volume: $274,368.40
+5M Buys: 741
+5M Sells: 519
+Buy Pressure: 58.81%
+
+================================================================================
+[2026-10-05 16:02:21 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00023700
+Score: 81/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $43,949.30
+5M Volume: $65,346.04
+5M Buys: 890
+5M Sells: 494
+Buy Pressure: 64.31%
+
+================================================================================
+[2026-10-05 16:02:22 UTC]
+Symbol: AC
+Name: Artifact Council
+Token ID: HpkDyHK7avch8TS3raZ6mifBjZoUHRgvWwgzRQL1RXFR
+Pair ID: G9e6FjtwjtS6HChcKuF8mwRo4KZ1av7Loqvts11FEcdR
+Pair URL: https://dexscreener.com/solana/g9e6fjtwjts6hchckuf8mwro4kz1av7loqvts11fecdr
+Price: $0.00021370
+Score: 72/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $41,332.26
+5M Volume: $98,411.86
+5M Buys: 531
+5M Sells: 476
+Buy Pressure: 52.73%
+
+================================================================================
+[2026-10-05 16:02:24 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00029750
+Score: 98/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $50,999.60
+5M Volume: $35,483.73
+5M Buys: 290
+5M Sells: 116
+Buy Pressure: 71.43%
+
+================================================================================
+[2026-10-05 16:03:36 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00029370
+Score: 94/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $49,176.59
+5M Volume: $19,864.28
+5M Buys: 632
+5M Sells: 378
+Buy Pressure: 62.57%
+
+================================================================================
+[2026-10-05 16:03:36 UTC]
+Symbol: AC
+Name: Artifact Council
+Token ID: HpkDyHK7avch8TS3raZ6mifBjZoUHRgvWwgzRQL1RXFR
+Pair ID: G9e6FjtwjtS6HChcKuF8mwRo4KZ1av7Loqvts11FEcdR
+Pair URL: https://dexscreener.com/solana/g9e6fjtwjts6hchckuf8mwro4kz1av7loqvts11fecdr
+Price: $0.00020710
+Score: 77/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $40,671.65
+5M Volume: $87,969.57
+5M Buys: 485
+5M Sells: 414
+Buy Pressure: 53.95%
+
+================================================================================
+[2026-10-05 16:03:41 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00023010
+Score: 73/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $44,627.73
+5M Volume: $39,086.41
+5M Buys: 259
+5M Sells: 112
+Buy Pressure: 69.81%
+
+================================================================================
+[2026-10-05 16:03:46 UTC]
+Symbol: SOLBORN
+Name: Solborn
+Token ID: 26ZixeXtGBQe3DBrN4448oZaY5rnhwPrZNhAjZPopump
+Pair ID: GWgcLfRFFTcUB8vtr6pGycWDGvjM4PD81uU1Xfj3saTA
+Pair URL: https://dexscreener.com/solana/gwgclfrfftcub8vtr6pgycwdgvjm4pd81uu1xfj3sata
+Price: $0.00042570
+Score: 93/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $61,481.15
+5M Volume: $135,097.53
+5M Buys: 1084
+5M Sells: 907
+Buy Pressure: 54.45%
+
+================================================================================
+[2026-10-05 16:03:47 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00035260
+Score: 92/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $56,917.16
+5M Volume: $249,291.95
+5M Buys: 639
+5M Sells: 458
+Buy Pressure: 58.25%
+
+================================================================================
+[2026-10-05 16:03:57 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00027810
+Score: 100/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $47,789.12
+5M Volume: $22,081.39
+5M Buys: 704
+5M Sells: 407
+Buy Pressure: 63.37%
+
+================================================================================
+[2026-10-05 16:03:58 UTC]
+Symbol: AC
+Name: Artifact Council
+Token ID: HpkDyHK7avch8TS3raZ6mifBjZoUHRgvWwgzRQL1RXFR
+Pair ID: G9e6FjtwjtS6HChcKuF8mwRo4KZ1av7Loqvts11FEcdR
+Pair URL: https://dexscreener.com/solana/g9e6fjtwjts6hchckuf8mwro4kz1av7loqvts11fecdr
+Price: $0.00019040
+Score: 71/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $38,918.08
+5M Volume: $45,458.84
+5M Buys: 309
+5M Sells: 294
+Buy Pressure: 51.24%
+
+================================================================================
+[2026-10-05 16:04:00 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00025190
+Score: 91/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $46,776.32
+5M Volume: $40,316.12
+5M Buys: 278
+5M Sells: 118
+Buy Pressure: 70.20%
+
+================================================================================
+[2026-10-05 16:04:04 UTC]
+Symbol: SOLBORN
+Name: Solborn
+Token ID: 26ZixeXtGBQe3DBrN4448oZaY5rnhwPrZNhAjZPopump
+Pair ID: GWgcLfRFFTcUB8vtr6pGycWDGvjM4PD81uU1Xfj3saTA
+Pair URL: https://dexscreener.com/solana/gwgclfrfftcub8vtr6pgycwdgvjm4pd81uu1xfj3sata
+Price: $0.00039860
+Score: 97/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $59,437.97
+5M Volume: $149,304.97
+5M Buys: 1172
+5M Sells: 968
+Buy Pressure: 54.77%
+
+================================================================================
+[2026-10-05 16:04:04 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00029470
+Score: 87/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $51,893.52
+5M Volume: $277,402.65
+5M Buys: 699
+5M Sells: 505
+Buy Pressure: 58.06%
+
+================================================================================
+[2026-10-05 16:04:26 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00027670
+Score: 93/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $47,664.31
+5M Volume: $18,917.41
+5M Buys: 588
+5M Sells: 323
+Buy Pressure: 64.54%
+
+================================================================================
+[2026-10-05 16:04:26 UTC]
+Symbol: AC
+Name: Artifact Council
+Token ID: HpkDyHK7avch8TS3raZ6mifBjZoUHRgvWwgzRQL1RXFR
+Pair ID: G9e6FjtwjtS6HChcKuF8mwRo4KZ1av7Loqvts11FEcdR
+Pair URL: https://dexscreener.com/solana/g9e6fjtwjts6hchckuf8mwro4kz1av7loqvts11fecdr
+Price: $0.00012840
+Score: 84/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $31,633.80
+5M Volume: $70,659.60
+5M Buys: 448
+5M Sells: 391
+Buy Pressure: 53.40%
+
+================================================================================
+[2026-10-05 16:04:32 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00027590
+Score: 86/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $49,057.48
+5M Volume: $33,566.03
+5M Buys: 236
+5M Sells: 100
+Buy Pressure: 70.24%
+
+================================================================================
+[2026-10-05 16:04:37 UTC]
+Symbol: SOLBORN
+Name: Solborn
+Token ID: 26ZixeXtGBQe3DBrN4448oZaY5rnhwPrZNhAjZPopump
+Pair ID: GWgcLfRFFTcUB8vtr6pGycWDGvjM4PD81uU1Xfj3saTA
+Pair URL: https://dexscreener.com/solana/gwgclfrfftcub8vtr6pgycwdgvjm4pd81uu1xfj3sata
+Price: $0.00039790
+Score: 92/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $59,393.88
+5M Volume: $93,770.32
+5M Buys: 749
+5M Sells: 597
+Buy Pressure: 55.65%
+
+================================================================================
+[2026-10-05 16:04:37 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00031540
+Score: 72/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $53,806.10
+5M Volume: $253,887.98
+5M Buys: 619
+5M Sells: 451
+Buy Pressure: 57.85%
+
+================================================================================
+[2026-10-05 16:04:48 UTC]
+Symbol: https
+Name: had to take profits sir
+Token ID: 7sGdNQSvUGpahh6qyXB3g5gsdK9FAzZM299KyCXspump
+Pair ID: AmK2hPHoHktE2tcJWKbfMpYR3JiMdS3J19xGdHX4ZCLK
+Pair URL: https://dexscreener.com/solana/amk2hphohkte2tcjwkbfmpyr3jimds3j19xgdhx4zclk
+Price: $0.00016060
+Score: 72/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $69,387.27
+5M Volume: $276.77
+5M Buys: 2
+5M Sells: 1
+Buy Pressure: 66.67%
+
+================================================================================
+[2026-10-05 16:04:49 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00027670
+Score: 88/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $47,664.31
+5M Volume: $18,917.41
+5M Buys: 588
+5M Sells: 323
+Buy Pressure: 64.54%
+
+================================================================================
+[2026-10-05 16:04:49 UTC]
+Symbol: AC
+Name: Artifact Council
+Token ID: HpkDyHK7avch8TS3raZ6mifBjZoUHRgvWwgzRQL1RXFR
+Pair ID: G9e6FjtwjtS6HChcKuF8mwRo4KZ1av7Loqvts11FEcdR
+Pair URL: https://dexscreener.com/solana/g9e6fjtwjts6hchckuf8mwro4kz1av7loqvts11fecdr
+Price: $0.00014250
+Score: 90/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $33,468.94
+5M Volume: $71,460.68
+5M Buys: 477
+5M Sells: 397
+Buy Pressure: 54.58%
+
+================================================================================
+[2026-10-05 16:05:51 UTC]
+Symbol: LLM
+Name: Latina Language Model
+Token ID: 6UEXtQXShpAu9GUvyYirMNjSw6kpciKowRgepYKPic16
+Pair ID: 4ntiFejDXzJGowxYGLLf5xWdfQLxXcShz79pTmpJ66VQ
+Pair URL: https://dexscreener.com/solana/4ntifejdxzjgowxygllf5xwdfqlxxcshz79ptmpj66vq
+Price: $0.00003189
+Score: 71/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $16,587.67
+5M Volume: $30,769.28
+5M Buys: 421
+5M Sells: 328
+Buy Pressure: 56.21%
+
+================================================================================
+[2026-10-05 16:05:58 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00032710
+Score: 100/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $52,020.07
+5M Volume: $22,362.82
+5M Buys: 698
+5M Sells: 348
+Buy Pressure: 66.73%
+
+================================================================================
+[2026-10-05 16:05:58 UTC]
+Symbol: AC
+Name: Artifact Council
+Token ID: HpkDyHK7avch8TS3raZ6mifBjZoUHRgvWwgzRQL1RXFR
+Pair ID: G9e6FjtwjtS6HChcKuF8mwRo4KZ1av7Loqvts11FEcdR
+Pair URL: https://dexscreener.com/solana/g9e6fjtwjts6hchckuf8mwro4kz1av7loqvts11fecdr
+Price: $0.00014570
+Score: 85/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $33,884.28
+5M Volume: $65,220.67
+5M Buys: 435
+5M Sells: 352
+Buy Pressure: 55.27%
+
+================================================================================
+[2026-10-05 16:05:59 UTC]
+Symbol: USEFUL
+Name: USEFUL COIN
+Token ID: GDeKVeV3cs6UCTRDmHqZHugBmUbLLRW7hi9P91XXeLNT
+Pair ID: DWYLZAoxfAbDn9VYwYBNizJCqa6MUarLgewRLJMURwmU
+Pair URL: https://dexscreener.com/solana/dwylzaoxfabdn9vywybnizjcqa6muarlgewrljmurwmu
+Price: $0.00007138
+Score: 77/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $24,154.75
+5M Volume: $1,235.16
+5M Buys: 7
+5M Sells: 3
+Buy Pressure: 70.00%
+
+================================================================================
+[2026-10-05 16:06:02 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00023790
+Score: 76/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $45,424.55
+5M Volume: $35,423.98
+5M Buys: 245
+5M Sells: 105
+Buy Pressure: 70.00%
+
+================================================================================
+[2026-10-05 16:06:06 UTC]
+Symbol: SOLBORN
+Name: Solborn
+Token ID: 26ZixeXtGBQe3DBrN4448oZaY5rnhwPrZNhAjZPopump
+Pair ID: GWgcLfRFFTcUB8vtr6pGycWDGvjM4PD81uU1Xfj3saTA
+Pair URL: https://dexscreener.com/solana/gwgclfrfftcub8vtr6pgycwdgvjm4pd81uu1xfj3sata
+Price: $0.00044470
+Score: 100/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $62,966.89
+5M Volume: $102,295.29
+5M Buys: 764
+5M Sells: 601
+Buy Pressure: 55.97%
+
+================================================================================
+[2026-10-05 16:06:06 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00021890
+Score: 74/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $44,603.06
+5M Volume: $242,586.99
+5M Buys: 564
+5M Sells: 411
+Buy Pressure: 57.85%
+
+================================================================================
+[2026-10-05 16:06:18 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00032710
+Score: 95/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $52,020.07
+5M Volume: $22,362.82
+5M Buys: 698
+5M Sells: 348
+Buy Pressure: 66.73%
+
+================================================================================
+[2026-10-05 16:06:18 UTC]
+Symbol: AC
+Name: Artifact Council
+Token ID: HpkDyHK7avch8TS3raZ6mifBjZoUHRgvWwgzRQL1RXFR
+Pair ID: G9e6FjtwjtS6HChcKuF8mwRo4KZ1av7Loqvts11FEcdR
+Pair URL: https://dexscreener.com/solana/g9e6fjtwjts6hchckuf8mwro4kz1av7loqvts11fecdr
+Price: $0.00015790
+Score: 90/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $35,382.95
+5M Volume: $77,285.53
+5M Buys: 503
+5M Sells: 387
+Buy Pressure: 56.52%
+
+================================================================================
+[2026-10-05 16:06:21 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00023790
+Score: 71/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $45,424.55
+5M Volume: $35,423.98
+5M Buys: 245
+5M Sells: 105
+Buy Pressure: 70.00%
+
+================================================================================
+[2026-10-05 16:06:23 UTC]
+Symbol: SOLBORN
+Name: Solborn
+Token ID: 26ZixeXtGBQe3DBrN4448oZaY5rnhwPrZNhAjZPopump
+Pair ID: GWgcLfRFFTcUB8vtr6pGycWDGvjM4PD81uU1Xfj3saTA
+Pair URL: https://dexscreener.com/solana/gwgclfrfftcub8vtr6pgycwdgvjm4pd81uu1xfj3sata
+Price: $0.00044470
+Score: 87/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $62,966.89
+5M Volume: $102,295.29
+5M Buys: 764
+5M Sells: 601
+Buy Pressure: 55.97%
+
+================================================================================
+[2026-10-05 16:06:23 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00031740
+Score: 93/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $54,171.23
+5M Volume: $207,754.69
+5M Buys: 479
+5M Sells: 357
+Buy Pressure: 57.30%
+
+================================================================================
+[2026-10-05 16:06:33 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00033810
+Score: 91/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $52,925.70
+5M Volume: $18,255.96
+5M Buys: 614
+5M Sells: 321
+Buy Pressure: 65.67%
+
+================================================================================
+[2026-10-05 16:06:33 UTC]
+Symbol: AC
+Name: Artifact Council
+Token ID: HpkDyHK7avch8TS3raZ6mifBjZoUHRgvWwgzRQL1RXFR
+Pair ID: G9e6FjtwjtS6HChcKuF8mwRo4KZ1av7Loqvts11FEcdR
+Pair URL: https://dexscreener.com/solana/g9e6fjtwjts6hchckuf8mwro4kz1av7loqvts11fecdr
+Price: $0.00015790
+Score: 74/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $35,382.95
+5M Volume: $77,285.53
+5M Buys: 503
+5M Sells: 387
+Buy Pressure: 56.52%
+
+================================================================================
+[2026-10-05 16:06:34 UTC]
+Symbol: USEFUL
+Name: USEFUL COIN
+Token ID: GDeKVeV3cs6UCTRDmHqZHugBmUbLLRW7hi9P91XXeLNT
+Pair ID: DWYLZAoxfAbDn9VYwYBNizJCqa6MUarLgewRLJMURwmU
+Pair URL: https://dexscreener.com/solana/dwylzaoxfabdn9vywybnizjcqa6muarlgewrljmurwmu
+Price: $0.00007229
+Score: 77/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $24,307.34
+5M Volume: $1,312.37
+5M Buys: 8
+5M Sells: 3
+Buy Pressure: 72.73%
+
+================================================================================
+[2026-10-05 16:07:45 UTC]
+Symbol: RELAY
+Name: RELAY
+Token ID: CwCcW5LgK1cEaQJcuHF9n5dKU9HsPYuwQeuXC1aYpump
+Pair ID: 8AtTFc3DVmvgwdeEfmGq4BFZFYFcoF2YnfuKAWda5gK8
+Pair URL: https://dexscreener.com/solana/8attfc3dvmvgwdeefmgq4bfzfyfcof2ynfukawda5gk8
+Price: $0.00005193
+Score: 71/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $18,815.57
+5M Volume: $30,479.05
+5M Buys: 240
+5M Sells: 144
+Buy Pressure: 62.50%
+
+================================================================================
+[2026-10-05 16:07:50 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00034950
+Score: 97/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $53,899.53
+5M Volume: $39,629.90
+5M Buys: 613
+5M Sells: 364
+Buy Pressure: 62.74%
+
+================================================================================
+[2026-10-05 16:07:50 UTC]
+Symbol: AC
+Name: Artifact Council
+Token ID: HpkDyHK7avch8TS3raZ6mifBjZoUHRgvWwgzRQL1RXFR
+Pair ID: G9e6FjtwjtS6HChcKuF8mwRo4KZ1av7Loqvts11FEcdR
+Pair URL: https://dexscreener.com/solana/g9e6fjtwjts6hchckuf8mwro4kz1av7loqvts11fecdr
+Price: $0.00012790
+Score: 79/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $31,664.94
+5M Volume: $79,809.61
+5M Buys: 468
+5M Sells: 369
+Buy Pressure: 55.91%
+
+================================================================================
+[2026-10-05 16:07:56 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00025580
+Score: 100/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $47,201.75
+5M Volume: $25,811.63
+5M Buys: 175
+5M Sells: 72
+Buy Pressure: 70.85%
+
+================================================================================
+[2026-10-05 16:07:59 UTC]
+Symbol: Agentry
+Name: Agentry
+Token ID: 3qrsb66cNoXM4SoWR7oQVU78WeadnJx93aS1eRmETxtC
+Pair ID: 6uymUSppi9jMaWHirSuSk8Gv7YiUcdR5ogn1MtMCgYvH
+Pair URL: https://dexscreener.com/solana/6uymusppi9jmawhirsusk8gv7yiucdr5ogn1mtmcgyvh
+Price: $0.00014790
+Score: 91/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $32,119.43
+5M Volume: $36,208.78
+5M Buys: 226
+5M Sells: 114
+Buy Pressure: 66.47%
+
+================================================================================
+[2026-10-05 16:08:02 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00035530
+Score: 77/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $57,611.00
+5M Volume: $229,940.43
+5M Buys: 543
+5M Sells: 440
+Buy Pressure: 55.24%
+
+================================================================================
+[2026-10-05 16:08:17 UTC]
+Symbol: SPEPEX
+Name: Super PePe X
+Token ID: Fo55PxWeNaUy8b8NHuynf4yc7fYx5Z1QrnDN4eDgSPAZ
+Pair ID: ES46o47i8KEKWhZhh4QdkjJ5SDbv1kjYjEyRbTQBtLRf
+Pair URL: https://dexscreener.com/solana/es46o47i8kekwhzhh4qdkjj5sdbv1kjyjeyrbtqbtlrf
+Price: $0.00000203
+Score: 71/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $3,613.23
+5M Volume: $305.49
+5M Buys: 21
+5M Sells: 8
+Buy Pressure: 72.41%
+
+================================================================================
+[2026-10-05 16:08:19 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00043510
+Score: 100/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $60,394.85
+5M Volume: $45,819.16
+5M Buys: 690
+5M Sells: 428
+Buy Pressure: 61.72%
+
+================================================================================
+[2026-10-05 16:08:19 UTC]
+Symbol: AC
+Name: Artifact Council
+Token ID: HpkDyHK7avch8TS3raZ6mifBjZoUHRgvWwgzRQL1RXFR
+Pair ID: G9e6FjtwjtS6HChcKuF8mwRo4KZ1av7Loqvts11FEcdR
+Pair URL: https://dexscreener.com/solana/g9e6fjtwjts6hchckuf8mwro4kz1av7loqvts11fecdr
+Price: $0.00012750
+Score: 85/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $31,620.07
+5M Volume: $85,515.81
+5M Buys: 495
+5M Sells: 396
+Buy Pressure: 55.56%
+
+================================================================================
+[2026-10-05 16:08:20 UTC]
+Symbol: lemonbob
+Name: LemonBob
+Token ID: 6FKwzYKmVyDT9CWAHuiidi5AFQBrVLdYJAhGmR6ACzpF
+Pair ID: 6kEgK29qVWyEZazdhzZ9pyDUxezQtacBpeZaX4qGionj
+Pair URL: https://dexscreener.com/solana/6kegk29qvwyezazdhzz9pyduxezqtacbpezax4qgionj
+Price: $0.00009360
+Score: 90/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $28,188.56
+5M Volume: $4,237.62
+5M Buys: 17
+5M Sells: 11
+Buy Pressure: 60.71%
+
+================================================================================
+[2026-10-05 16:08:22 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00026460
+Score: 100/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $48,045.28
+5M Volume: $28,216.11
+5M Buys: 183
+5M Sells: 74
+Buy Pressure: 71.21%
+
+================================================================================
+[2026-10-05 16:08:24 UTC]
+Symbol: Agentry
+Name: Agentry
+Token ID: 3qrsb66cNoXM4SoWR7oQVU78WeadnJx93aS1eRmETxtC
+Pair ID: 6uymUSppi9jMaWHirSuSk8Gv7YiUcdR5ogn1MtMCgYvH
+Pair URL: https://dexscreener.com/solana/6uymusppi9jmawhirsusk8gv7yiucdr5ogn1mtmcgyvh
+Price: $0.00012010
+Score: 99/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $28,855.49
+5M Volume: $84,009.57
+5M Buys: 491
+5M Sells: 310
+Buy Pressure: 61.30%
+
+================================================================================
+[2026-10-05 16:08:25 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00035920
+Score: 93/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $58,001.31
+5M Volume: $201,466.54
+5M Buys: 476
+5M Sells: 408
+Buy Pressure: 53.85%
+
+================================================================================
+[2026-10-05 16:08:37 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00034400
+Score: 97/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $53,502.04
+5M Volume: $58,835.10
+5M Buys: 631
+5M Sells: 442
+Buy Pressure: 58.81%
+
+================================================================================
+[2026-10-05 16:08:37 UTC]
+Symbol: AC
+Name: Artifact Council
+Token ID: HpkDyHK7avch8TS3raZ6mifBjZoUHRgvWwgzRQL1RXFR
+Pair ID: G9e6FjtwjtS6HChcKuF8mwRo4KZ1av7Loqvts11FEcdR
+Pair URL: https://dexscreener.com/solana/g9e6fjtwjts6hchckuf8mwro4kz1av7loqvts11fecdr
+Price: $0.00012750
+Score: 74/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $31,620.07
+5M Volume: $85,515.81
+5M Buys: 495
+5M Sells: 396
+Buy Pressure: 55.56%
+
+================================================================================
+[2026-10-05 16:08:38 UTC]
+Symbol: lemonbob
+Name: LemonBob
+Token ID: 6FKwzYKmVyDT9CWAHuiidi5AFQBrVLdYJAhGmR6ACzpF
+Pair ID: 6kEgK29qVWyEZazdhzZ9pyDUxezQtacBpeZaX4qGionj
+Pair URL: https://dexscreener.com/solana/6kegk29qvwyezazdhzz9pyduxezqtacbpezax4qgionj
+Price: $0.00009360
+Score: 74/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $28,188.56
+5M Volume: $4,237.62
+5M Buys: 17
+5M Sells: 11
+Buy Pressure: 60.71%
+
+================================================================================
+[2026-10-05 16:08:39 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00024380
+Score: 75/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $46,033.89
+5M Volume: $25,706.92
+5M Buys: 149
+5M Sells: 66
+Buy Pressure: 69.30%
+
+================================================================================
+[2026-10-05 16:08:43 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00035920
+Score: 87/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $58,001.31
+5M Volume: $201,466.54
+5M Buys: 476
+5M Sells: 408
+Buy Pressure: 53.85%
+
+================================================================================
+[2026-10-05 16:08:57 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00037750
+Score: 98/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $56,190.10
+5M Volume: $66,109.37
+5M Buys: 703
+5M Sells: 518
+Buy Pressure: 57.58%
+
+================================================================================
+[2026-10-05 16:08:57 UTC]
+Symbol: AC
+Name: Artifact Council
+Token ID: HpkDyHK7avch8TS3raZ6mifBjZoUHRgvWwgzRQL1RXFR
+Pair ID: G9e6FjtwjtS6HChcKuF8mwRo4KZ1av7Loqvts11FEcdR
+Pair URL: https://dexscreener.com/solana/g9e6fjtwjts6hchckuf8mwro4kz1av7loqvts11fecdr
+Price: $0.00011860
+Score: 74/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $30,452.54
+5M Volume: $65,176.26
+5M Buys: 373
+5M Sells: 305
+Buy Pressure: 55.01%
+
+================================================================================
+[2026-10-05 16:08:58 UTC]
+Symbol: lemonbob
+Name: LemonBob
+Token ID: 6FKwzYKmVyDT9CWAHuiidi5AFQBrVLdYJAhGmR6ACzpF
+Pair ID: 6kEgK29qVWyEZazdhzZ9pyDUxezQtacBpeZaX4qGionj
+Pair URL: https://dexscreener.com/solana/6kegk29qvwyezazdhzz9pyduxezqtacbpezax4qgionj
+Price: $0.00009363
+Score: 85/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $28,193.05
+5M Volume: $4,205.80
+5M Buys: 16
+5M Sells: 9
+Buy Pressure: 64.00%
+
+================================================================================
+[2026-10-05 16:09:01 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00024380
+Score: 75/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $46,033.89
+5M Volume: $25,706.92
+5M Buys: 149
+5M Sells: 66
+Buy Pressure: 69.30%
+
+================================================================================
+[2026-10-05 16:09:06 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00034750
+Score: 92/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $57,090.47
+5M Volume: $225,343.65
+5M Buys: 536
+5M Sells: 469
+Buy Pressure: 53.33%
+
+================================================================================
+[2026-10-05 16:09:17 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00037750
+Score: 87/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $56,190.10
+5M Volume: $66,109.37
+5M Buys: 703
+5M Sells: 518
+Buy Pressure: 57.58%
+
+================================================================================
+[2026-10-05 16:09:18 UTC]
+Symbol: AC
+Name: Artifact Council
+Token ID: HpkDyHK7avch8TS3raZ6mifBjZoUHRgvWwgzRQL1RXFR
+Pair ID: G9e6FjtwjtS6HChcKuF8mwRo4KZ1av7Loqvts11FEcdR
+Pair URL: https://dexscreener.com/solana/g9e6fjtwjts6hchckuf8mwro4kz1av7loqvts11fecdr
+Price: $0.00010600
+Score: 84/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $28,710.49
+5M Volume: $71,936.93
+5M Buys: 415
+5M Sells: 334
+Buy Pressure: 55.41%
+
+================================================================================
+[2026-10-05 16:09:18 UTC]
+Symbol: lemonbob
+Name: LemonBob
+Token ID: 6FKwzYKmVyDT9CWAHuiidi5AFQBrVLdYJAhGmR6ACzpF
+Pair ID: 6kEgK29qVWyEZazdhzZ9pyDUxezQtacBpeZaX4qGionj
+Pair URL: https://dexscreener.com/solana/6kegk29qvwyezazdhzz9pyduxezqtacbpezax4qgionj
+Price: $0.00009363
+Score: 74/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $28,193.05
+5M Volume: $4,205.80
+5M Buys: 16
+5M Sells: 9
+Buy Pressure: 64.00%
+
+================================================================================
+[2026-10-05 16:09:20 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00024100
+Score: 77/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $45,795.68
+5M Volume: $27,112.17
+5M Buys: 153
+5M Sells: 71
+Buy Pressure: 68.30%
+
+================================================================================
+[2026-10-05 16:09:23 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00041360
+Score: 88/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $62,522.95
+5M Volume: $193,086.52
+5M Buys: 472
+5M Sells: 438
+Buy Pressure: 51.87%
+
+================================================================================
+[2026-10-05 16:09:32 UTC]
+Symbol: AGENTCAT
+Name: Agent Cat
+Token ID: CZJfrAmMs5Cz4H22PWzfqTJu5FkP7Q2Vvx1oPVL9pump
+Pair ID: HyLTPacbYR4V8yQw5bbWwAETZkjcsRw9xzCbayMnU45o
+Pair URL: https://dexscreener.com/solana/hyltpacbyr4v8yqw5bbwwaetzkjcsrw9xzcbaymnu45o
+Price: $0.026060
+Score: 98/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $511,769.39
+5M Volume: $75,156.13
+5M Buys: 772
+5M Sells: 129
+Buy Pressure: 85.68%
+
+================================================================================
+[2026-10-05 16:09:35 UTC]
+Symbol: https
+Name: had to take profits sir
+Token ID: 7sGdNQSvUGpahh6qyXB3g5gsdK9FAzZM299KyCXspump
+Pair ID: AmK2hPHoHktE2tcJWKbfMpYR3JiMdS3J19xGdHX4ZCLK
+Pair URL: https://dexscreener.com/solana/amk2hphohkte2tcjwkbfmpyr3jimds3j19xgdhx4zclk
+Price: $0.00016150
+Score: 70/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $69,631.58
+5M Volume: $55.53
+5M Buys: 3
+5M Sells: 1
+Buy Pressure: 75.00%
+
+================================================================================
+[2026-10-05 16:09:37 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00034040
+Score: 92/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $53,265.18
+5M Volume: $66,694.05
+5M Buys: 607
+5M Sells: 519
+Buy Pressure: 53.91%
+
+================================================================================
+[2026-10-05 16:09:37 UTC]
+Symbol: AC
+Name: Artifact Council
+Token ID: HpkDyHK7avch8TS3raZ6mifBjZoUHRgvWwgzRQL1RXFR
+Pair ID: G9e6FjtwjtS6HChcKuF8mwRo4KZ1av7Loqvts11FEcdR
+Pair URL: https://dexscreener.com/solana/g9e6fjtwjts6hchckuf8mwro4kz1av7loqvts11fecdr
+Price: $0.00010600
+Score: 74/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $28,710.49
+5M Volume: $71,936.93
+5M Buys: 415
+5M Sells: 334
+Buy Pressure: 55.41%
+
+================================================================================
+[2026-10-05 16:09:38 UTC]
+Symbol: lemonbob
+Name: LemonBob
+Token ID: 6FKwzYKmVyDT9CWAHuiidi5AFQBrVLdYJAhGmR6ACzpF
+Pair ID: 6kEgK29qVWyEZazdhzZ9pyDUxezQtacBpeZaX4qGionj
+Pair URL: https://dexscreener.com/solana/6kegk29qvwyezazdhzz9pyduxezqtacbpezax4qgionj
+Price: $0.00009363
+Score: 74/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $28,193.05
+5M Volume: $4,205.80
+5M Buys: 16
+5M Sells: 9
+Buy Pressure: 64.00%
+
+================================================================================
+[2026-10-05 16:09:41 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00020750
+Score: 77/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $42,345.22
+5M Volume: $22,391.99
+5M Buys: 112
+5M Sells: 60
+Buy Pressure: 65.12%
+
+================================================================================
+[2026-10-05 16:09:45 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00041360
+Score: 82/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $62,522.95
+5M Volume: $193,086.52
+5M Buys: 472
+5M Sells: 438
+Buy Pressure: 51.87%
+
+================================================================================
+[2026-10-05 16:09:56 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00035070
+Score: 98/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $54,092.71
+5M Volume: $67,901.28
+5M Buys: 659
+5M Sells: 574
+Buy Pressure: 53.45%
+
+================================================================================
+[2026-10-05 16:09:56 UTC]
+Symbol: AC
+Name: Artifact Council
+Token ID: HpkDyHK7avch8TS3raZ6mifBjZoUHRgvWwgzRQL1RXFR
+Pair ID: G9e6FjtwjtS6HChcKuF8mwRo4KZ1av7Loqvts11FEcdR
+Pair URL: https://dexscreener.com/solana/g9e6fjtwjts6hchckuf8mwro4kz1av7loqvts11fecdr
+Price: $0.00010520
+Score: 79/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $28,601.20
+5M Volume: $55,844.28
+5M Buys: 334
+5M Sells: 260
+Buy Pressure: 56.23%
+
+================================================================================
+[2026-10-05 16:09:57 UTC]
+Symbol: lemonbob
+Name: LemonBob
+Token ID: 6FKwzYKmVyDT9CWAHuiidi5AFQBrVLdYJAhGmR6ACzpF
+Pair ID: 6kEgK29qVWyEZazdhzZ9pyDUxezQtacBpeZaX4qGionj
+Pair URL: https://dexscreener.com/solana/6kegk29qvwyezazdhzz9pyduxezqtacbpezax4qgionj
+Price: $0.00009367
+Score: 70/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $28,199.47
+5M Volume: $2,078.59
+5M Buys: 10
+5M Sells: 7
+Buy Pressure: 58.82%
+
+================================================================================
+[2026-10-05 16:09:58 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00020750
+Score: 77/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $42,345.22
+5M Volume: $22,391.99
+5M Buys: 112
+5M Sells: 60
+Buy Pressure: 65.12%
+
+================================================================================
+[2026-10-05 16:10:01 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00037980
+Score: 92/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $59,865.91
+5M Volume: $213,436.41
+5M Buys: 529
+5M Sells: 475
+Buy Pressure: 52.69%
+
+================================================================================
+[2026-10-05 16:10:14 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00035070
+Score: 87/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $54,092.71
+5M Volume: $67,901.28
+5M Buys: 659
+5M Sells: 574
+Buy Pressure: 53.45%
+
+================================================================================
+[2026-10-05 16:10:14 UTC]
+Symbol: AC
+Name: Artifact Council
+Token ID: HpkDyHK7avch8TS3raZ6mifBjZoUHRgvWwgzRQL1RXFR
+Pair ID: G9e6FjtwjtS6HChcKuF8mwRo4KZ1av7Loqvts11FEcdR
+Pair URL: https://dexscreener.com/solana/g9e6fjtwjts6hchckuf8mwro4kz1av7loqvts11fecdr
+Price: $0.00010330
+Score: 79/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $28,317.19
+5M Volume: $56,899.61
+5M Buys: 344
+5M Sells: 275
+Buy Pressure: 55.57%
+
+================================================================================
+[2026-10-05 16:10:15 UTC]
+Symbol: lemonbob
+Name: LemonBob
+Token ID: 6FKwzYKmVyDT9CWAHuiidi5AFQBrVLdYJAhGmR6ACzpF
+Pair ID: 6kEgK29qVWyEZazdhzZ9pyDUxezQtacBpeZaX4qGionj
+Pair URL: https://dexscreener.com/solana/6kegk29qvwyezazdhzz9pyduxezqtacbpezax4qgionj
+Price: $0.00009558
+Score: 93/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $28,486.67
+5M Volume: $2,222.18
+5M Buys: 13
+5M Sells: 7
+Buy Pressure: 65.00%
+
+================================================================================
+[2026-10-05 16:10:18 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00019420
+Score: 79/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $40,898.91
+5M Volume: $23,135.57
+5M Buys: 113
+5M Sells: 65
+Buy Pressure: 63.48%
+
+================================================================================
+[2026-10-05 16:10:21 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00037980
+Score: 82/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $59,865.91
+5M Volume: $213,436.41
+5M Buys: 529
+5M Sells: 475
+Buy Pressure: 52.69%
+
+================================================================================
+[2026-10-05 16:10:31 UTC]
+Symbol: HYPTILE
+Name: Hyptile
+Token ID: 7AkwtnApnQkvQhRubx4bG7SKVHXc4jt4fsatDbHMYWfY
+Pair ID: 8PiPNgitjy6Sbx2C1ueZ6n5SJm5XDUJkfRuvfq8pUJtW
+Pair URL: https://dexscreener.com/solana/8pipngitjy6sbx2c1uez6n5sjm5xdujkfruvfq8pujtw
+Price: $0.00010490
+Score: 82/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $30,952.58
+5M Volume: $6,049.16
+5M Buys: 68
+5M Sells: 44
+Buy Pressure: 60.71%
+
+================================================================================
+[2026-10-05 16:10:33 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00036330
+Score: 82/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $55,099.63
+5M Volume: $62,482.42
+5M Buys: 581
+5M Sells: 523
+Buy Pressure: 52.63%
+
+================================================================================
+[2026-10-05 16:10:33 UTC]
+Symbol: AC
+Name: Artifact Council
+Token ID: HpkDyHK7avch8TS3raZ6mifBjZoUHRgvWwgzRQL1RXFR
+Pair ID: G9e6FjtwjtS6HChcKuF8mwRo4KZ1av7Loqvts11FEcdR
+Pair URL: https://dexscreener.com/solana/g9e6fjtwjts6hchckuf8mwro4kz1av7loqvts11fecdr
+Price: $0.00010330
+Score: 74/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $28,317.19
+5M Volume: $56,899.61
+5M Buys: 344
+5M Sells: 275
+Buy Pressure: 55.57%
+
+================================================================================
+[2026-10-05 16:10:34 UTC]
+Symbol: lemonbob
+Name: LemonBob
+Token ID: 6FKwzYKmVyDT9CWAHuiidi5AFQBrVLdYJAhGmR6ACzpF
+Pair ID: 6kEgK29qVWyEZazdhzZ9pyDUxezQtacBpeZaX4qGionj
+Pair URL: https://dexscreener.com/solana/6kegk29qvwyezazdhzz9pyduxezqtacbpezax4qgionj
+Price: $0.00009558
+Score: 77/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $28,486.67
+5M Volume: $2,222.18
+5M Buys: 13
+5M Sells: 7
+Buy Pressure: 65.00%
+
+================================================================================
+[2026-10-05 16:10:35 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00019160
+Score: 78/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $40,610.85
+5M Volume: $15,729.97
+5M Buys: 60
+5M Sells: 37
+Buy Pressure: 61.86%
+
+================================================================================
+[2026-10-05 16:10:39 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00035930
+Score: 92/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $58,194.17
+5M Volume: $186,595.39
+5M Buys: 479
+5M Sells: 421
+Buy Pressure: 53.22%
+
+================================================================================
+[2026-10-05 16:10:48 UTC]
+Symbol: HYPTILE
+Name: Hyptile
+Token ID: 7AkwtnApnQkvQhRubx4bG7SKVHXc4jt4fsatDbHMYWfY
+Pair ID: 8PiPNgitjy6Sbx2C1ueZ6n5SJm5XDUJkfRuvfq8pUJtW
+Pair URL: https://dexscreener.com/solana/8pipngitjy6sbx2c1uez6n5sjm5xdujkfruvfq8pujtw
+Price: $0.00010510
+Score: 96/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $30,986.89
+5M Volume: $5,520.61
+5M Buys: 69
+5M Sells: 30
+Buy Pressure: 69.70%
+
+================================================================================
+[2026-10-05 16:10:51 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00036330
+Score: 82/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $55,099.63
+5M Volume: $62,482.42
+5M Buys: 581
+5M Sells: 523
+Buy Pressure: 52.63%
+
+================================================================================
+[2026-10-05 16:10:51 UTC]
+Symbol: AC
+Name: Artifact Council
+Token ID: HpkDyHK7avch8TS3raZ6mifBjZoUHRgvWwgzRQL1RXFR
+Pair ID: G9e6FjtwjtS6HChcKuF8mwRo4KZ1av7Loqvts11FEcdR
+Pair URL: https://dexscreener.com/solana/g9e6fjtwjts6hchckuf8mwro4kz1av7loqvts11fecdr
+Price: $0.00010770
+Score: 70/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $28,972.08
+5M Volume: $45,094.73
+5M Buys: 297
+5M Sells: 239
+Buy Pressure: 55.41%
+
+================================================================================
+[2026-10-05 16:10:52 UTC]
+Symbol: lemonbob
+Name: LemonBob
+Token ID: 6FKwzYKmVyDT9CWAHuiidi5AFQBrVLdYJAhGmR6ACzpF
+Pair ID: 6kEgK29qVWyEZazdhzZ9pyDUxezQtacBpeZaX4qGionj
+Pair URL: https://dexscreener.com/solana/6kegk29qvwyezazdhzz9pyduxezqtacbpezax4qgionj
+Price: $0.00009335
+Score: 91/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $28,154.73
+5M Volume: $1,608.23
+5M Buys: 10
+5M Sells: 4
+Buy Pressure: 71.43%
+
+================================================================================
+[2026-10-05 16:10:55 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00019160
+Score: 72/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $40,610.85
+5M Volume: $15,729.97
+5M Buys: 60
+5M Sells: 37
+Buy Pressure: 61.86%
+
+================================================================================
+[2026-10-05 16:10:59 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00032920
+Score: 94/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $55,688.43
+5M Volume: $221,730.26
+5M Buys: 600
+5M Sells: 515
+Buy Pressure: 53.81%
+
+================================================================================
+[2026-10-05 16:11:09 UTC]
+Symbol: HYPTILE
+Name: Hyptile
+Token ID: 7AkwtnApnQkvQhRubx4bG7SKVHXc4jt4fsatDbHMYWfY
+Pair ID: 8PiPNgitjy6Sbx2C1ueZ6n5SJm5XDUJkfRuvfq8pUJtW
+Pair URL: https://dexscreener.com/solana/8pipngitjy6sbx2c1uez6n5sjm5xdujkfruvfq8pujtw
+Price: $0.00010510
+Score: 85/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $30,986.89
+5M Volume: $5,520.61
+5M Buys: 69
+5M Sells: 30
+Buy Pressure: 69.70%
+
+================================================================================
+[2026-10-05 16:11:10 UTC]
+Symbol: https
+Name: had to take profits sir
+Token ID: 7sGdNQSvUGpahh6qyXB3g5gsdK9FAzZM299KyCXspump
+Pair ID: AmK2hPHoHktE2tcJWKbfMpYR3JiMdS3J19xGdHX4ZCLK
+Pair URL: https://dexscreener.com/solana/amk2hphohkte2tcjwkbfmpyr3jimds3j19xgdhx4zclk
+Price: $0.00016150
+Score: 75/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $69,635.93
+5M Volume: $58.41
+5M Buys: 4
+5M Sells: 1
+Buy Pressure: 80.00%
+
+================================================================================
+[2026-10-05 16:11:11 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00035670
+Score: 84/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $54,581.87
+5M Volume: $64,604.50
+5M Buys: 647
+5M Sells: 587
+Buy Pressure: 52.43%
+
+================================================================================
+[2026-10-05 16:11:11 UTC]
+Symbol: AC
+Name: Artifact Council
+Token ID: HpkDyHK7avch8TS3raZ6mifBjZoUHRgvWwgzRQL1RXFR
+Pair ID: G9e6FjtwjtS6HChcKuF8mwRo4KZ1av7Loqvts11FEcdR
+Pair URL: https://dexscreener.com/solana/g9e6fjtwjts6hchckuf8mwro4kz1av7loqvts11fecdr
+Price: $0.00010770
+Score: 70/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $28,972.08
+5M Volume: $45,094.73
+5M Buys: 297
+5M Sells: 239
+Buy Pressure: 55.41%
+
+================================================================================
+[2026-10-05 16:11:12 UTC]
+Symbol: lemonbob
+Name: LemonBob
+Token ID: 6FKwzYKmVyDT9CWAHuiidi5AFQBrVLdYJAhGmR6ACzpF
+Pair ID: 6kEgK29qVWyEZazdhzZ9pyDUxezQtacBpeZaX4qGionj
+Pair URL: https://dexscreener.com/solana/6kegk29qvwyezazdhzz9pyduxezqtacbpezax4qgionj
+Price: $0.00009335
+Score: 80/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $28,154.73
+5M Volume: $1,608.23
+5M Buys: 10
+5M Sells: 4
+Buy Pressure: 71.43%
+
+================================================================================
+[2026-10-05 16:11:19 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00032920
+Score: 84/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $55,688.43
+5M Volume: $221,730.26
+5M Buys: 600
+5M Sells: 515
+Buy Pressure: 53.81%
+
+================================================================================
+[2026-10-05 16:11:34 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00039020
+Score: 75/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $57,187.94
+5M Volume: $44,680.19
+5M Buys: 519
+5M Sells: 531
+Buy Pressure: 49.43%
+
+================================================================================
+[2026-10-05 16:11:34 UTC]
+Symbol: AC
+Name: Artifact Council
+Token ID: HpkDyHK7avch8TS3raZ6mifBjZoUHRgvWwgzRQL1RXFR
+Pair ID: G9e6FjtwjtS6HChcKuF8mwRo4KZ1av7Loqvts11FEcdR
+Pair URL: https://dexscreener.com/solana/g9e6fjtwjts6hchckuf8mwro4kz1av7loqvts11fecdr
+Price: $0.00013370
+Score: 86/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $32,516.89
+5M Volume: $47,076.25
+5M Buys: 320
+5M Sells: 244
+Buy Pressure: 56.74%
+
+================================================================================
+[2026-10-05 16:11:35 UTC]
+Symbol: lemonbob
+Name: LemonBob
+Token ID: 6FKwzYKmVyDT9CWAHuiidi5AFQBrVLdYJAhGmR6ACzpF
+Pair ID: 6kEgK29qVWyEZazdhzZ9pyDUxezQtacBpeZaX4qGionj
+Pair URL: https://dexscreener.com/solana/6kegk29qvwyezazdhzz9pyduxezqtacbpezax4qgionj
+Price: $0.00009335
+Score: 80/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $28,154.73
+5M Volume: $1,608.23
+5M Buys: 10
+5M Sells: 4
+Buy Pressure: 71.43%
+
+================================================================================
+[2026-10-05 16:11:43 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00033180
+Score: 98/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $55,958.16
+5M Volume: $196,051.96
+5M Buys: 545
+5M Sells: 465
+Buy Pressure: 53.96%
+
+================================================================================
+[2026-10-05 16:11:54 UTC]
+Symbol: AMM
+Name: Actively Managed Meme
+Token ID: 819sNSLxXnHzBVYReWEAqRJPFLtVEgNghrhrQk88pump
+Pair ID: 2QcQFuyp1PoANSY6xPRCL45t3NRhVRCobQWund539Kgs
+Pair URL: https://dexscreener.com/solana/2qcqfuyp1poansy6xprcl45t3nrhvrcobqwund539kgs
+Price: $0.00039020
+Score: 75/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $57,187.94
+5M Volume: $44,680.19
+5M Buys: 519
+5M Sells: 531
+Buy Pressure: 49.43%
+
+================================================================================
+[2026-10-05 16:11:54 UTC]
+Symbol: AC
+Name: Artifact Council
+Token ID: HpkDyHK7avch8TS3raZ6mifBjZoUHRgvWwgzRQL1RXFR
+Pair ID: G9e6FjtwjtS6HChcKuF8mwRo4KZ1av7Loqvts11FEcdR
+Pair URL: https://dexscreener.com/solana/g9e6fjtwjts6hchckuf8mwro4kz1av7loqvts11fecdr
+Price: $0.00013230
+Score: 80/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $32,345.75
+5M Volume: $42,972.60
+5M Buys: 318
+5M Sells: 219
+Buy Pressure: 59.22%
+
+================================================================================
+[2026-10-05 16:11:55 UTC]
+Symbol: lemonbob
+Name: LemonBob
+Token ID: 6FKwzYKmVyDT9CWAHuiidi5AFQBrVLdYJAhGmR6ACzpF
+Pair ID: 6kEgK29qVWyEZazdhzZ9pyDUxezQtacBpeZaX4qGionj
+Pair URL: https://dexscreener.com/solana/6kegk29qvwyezazdhzz9pyduxezqtacbpezax4qgionj
+Price: $0.00010240
+Score: 96/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $29,518.48
+5M Volume: $2,340.53
+5M Buys: 11
+5M Sells: 4
+Buy Pressure: 73.33%
+
+================================================================================
+[2026-10-05 16:12:00 UTC]
+Symbol: AGENCYSOL
+Name: AgencySOL
+Token ID: 7sn1xUBbX4wWeHp3nk4w6zC9NsYE9mdVxoYeGtJnpump
+Pair ID: 8yCREmBf6SDkVpGpXo5epWQZvyC2a4e3nEZuaPhBt2bx
+Pair URL: https://dexscreener.com/solana/8ycrembf6sdkvpgpxo5epwqzvyc2a4e3nezuaphbt2bx
+Price: $0.00035200
+Score: 98/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $57,749.30
+5M Volume: $219,420.90
+5M Buys: 611
+5M Sells: 522
+Buy Pressure: 53.93%
