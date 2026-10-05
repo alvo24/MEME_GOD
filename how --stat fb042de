@@ -1,0 +1,1859 @@
+[1mdiff --git a/MEME_GOD_STATS.txt b/MEME_GOD_STATS.txt[m
+[1mdeleted file mode 100644[m
+[1mindex 473a3c3..0000000[m
+[1m--- a/MEME_GOD_STATS.txt[m
+[1m+++ /dev/null[m
+[36m@@ -1,21 +0,0 @@[m
+[31m-ALVIN MEME GOD V6.1[m
+[31m-============================================================[m
+[31m-Updated: 2026-10-05 16:12:11 UTC[m
+[31m-[m
+[31m-Balance: $34.28[m
+[31m-Open Trades: 5[m
+[31m-Closed Trades: 15[m
+[31m-Wins: 3[m
+[31m-Losses: 12[m
+[31m-Win Rate: 20.00%[m
+[31m-Realized P/L: $-15.72[m
+[31m-Best Trade: $1.77[m
+[31m-Worst Trade: $-3.06[m
+[31m-Max Drawdown: 66.42%[m
+[31m-[m
+[31m-MILESTONES[m
+[31m-2X: 0[m
+[31m-5X: 0[m
+[31m-10X: 0[m
+[31m-50X: 0[m
+[31m-100X: 0[m
+[1mdiff --git a/MEME_GOD_TARGETS.txt b/MEME_GOD_TARGETS.txt[m
+[1mdeleted file mode 100644[m
+[1mindex 1da5317..0000000[m
+[1m--- a/MEME_GOD_TARGETS.txt[m
+[1m+++ /dev/null[m
+[36m@@ -1,9445 +0,0 @@[m
+[31m-ALVIN MEME GOD V6.1 TARGET LOG[m
+[31m-========================================[m
+[31m-[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:02:06 UTC][m
+[31m-Symbol: COINPUTER[m
+[31m-Name: Coinputer[m
+[31m-Token ID: GSRkwgt5uioDBUm59nHVb67FS9aQMGAfrmnGZqeVpump[m
+[31m-Pair ID: 6cHBrkEtu8ndQUZu7nsS1qFSuvKnu9ohT8qgnzxXnuQP[m
+[31m-Pair URL: https://dexscreener.com/solana/6chbrketu8ndquzu7nss1qfsuvknu9oht8qgnzxxnuqp[m
+[31m-Price: $0.00034410[m
+[31m-Score: 77/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $53,673.89[m
+[31m-5M Volume: $23,574.89[m
+[31m-5M Buys: 272[m
+[31m-5M Sells: 177[m
+[31m-Buy Pressure: 60.58%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:05:06 UTC][m
+[31m-Symbol: COINPUTER[m
+[31m-Name: Coinputer[m
+[31m-Token ID: GSRkwgt5uioDBUm59nHVb67FS9aQMGAfrmnGZqeVpump[m
+[31m-Pair ID: 6cHBrkEtu8ndQUZu7nsS1qFSuvKnu9ohT8qgnzxXnuQP[m
+[31m-Pair URL: https://dexscreener.com/solana/6chbrketu8ndquzu7nss1qfsuvknu9oht8qgnzxxnuqp[m
+[31m-Price: $0.00035000[m
+[31m-Score: 73/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $54,202.09[m
+[31m-5M Volume: $25,184.34[m
+[31m-5M Buys: 254[m
+[31m-5M Sells: 197[m
+[31m-Buy Pressure: 56.32%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:05:09 UTC][m
+[31m-Symbol: XSALE[m
+[31m-Name: XSALE[m
+[31m-Token ID: 6ZKcpDYU7pEY7GwpUTZhExyGwGSYG5CsHVAHVX3wpump[m
+[31m-Pair ID: BJX7FJPw8Lgwf4ED3NQX7V6ugH9bGcLt5CkyfrkCVfxV[m
+[31m-Pair URL: https://dexscreener.com/solana/bjx7fjpw8lgwf4ed3nqx7v6ugh9bgclt5ckyfrkcvfxv[m
+[31m-Price: $0.00005663[m
+[31m-Score: 76/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $19,807.90[m
+[31m-5M Volume: $26,289.05[m
+[31m-5M Buys: 372[m
+[31m-5M Sells: 238[m
+[31m-Buy Pressure: 60.98%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:05:10 UTC][m
+[31m-Symbol: ore[m
+[31m-Name: ore[m
+[31m-Token ID: 76fvXLL5hPsr6CQUs6PrXTY7VgdyY5tPidjPrpaepump[m
+[31m-Pair ID: 7LKLcSiDQw9zEpM6hXekDwWqxEkw4jUcGcGVR28s86AR[m
+[31m-Pair URL: https://dexscreener.com/solana/7lklcsidqw9zepm6hxekdwwqxekw4jucgcgvr28s86ar[m
+[31m-Price: $0.00021140[m
+[31m-Score: 79/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $42,937.12[m
+[31m-5M Volume: $61,578.51[m
+[31m-5M Buys: 618[m
+[31m-5M Sells: 423[m
+[31m-Buy Pressure: 59.37%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:05:26 UTC][m
+[31m-Symbol: SH[m
+[31m-Name: Super Human[m
+[31m-Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump[m
+[31m-Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ[m
+[31m-Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz[m
+[31m-Price: $0.00025680[m
+[31m-Score: 98/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $46,132.55[m
+[31m-5M Volume: $34,392.92[m
+[31m-5M Buys: 213[m
+[31m-5M Sells: 51[m
+[31m-Buy Pressure: 80.68%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:05:28 UTC][m
+[31m-Symbol: GOMO[m
+[31m-Name: Gomo App[m
+[31m-Token ID: 9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump[m
+[31m-Pair ID: 5a7QurJLARt146JajJYPe5nh6vLyFpN2QrHUSLqbsCZy[m
+[31m-Pair URL: https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy[m
+[31m-Price: $0.00060020[m
+[31m-Score: 81/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $69,399.14[m
+[31m-5M Volume: $10,514.68[m
+[31m-5M Buys: 51[m
+[31m-5M Sells: 23[m
+[31m-Buy Pressure: 68.92%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:05:36 UTC][m
+[31m-Symbol: COINPUTER[m
+[31m-Name: Coinputer[m
+[31m-Token ID: GSRkwgt5uioDBUm59nHVb67FS9aQMGAfrmnGZqeVpump[m
+[31m-Pair ID: 6cHBrkEtu8ndQUZu7nsS1qFSuvKnu9ohT8qgnzxXnuQP[m
+[31m-Pair URL: https://dexscreener.com/solana/6chbrketu8ndquzu7nss1qfsuvknu9oht8qgnzxxnuqp[m
+[31m-Price: $0.00035290[m
+[31m-Score: 84/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $54,432.43[m
+[31m-5M Volume: $21,294.80[m
+[31m-5M Buys: 228[m
+[31m-5M Sells: 169[m
+[31m-Buy Pressure: 57.43%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:05:37 UTC][m
+[31m-Symbol: XSALE[m
+[31m-Name: XSALE[m
+[31m-Token ID: 6ZKcpDYU7pEY7GwpUTZhExyGwGSYG5CsHVAHVX3wpump[m
+[31m-Pair ID: BJX7FJPw8Lgwf4ED3NQX7V6ugH9bGcLt5CkyfrkCVfxV[m
+[31m-Pair URL: https://dexscreener.com/solana/bjx7fjpw8lgwf4ed3nqx7v6ugh9bgclt5ckyfrkcvfxv[m
+[31m-Price: $0.00005284[m
+[31m-Score: 76/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $19,069.62[m
+[31m-5M Volume: $26,144.05[m
+[31m-5M Buys: 366[m
+[31m-5M Sells: 235[m
+[31m-Buy Pressure: 60.90%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:05:38 UTC][m
+[31m-Symbol: ore[m
+[31m-Name: ore[m
+[31m-Token ID: 76fvXLL5hPsr6CQUs6PrXTY7VgdyY5tPidjPrpaepump[m
+[31m-Pair ID: 7LKLcSiDQw9zEpM6hXekDwWqxEkw4jUcGcGVR28s86AR[m
+[31m-Pair URL: https://dexscreener.com/solana/7lklcsidqw9zepm6hxekdwwqxekw4jucgcgvr28s86ar[m
+[31m-Price: $0.00021110[m
+[31m-Score: 86/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $42,922.94[m
+[31m-5M Volume: $48,582.70[m
+[31m-5M Buys: 493[m
+[31m-5M Sells: 329[m
+[31m-Buy Pressure: 59.98%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:05:38 UTC][m
+[31m-Symbol: AGENTCAT[m
+[31m-Name: Agent Cat[m
+[31m-Token ID: CZJfrAmMs5Cz4H22PWzfqTJu5FkP7Q2Vvx1oPVL9pump[m
+[31m-Pair ID: HyLTPacbYR4V8yQw5bbWwAETZkjcsRw9xzCbayMnU45o[m
+[31m-Pair URL: https://dexscreener.com/solana/hyltpacbyr4v8yqw5bbwwaetzkjcsrw9xzcbaymnu45o[m
+[31m-Price: $0.022650[m
+[31m-Score: 77/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $475,654.75[m
+[31m-5M Volume: $24,985.06[m
+[31m-5M Buys: 680[m
+[31m-5M Sells: 40[m
+[31m-Buy Pressure: 94.44%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:05:46 UTC][m
+[31m-Symbol: BATONROGUE[m
+[31m-Name: Baton Rogue[m
+[31m-Token ID: 8nKp4JkesNtDgu3PiSjdTdNSrtBt8YCHhW8BU14wpump[m
+[31m-Pair ID: CGFDdPEpn1SfTJXDnRYb1BWS6aTAuWXBd4gCf1LddVt6[m
+[31m-Pair URL: https://dexscreener.com/solana/cgfddpepn1sftjxdnryb1bws6atauwxbd4gcf1lddvt6[m
+[31m-Price: $0.00071030[m
+[31m-Score: 72/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $85,512.59[m
+[31m-5M Volume: $10,559.28[m
+[31m-5M Buys: 461[m
+[31m-5M Sells: 229[m
+[31m-Buy Pressure: 66.81%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:16:34 UTC][m
+[31m-Symbol: SOS[m
+[31m-Name: Settlers of Solana[m
+[31m-[m
+[31m-Token ID: J79Gug1W4NM4pFnCiiV1svJ2Hu61mmCxV9krNEvMGvy3[m
+[31m-Pair ID: 194ZX12S8bP1YMnwBKf2gXZ1GqjkFVUTVCg3vjwjrg5[m
+[31m-Pair URL: https://dexscreener.com/solana/194zx12s8bp1ymnwbkf2gxz1gqjkfvutvcg3vjwjrg5[m
+[31m-Price: $0.00007081[m
+[31m-Score: 74/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $22,686.48[m
+[31m-5M Volume: $97,181.51[m
+[31m-5M Buys: 1245[m
+[31m-5M Sells: 1032[m
+[31m-Buy Pressure: 54.68%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:16:35 UTC][m
+[31m-Symbol: ore[m
+[31m-Name: ore[m
+[31m-Token ID: 76fvXLL5hPsr6CQUs6PrXTY7VgdyY5tPidjPrpaepump[m
+[31m-Pair ID: 7LKLcSiDQw9zEpM6hXekDwWqxEkw4jUcGcGVR28s86AR[m
+[31m-Pair URL: https://dexscreener.com/solana/7lklcsidqw9zepm6hxekdwwqxekw4jucgcgvr28s86ar[m
+[31m-Price: $0.00022390[m
+[31m-Score: 79/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $45,207.27[m
+[31m-5M Volume: $79,706.02[m
+[31m-5M Buys: 539[m
+[31m-5M Sells: 420[m
+[31m-Buy Pressure: 56.20%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:16:40 UTC][m
+[31m-Symbol: COINPUTER[m
+[31m-Name: Coinputer[m
+[31m-Token ID: GSRkwgt5uioDBUm59nHVb67FS9aQMGAfrmnGZqeVpump[m
+[31m-Pair ID: 6cHBrkEtu8ndQUZu7nsS1qFSuvKnu9ohT8qgnzxXnuQP[m
+[31m-Pair URL: https://dexscreener.com/solana/6chbrketu8ndquzu7nss1qfsuvknu9oht8qgnzxxnuqp[m
+[31m-Price: $0.00039150[m
+[31m-Score: 76/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $57,600.02[m
+[31m-5M Volume: $20,891.97[m
+[31m-5M Buys: 234[m
+[31m-5M Sells: 170[m
+[31m-Buy Pressure: 57.92%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:16:40 UTC][m
+[31m-Symbol: HOOKMIND[m
+[31m-Name: HookMind[m
+[31m-Token ID: 4aWiDn94fH8yuJD6PyQ13tzjRswzG9qX7oVbbPDiZsFR[m
+[31m-Pair ID: HdYjT9LtaQUywfZ5oFaewkSgGDxZcWzmmkVV996sfVQB[m
+[31m-Pair URL: https://dexscreener.com/solana/hdyjt9ltaquywfz5ofaewksggdxzcwzmmkvv996sfvqb[m
+[31m-Price: $0.00009238[m
+[31m-Score: 74/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $26,691.45[m
+[31m-5M Volume: $256,887.12[m
+[31m-5M Buys: 1851[m
+[31m-5M Sells: 1715[m
+[31m-Buy Pressure: 51.91%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:16:42 UTC][m
+[31m-Symbol: SH[m
+[31m-Name: Super Human[m
+[31m-Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump[m
+[31m-Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ[m
+[31m-Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz[m
+[31m-Price: $0.00019890[m
+[31m-Score: 90/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $40,589.00[m
+[31m-5M Volume: $28,750.41[m
+[31m-5M Buys: 867[m
+[31m-5M Sells: 85[m
+[31m-Buy Pressure: 91.07%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:16:42 UTC][m
+[31m-Symbol: swordcat[m
+[31m-Name: cat wif sword[m
+[31m-Token ID: 5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump[m
+[31m-Pair ID: 8ewuF2o8ACro7fqWepZ3tKhkbBjndZU4Ldk9scRPw83d[m
+[31m-Pair URL: https://dexscreener.com/solana/8ewuf2o8acro7fqwepz3tkhkbbjndzu4ldk9scrpw83d[m
+[31m-Price: $0.002486[m
+[31m-Score: 80/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $199,702.08[m
+[31m-5M Volume: $2,463.76[m
+[31m-5M Buys: 26[m
+[31m-5M Sells: 10[m
+[31m-Buy Pressure: 72.22%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:16:47 UTC][m
+[31m-Symbol: GOMO[m
+[31m-Name: Gomo App[m
+[31m-Token ID: 9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump[m
+[31m-Pair ID: 5a7QurJLARt146JajJYPe5nh6vLyFpN2QrHUSLqbsCZy[m
+[31m-Pair URL: https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy[m
+[31m-Price: $0.00062120[m
+[31m-Score: 87/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $70,648.77[m
+[31m-5M Volume: $4,114.93[m
+[31m-5M Buys: 30[m
+[31m-5M Sells: 8[m
+[31m-Buy Pressure: 78.95%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:16:54 UTC][m
+[31m-Symbol: AGENTCAT[m
+[31m-Name: Agent Cat[m
+[31m-Token ID: CZJfrAmMs5Cz4H22PWzfqTJu5FkP7Q2Vvx1oPVL9pump[m
+[31m-Pair ID: HyLTPacbYR4V8yQw5bbWwAETZkjcsRw9xzCbayMnU45o[m
+[31m-Pair URL: https://dexscreener.com/solana/hyltpacbyr4v8yqw5bbwwaetzkjcsrw9xzcbaymnu45o[m
+[31m-Price: $0.022160[m
+[31m-Score: 73/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $470,968.91[m
+[31m-5M Volume: $13,867.75[m
+[31m-5M Buys: 691[m
+[31m-5M Sells: 26[m
+[31m-Buy Pressure: 96.37%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:16:56 UTC][m
+[31m-Symbol: SI[m
+[31m-Name: Such Intelligence[m
+[31m-Token ID: 2UDxxYiiSxZZj4Qr6J1a2AZpdRQnHXDTtNDTKn1Rpump[m
+[31m-Pair ID: F8CG9U1QAkikarzbxJAKPbwu2X1czUtVVZqMTaNEecSq[m
+[31m-Pair URL: https://dexscreener.com/solana/f8cg9u1qakikarzbxjakpbwu2x1czutvvzqmtaneecsq[m
+[31m-Price: $0.00009172[m
+[31m-Score: 75/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $24,786.65[m
+[31m-5M Volume: $4,355.95[m
+[31m-5M Buys: 96[m
+[31m-5M Sells: 40[m
+[31m-Buy Pressure: 70.59%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:16:59 UTC][m
+[31m-Symbol: SOS[m
+[31m-Name: Settlers of Solana[m
+[31m-[m
+[31m-Token ID: J79Gug1W4NM4pFnCiiV1svJ2Hu61mmCxV9krNEvMGvy3[m
+[31m-Pair ID: 194ZX12S8bP1YMnwBKf2gXZ1GqjkFVUTVCg3vjwjrg5[m
+[31m-Pair URL: https://dexscreener.com/solana/194zx12s8bp1ymnwbkf2gxz1gqjkfvutvcg3vjwjrg5[m
+[31m-Price: $0.00006444[m
+[31m-Score: 75/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $21,572.12[m
+[31m-5M Volume: $109,780.52[m
+[31m-5M Buys: 1412[m
+[31m-5M Sells: 1156[m
+[31m-Buy Pressure: 54.98%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:17:00 UTC][m
+[31m-Symbol: ore[m
+[31m-Name: ore[m
+[31m-Token ID: 76fvXLL5hPsr6CQUs6PrXTY7VgdyY5tPidjPrpaepump[m
+[31m-Pair ID: 7LKLcSiDQw9zEpM6hXekDwWqxEkw4jUcGcGVR28s86AR[m
+[31m-Pair URL: https://dexscreener.com/solana/7lklcsidqw9zepm6hxekdwwqxekw4jucgcgvr28s86ar[m
+[31m-Price: $0.00025490[m
+[31m-Score: 100/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $48,395.51[m
+[31m-5M Volume: $87,392.23[m
+[31m-5M Buys: 587[m
+[31m-5M Sells: 448[m
+[31m-Buy Pressure: 56.71%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:17:03 UTC][m
+[31m-Symbol: COINPUTER[m
+[31m-Name: Coinputer[m
+[31m-Token ID: GSRkwgt5uioDBUm59nHVb67FS9aQMGAfrmnGZqeVpump[m
+[31m-Pair ID: 6cHBrkEtu8ndQUZu7nsS1qFSuvKnu9ohT8qgnzxXnuQP[m
+[31m-Pair URL: https://dexscreener.com/solana/6chbrketu8ndquzu7nss1qfsuvknu9oht8qgnzxxnuqp[m
+[31m-Price: $0.00038660[m
+[31m-Score: 81/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $57,234.79[m
+[31m-5M Volume: $24,204.33[m
+[31m-5M Buys: 267[m
+[31m-5M Sells: 192[m
+[31m-Buy Pressure: 58.17%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:17:04 UTC][m
+[31m-Symbol: HOOKMIND[m
+[31m-Name: HookMind[m
+[31m-Token ID: 4aWiDn94fH8yuJD6PyQ13tzjRswzG9qX7oVbbPDiZsFR[m
+[31m-Pair ID: HdYjT9LtaQUywfZ5oFaewkSgGDxZcWzmmkVV996sfVQB[m
+[31m-Pair URL: https://dexscreener.com/solana/hdyjt9ltaquywfz5ofaewksggdxzcwzmmkvv996sfvqb[m
+[31m-Price: $0.00009717[m
+[31m-Score: 74/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $27,433.41[m
+[31m-5M Volume: $206,145.72[m
+[31m-5M Buys: 1574[m
+[31m-5M Sells: 1441[m
+[31m-Buy Pressure: 52.21%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:17:05 UTC][m
+[31m-Symbol: SH[m
+[31m-Name: Super Human[m
+[31m-Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump[m
+[31m-Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ[m
+[31m-Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz[m
+[31m-Price: $0.00019890[m
+[31m-Score: 85/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $40,589.00[m
+[31m-5M Volume: $28,750.41[m
+[31m-5M Buys: 867[m
+[31m-5M Sells: 85[m
+[31m-Buy Pressure: 91.07%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:17:07 UTC][m
+[31m-Symbol: GOMO[m
+[31m-Name: Gomo App[m
+[31m-Token ID: 9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump[m
+[31m-Pair ID: 5a7QurJLARt146JajJYPe5nh6vLyFpN2QrHUSLqbsCZy[m
+[31m-Pair URL: https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy[m
+[31m-Price: $0.00058920[m
+[31m-Score: 88/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $68,760.74[m
+[31m-5M Volume: $5,115.90[m
+[31m-5M Buys: 34[m
+[31m-5M Sells: 9[m
+[31m-Buy Pressure: 79.07%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:17:15 UTC][m
+[31m-Symbol: AGENTCAT[m
+[31m-Name: Agent Cat[m
+[31m-Token ID: CZJfrAmMs5Cz4H22PWzfqTJu5FkP7Q2Vvx1oPVL9pump[m
+[31m-Pair ID: HyLTPacbYR4V8yQw5bbWwAETZkjcsRw9xzCbayMnU45o[m
+[31m-Pair URL: https://dexscreener.com/solana/hyltpacbyr4v8yqw5bbwwaetzkjcsrw9xzcbaymnu45o[m
+[31m-Price: $0.022170[m
+[31m-Score: 73/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $471,057.57[m
+[31m-5M Volume: $15,930.50[m
+[31m-5M Buys: 780[m
+[31m-5M Sells: 30[m
+[31m-Buy Pressure: 96.30%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:17:17 UTC][m
+[31m-Symbol: DAFTPUNK51[m
+[31m-Name: Daft Punk: Area 51 Edition[m
+[31m-Token ID: J17koXnKcqLJCB4nU8doAE8PURo8ynVAFinQ49n8pump[m
+[31m-Pair ID: FoZh64Dv9SFTk6Xoz4GMqx3JEXF21Fpdv8VZLv9y5VZT[m
+[31m-Pair URL: https://dexscreener.com/solana/fozh64dv9sftk6xoz4gmqx3jexf21fpdv8vzlv9y5vzt[m
+[31m-Price: $0.00014030[m
+[31m-Score: 97/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $32,419.54[m
+[31m-5M Volume: $77,689.94[m
+[31m-5M Buys: 329[m
+[31m-5M Sells: 173[m
+[31m-Buy Pressure: 65.54%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:17:20 UTC][m
+[31m-Symbol: ore[m
+[31m-Name: ore[m
+[31m-Token ID: 76fvXLL5hPsr6CQUs6PrXTY7VgdyY5tPidjPrpaepump[m
+[31m-Pair ID: 7LKLcSiDQw9zEpM6hXekDwWqxEkw4jUcGcGVR28s86AR[m
+[31m-Pair URL: https://dexscreener.com/solana/7lklcsidqw9zepm6hxekdwwqxekw4jucgcgvr28s86ar[m
+[31m-Price: $0.00025490[m
+[31m-Score: 84/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $48,395.51[m
+[31m-5M Volume: $87,392.23[m
+[31m-5M Buys: 587[m
+[31m-5M Sells: 448[m
+[31m-Buy Pressure: 56.71%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:17:23 UTC][m
+[31m-Symbol: HOOKMIND[m
+[31m-Name: HookMind[m
+[31m-Token ID: 4aWiDn94fH8yuJD6PyQ13tzjRswzG9qX7oVbbPDiZsFR[m
+[31m-Pair ID: HdYjT9LtaQUywfZ5oFaewkSgGDxZcWzmmkVV996sfVQB[m
+[31m-Pair URL: https://dexscreener.com/solana/hdyjt9ltaquywfz5ofaewksggdxzcwzmmkvv996sfvqb[m
+[31m-Price: $0.00009754[m
+[31m-Score: 85/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $27,495.99[m
+[31m-5M Volume: $139,231.59[m
+[31m-5M Buys: 1301[m
+[31m-5M Sells: 1144[m
+[31m-Buy Pressure: 53.21%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:17:24 UTC][m
+[31m-Symbol: SH[m
+[31m-Name: Super Human[m
+[31m-Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump[m
+[31m-Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ[m
+[31m-Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz[m
+[31m-Price: $0.00016010[m
+[31m-Score: 88/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $36,207.75[m
+[31m-5M Volume: $34,188.22[m
+[31m-5M Buys: 964[m
+[31m-5M Sells: 101[m
+[31m-Buy Pressure: 90.52%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:17:25 UTC][m
+[31m-Symbol: swordcat[m
+[31m-Name: cat wif sword[m
+[31m-Token ID: 5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump[m
+[31m-Pair ID: 8ewuF2o8ACro7fqWepZ3tKhkbBjndZU4Ldk9scRPw83d[m
+[31m-Pair URL: https://dexscreener.com/solana/8ewuf2o8acro7fqwepz3tkhkbbjndzu4ldk9scrpw83d[m
+[31m-Price: $0.002521[m
+[31m-Score: 80/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $201,120.15[m
+[31m-5M Volume: $2,759.41[m
+[31m-5M Buys: 28[m
+[31m-5M Sells: 10[m
+[31m-Buy Pressure: 73.68%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:17:29 UTC][m
+[31m-Symbol: GOMO[m
+[31m-Name: Gomo App[m
+[31m-Token ID: 9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump[m
+[31m-Pair ID: 5a7QurJLARt146JajJYPe5nh6vLyFpN2QrHUSLqbsCZy[m
+[31m-Pair URL: https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy[m
+[31m-Price: $0.00058920[m
+[31m-Score: 78/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $68,760.74[m
+[31m-5M Volume: $5,115.90[m
+[31m-5M Buys: 34[m
+[31m-5M Sells: 9[m
+[31m-Buy Pressure: 79.07%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:17:38 UTC][m
+[31m-Symbol: DAFTPUNK51[m
+[31m-Name: Daft Punk: Area 51 Edition[m
+[31m-Token ID: J17koXnKcqLJCB4nU8doAE8PURo8ynVAFinQ49n8pump[m
+[31m-Pair ID: FoZh64Dv9SFTk6Xoz4GMqx3JEXF21Fpdv8VZLv9y5VZT[m
+[31m-Pair URL: https://dexscreener.com/solana/fozh64dv9sftk6xoz4gmqx3jexf21fpdv8vzlv9y5vzt[m
+[31m-Price: $0.00014030[m
+[31m-Score: 97/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $32,419.54[m
+[31m-5M Volume: $77,689.94[m
+[31m-5M Buys: 329[m
+[31m-5M Sells: 173[m
+[31m-Buy Pressure: 65.54%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:17:42 UTC][m
+[31m-Symbol: ore[m
+[31m-Name: ore[m
+[31m-Token ID: 76fvXLL5hPsr6CQUs6PrXTY7VgdyY5tPidjPrpaepump[m
+[31m-Pair ID: 7LKLcSiDQw9zEpM6hXekDwWqxEkw4jUcGcGVR28s86AR[m
+[31m-Pair URL: https://dexscreener.com/solana/7lklcsidqw9zepm6hxekdwwqxekw4jucgcgvr28s86ar[m
+[31m-Price: $0.00023290[m
+[31m-Score: 86/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $46,174.88[m
+[31m-5M Volume: $74,266.73[m
+[31m-5M Buys: 476[m
+[31m-5M Sells: 360[m
+[31m-Buy Pressure: 56.94%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:17:46 UTC][m
+[31m-Symbol: HOOKMIND[m
+[31m-Name: HookMind[m
+[31m-Token ID: 4aWiDn94fH8yuJD6PyQ13tzjRswzG9qX7oVbbPDiZsFR[m
+[31m-Pair ID: HdYjT9LtaQUywfZ5oFaewkSgGDxZcWzmmkVV996sfVQB[m
+[31m-Pair URL: https://dexscreener.com/solana/hdyjt9ltaquywfz5ofaewksggdxzcwzmmkvv996sfvqb[m
+[31m-Price: $0.00010900[m
+[31m-Score: 90/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $29,189.08[m
+[31m-5M Volume: $142,183.54[m
+[31m-5M Buys: 1349[m
+[31m-5M Sells: 1178[m
+[31m-Buy Pressure: 53.38%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:17:47 UTC][m
+[31m-Symbol: SH[m
+[31m-Name: Super Human[m
+[31m-Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump[m
+[31m-Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ[m
+[31m-Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz[m
+[31m-Price: $0.00017890[m
+[31m-Score: 100/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $38,402.64[m
+[31m-5M Volume: $25,205.87[m
+[31m-5M Buys: 876[m
+[31m-5M Sells: 75[m
+[31m-Buy Pressure: 92.11%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:18:00 UTC][m
+[31m-Symbol: ASI[m
+[31m-Name: Artificial Super Inu[m
+[31m-Token ID: GgPEigvRUuWRf256egenFe3KrQSH8u7ba2C9TdLFpump[m
+[31m-Pair ID: CqQ9jJyyh24Ej4hP952wNw1u7ND3QkvRi4YCZxeQGMn7[m
+[31m-Pair URL: https://dexscreener.com/solana/cqq9jjyyh24ej4hp952wnw1u7nd3qkvri4yczxeqgmn7[m
+[31m-Price: $0.00005968[m
+[31m-Score: 74/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $20,479.05[m
+[31m-5M Volume: $1,933.96[m
+[31m-5M Buys: 30[m
+[31m-5M Sells: 23[m
+[31m-Buy Pressure: 56.60%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:18:00 UTC][m
+[31m-Symbol: DAFTPUNK51[m
+[31m-Name: Daft Punk: Area 51 Edition[m
+[31m-Token ID: J17koXnKcqLJCB4nU8doAE8PURo8ynVAFinQ49n8pump[m
+[31m-Pair ID: FoZh64Dv9SFTk6Xoz4GMqx3JEXF21Fpdv8VZLv9y5VZT[m
+[31m-Pair URL: https://dexscreener.com/solana/fozh64dv9sftk6xoz4gmqx3jexf21fpdv8vzlv9y5vzt[m
+[31m-Price: $0.00014210[m
+[31m-Score: 100/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $32,741.66[m
+[31m-5M Volume: $127,156.05[m
+[31m-5M Buys: 512[m
+[31m-5M Sells: 320[m
+[31m-Buy Pressure: 61.54%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:18:04 UTC][m
+[31m-Symbol: ore[m
+[31m-Name: ore[m
+[31m-Token ID: 76fvXLL5hPsr6CQUs6PrXTY7VgdyY5tPidjPrpaepump[m
+[31m-Pair ID: 7LKLcSiDQw9zEpM6hXekDwWqxEkw4jUcGcGVR28s86AR[m
+[31m-Pair URL: https://dexscreener.com/solana/7lklcsidqw9zepm6hxekdwwqxekw4jucgcgvr28s86ar[m
+[31m-Price: $0.00022790[m
+[31m-Score: 84/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $45,659.31[m
+[31m-5M Volume: $79,332.10[m
+[31m-5M Buys: 502[m
+[31m-5M Sells: 403[m
+[31m-Buy Pressure: 55.47%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:18:07 UTC][m
+[31m-Symbol: COINPUTER[m
+[31m-Name: Coinputer[m
+[31m-Token ID: GSRkwgt5uioDBUm59nHVb67FS9aQMGAfrmnGZqeVpump[m
+[31m-Pair ID: 6cHBrkEtu8ndQUZu7nsS1qFSuvKnu9ohT8qgnzxXnuQP[m
+[31m-Pair URL: https://dexscreener.com/solana/6chbrketu8ndquzu7nss1qfsuvknu9oht8qgnzxxnuqp[m
+[31m-Price: $0.00038300[m
+[31m-Score: 71/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $56,967.62[m
+[31m-5M Volume: $23,996.32[m
+[31m-5M Buys: 250[m
+[31m-5M Sells: 203[m
+[31m-Buy Pressure: 55.19%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:18:07 UTC][m
+[31m-Symbol: HOOKMIND[m
+[31m-Name: HookMind[m
+[31m-Token ID: 4aWiDn94fH8yuJD6PyQ13tzjRswzG9qX7oVbbPDiZsFR[m
+[31m-Pair ID: HdYjT9LtaQUywfZ5oFaewkSgGDxZcWzmmkVV996sfVQB[m
+[31m-Pair URL: https://dexscreener.com/solana/hdyjt9ltaquywfz5ofaewksggdxzcwzmmkvv996sfvqb[m
+[31m-Price: $0.00010900[m
+[31m-Score: 74/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $29,189.08[m
+[31m-5M Volume: $142,183.54[m
+[31m-5M Buys: 1349[m
+[31m-5M Sells: 1178[m
+[31m-Buy Pressure: 53.38%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:18:09 UTC][m
+[31m-Symbol: swordcat[m
+[31m-Name: cat wif sword[m
+[31m-Token ID: 5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump[m
+[31m-Pair ID: 8ewuF2o8ACro7fqWepZ3tKhkbBjndZU4Ldk9scRPw83d[m
+[31m-Pair URL: https://dexscreener.com/solana/8ewuf2o8acro7fqwepz3tkhkbbjndzu4ldk9scrpw83d[m
+[31m-Price: $0.002544[m
+[31m-Score: 75/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $202,055.51[m
+[31m-5M Volume: $2,715.56[m
+[31m-5M Buys: 32[m
+[31m-5M Sells: 8[m
+[31m-Buy Pressure: 80.00%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:18:12 UTC][m
+[31m-Symbol: GOMO[m
+[31m-Name: Gomo App[m
+[31m-Token ID: 9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump[m
+[31m-Pair ID: 5a7QurJLARt146JajJYPe5nh6vLyFpN2QrHUSLqbsCZy[m
+[31m-Pair URL: https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy[m
+[31m-Price: $0.00059490[m
+[31m-Score: 74/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $69,102.88[m
+[31m-5M Volume: $4,087.47[m
+[31m-5M Buys: 30[m
+[31m-5M Sells: 9[m
+[31m-Buy Pressure: 76.92%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:18:21 UTC][m
+[31m-Symbol: DAFTPUNK51[m
+[31m-Name: Daft Punk: Area 51 Edition[m
+[31m-Token ID: J17koXnKcqLJCB4nU8doAE8PURo8ynVAFinQ49n8pump[m
+[31m-Pair ID: FoZh64Dv9SFTk6Xoz4GMqx3JEXF21Fpdv8VZLv9y5VZT[m
+[31m-Pair URL: https://dexscreener.com/solana/fozh64dv9sftk6xoz4gmqx3jexf21fpdv8vzlv9y5vzt[m
+[31m-Price: $0.00010490[m
+[31m-Score: 100/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $27,942.73[m
+[31m-5M Volume: $165,375.76[m
+[31m-5M Buys: 652[m
+[31m-5M Sells: 417[m
+[31m-Buy Pressure: 60.99%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:18:24 UTC][m
+[31m-Symbol: ore[m
+[31m-Name: ore[m
+[31m-Token ID: 76fvXLL5hPsr6CQUs6PrXTY7VgdyY5tPidjPrpaepump[m
+[31m-Pair ID: 7LKLcSiDQw9zEpM6hXekDwWqxEkw4jUcGcGVR28s86AR[m
+[31m-Pair URL: https://dexscreener.com/solana/7lklcsidqw9zepm6hxekdwwqxekw4jucgcgvr28s86ar[m
+[31m-Price: $0.00022790[m
+[31m-Score: 79/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $45,659.31[m
+[31m-5M Volume: $79,332.10[m
+[31m-5M Buys: 502[m
+[31m-5M Sells: 403[m
+[31m-Buy Pressure: 55.47%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:18:26 UTC][m
+[31m-Symbol: COINPUTER[m
+[31m-Name: Coinputer[m
+[31m-Token ID: GSRkwgt5uioDBUm59nHVb67FS9aQMGAfrmnGZqeVpump[m
+[31m-Pair ID: 6cHBrkEtu8ndQUZu7nsS1qFSuvKnu9ohT8qgnzxXnuQP[m
+[31m-Pair URL: https://dexscreener.com/solana/6chbrketu8ndquzu7nss1qfsuvknu9oht8qgnzxxnuqp[m
+[31m-Price: $0.00039980[m
+[31m-Score: 73/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $58,256.64[m
+[31m-5M Volume: $22,316.16[m
+[31m-5M Buys: 235[m
+[31m-5M Sells: 176[m
+[31m-Buy Pressure: 57.18%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:18:26 UTC][m
+[31m-Symbol: HOOKMIND[m
+[31m-Name: HookMind[m
+[31m-Token ID: 4aWiDn94fH8yuJD6PyQ13tzjRswzG9qX7oVbbPDiZsFR[m
+[31m-Pair ID: HdYjT9LtaQUywfZ5oFaewkSgGDxZcWzmmkVV996sfVQB[m
+[31m-Pair URL: https://dexscreener.com/solana/hdyjt9ltaquywfz5ofaewksggdxzcwzmmkvv996sfvqb[m
+[31m-Price: $0.00012280[m
+[31m-Score: 90/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $31,123.50[m
+[31m-5M Volume: $147,698.70[m
+[31m-5M Buys: 1408[m
+[31m-5M Sells: 1219[m
+[31m-Buy Pressure: 53.60%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:18:41 UTC][m
+[31m-Symbol: DAFTPUNK51[m
+[31m-Name: Daft Punk: Area 51 Edition[m
+[31m-Token ID: J17koXnKcqLJCB4nU8doAE8PURo8ynVAFinQ49n8pump[m
+[31m-Pair ID: FoZh64Dv9SFTk6Xoz4GMqx3JEXF21Fpdv8VZLv9y5VZT[m
+[31m-Pair URL: https://dexscreener.com/solana/fozh64dv9sftk6xoz4gmqx3jexf21fpdv8vzlv9y5vzt[m
+[31m-Price: $0.00013790[m
+[31m-Score: 100/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $32,409.58[m
+[31m-5M Volume: $213,781.37[m
+[31m-5M Buys: 837[m
+[31m-5M Sells: 544[m
+[31m-Buy Pressure: 60.61%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:18:45 UTC][m
+[31m-Symbol: ore[m
+[31m-Name: ore[m
+[31m-Token ID: 76fvXLL5hPsr6CQUs6PrXTY7VgdyY5tPidjPrpaepump[m
+[31m-Pair ID: 7LKLcSiDQw9zEpM6hXekDwWqxEkw4jUcGcGVR28s86AR[m
+[31m-Pair URL: https://dexscreener.com/solana/7lklcsidqw9zepm6hxekdwwqxekw4jucgcgvr28s86ar[m
+[31m-Price: $0.00026880[m
+[31m-Score: 98/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $49,779.04[m
+[31m-5M Volume: $63,646.40[m
+[31m-5M Buys: 415[m
+[31m-5M Sells: 330[m
+[31m-Buy Pressure: 55.70%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:18:49 UTC][m
+[31m-Symbol: HOOKMIND[m
+[31m-Name: HookMind[m
+[31m-Token ID: 4aWiDn94fH8yuJD6PyQ13tzjRswzG9qX7oVbbPDiZsFR[m
+[31m-Pair ID: HdYjT9LtaQUywfZ5oFaewkSgGDxZcWzmmkVV996sfVQB[m
+[31m-Pair URL: https://dexscreener.com/solana/hdyjt9ltaquywfz5ofaewksggdxzcwzmmkvv996sfvqb[m
+[31m-Price: $0.00013500[m
+[31m-Score: 100/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $32,755.55[m
+[31m-5M Volume: $69,539.21[m
+[31m-5M Buys: 821[m
+[31m-5M Sells: 613[m
+[31m-Buy Pressure: 57.25%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:19:05 UTC][m
+[31m-Symbol: ASI[m
+[31m-Name: Artificial Super Inu[m
+[31m-Token ID: GgPEigvRUuWRf256egenFe3KrQSH8u7ba2C9TdLFpump[m
+[31m-Pair ID: CqQ9jJyyh24Ej4hP952wNw1u7ND3QkvRi4YCZxeQGMn7[m
+[31m-Pair URL: https://dexscreener.com/solana/cqq9jjyyh24ej4hp952wnw1u7nd3qkvri4yczxeqgmn7[m
+[31m-Price: $0.00006053[m
+[31m-Score: 74/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $20,639.48[m
+[31m-5M Volume: $1,657.25[m
+[31m-5M Buys: 30[m
+[31m-5M Sells: 23[m
+[31m-Buy Pressure: 56.60%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:19:05 UTC][m
+[31m-Symbol: DAFTPUNK51[m
+[31m-Name: Daft Punk: Area 51 Edition[m
+[31m-Token ID: J17koXnKcqLJCB4nU8doAE8PURo8ynVAFinQ49n8pump[m
+[31m-Pair ID: FoZh64Dv9SFTk6Xoz4GMqx3JEXF21Fpdv8VZLv9y5VZT[m
+[31m-Pair URL: https://dexscreener.com/solana/fozh64dv9sftk6xoz4gmqx3jexf21fpdv8vzlv9y5vzt[m
+[31m-Price: $0.00013790[m
+[31m-Score: 96/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $32,409.58[m
+[31m-5M Volume: $213,781.37[m
+[31m-5M Buys: 837[m
+[31m-5M Sells: 544[m
+[31m-Buy Pressure: 60.61%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:19:09 UTC][m
+[31m-Symbol: ore[m
+[31m-Name: ore[m
+[31m-Token ID: 76fvXLL5hPsr6CQUs6PrXTY7VgdyY5tPidjPrpaepump[m
+[31m-Pair ID: 7LKLcSiDQw9zEpM6hXekDwWqxEkw4jUcGcGVR28s86AR[m
+[31m-Pair URL: https://dexscreener.com/solana/7lklcsidqw9zepm6hxekdwwqxekw4jucgcgvr28s86ar[m
+[31m-Price: $0.00026010[m
+[31m-Score: 92/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $48,944.08[m
+[31m-5M Volume: $69,399.47[m
+[31m-5M Buys: 451[m
+[31m-5M Sells: 372[m
+[31m-Buy Pressure: 54.80%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:19:12 UTC][m
+[31m-Symbol: COINPUTER[m
+[31m-Name: Coinputer[m
+[31m-Token ID: GSRkwgt5uioDBUm59nHVb67FS9aQMGAfrmnGZqeVpump[m
+[31m-Pair ID: 6cHBrkEtu8ndQUZu7nsS1qFSuvKnu9ohT8qgnzxXnuQP[m
+[31m-Pair URL: https://dexscreener.com/solana/6chbrketu8ndquzu7nss1qfsuvknu9oht8qgnzxxnuqp[m
+[31m-Price: $0.00039420[m
+[31m-Score: 76/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $57,826.37[m
+[31m-5M Volume: $25,522.08[m
+[31m-5M Buys: 268[m
+[31m-5M Sells: 195[m
+[31m-Buy Pressure: 57.88%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:19:12 UTC][m
+[31m-Symbol: HOOKMIND[m
+[31m-Name: HookMind[m
+[31m-Token ID: 4aWiDn94fH8yuJD6PyQ13tzjRswzG9qX7oVbbPDiZsFR[m
+[31m-Pair ID: HdYjT9LtaQUywfZ5oFaewkSgGDxZcWzmmkVV996sfVQB[m
+[31m-Pair URL: https://dexscreener.com/solana/hdyjt9ltaquywfz5ofaewksggdxzcwzmmkvv996sfvqb[m
+[31m-Price: $0.00013500[m
+[31m-Score: 89/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $32,755.55[m
+[31m-5M Volume: $69,539.21[m
+[31m-5M Buys: 821[m
+[31m-5M Sells: 613[m
+[31m-Buy Pressure: 57.25%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:19:15 UTC][m
+[31m-Symbol: swordcat[m
+[31m-Name: cat wif sword[m
+[31m-Token ID: 5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump[m
+[31m-Pair ID: 8ewuF2o8ACro7fqWepZ3tKhkbBjndZU4Ldk9scRPw83d[m
+[31m-Pair URL: https://dexscreener.com/solana/8ewuf2o8acro7fqwepz3tkhkbbjndzu4ldk9scrpw83d[m
+[31m-Price: $0.002533[m
+[31m-Score: 75/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $201,595.55[m
+[31m-5M Volume: $3,204.84[m
+[31m-5M Buys: 29[m
+[31m-5M Sells: 11[m
+[31m-Buy Pressure: 72.50%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:19:18 UTC][m
+[31m-Symbol: GOMO[m
+[31m-Name: Gomo App[m
+[31m-Token ID: 9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump[m
+[31m-Pair ID: 5a7QurJLARt146JajJYPe5nh6vLyFpN2QrHUSLqbsCZy[m
+[31m-Pair URL: https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy[m
+[31m-Price: $0.00060870[m
+[31m-Score: 74/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $69,922.55[m
+[31m-5M Volume: $4,760.53[m
+[31m-5M Buys: 33[m
+[31m-5M Sells: 10[m
+[31m-Buy Pressure: 76.74%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:19:28 UTC][m
+[31m-Symbol: DAFTPUNK51[m
+[31m-Name: Daft Punk: Area 51 Edition[m
+[31m-Token ID: J17koXnKcqLJCB4nU8doAE8PURo8ynVAFinQ49n8pump[m
+[31m-Pair ID: FoZh64Dv9SFTk6Xoz4GMqx3JEXF21Fpdv8VZLv9y5VZT[m
+[31m-Pair URL: https://dexscreener.com/solana/fozh64dv9sftk6xoz4gmqx3jexf21fpdv8vzlv9y5vzt[m
+[31m-Price: $0.00013880[m
+[31m-Score: 100/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $32,562.11[m
+[31m-5M Volume: $236,639.60[m
+[31m-5M Buys: 944[m
+[31m-5M Sells: 611[m
+[31m-Buy Pressure: 60.71%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:19:32 UTC][m
+[31m-Symbol: ore[m
+[31m-Name: ore[m
+[31m-Token ID: 76fvXLL5hPsr6CQUs6PrXTY7VgdyY5tPidjPrpaepump[m
+[31m-Pair ID: 7LKLcSiDQw9zEpM6hXekDwWqxEkw4jUcGcGVR28s86AR[m
+[31m-Pair URL: https://dexscreener.com/solana/7lklcsidqw9zepm6hxekdwwqxekw4jucgcgvr28s86ar[m
+[31m-Price: $0.00027540[m
+[31m-Score: 98/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $50,447.79[m
+[31m-5M Volume: $68,436.07[m
+[31m-5M Buys: 413[m
+[31m-5M Sells: 335[m
+[31m-Buy Pressure: 55.21%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:19:36 UTC][m
+[31m-Symbol: COINPUTER[m
+[31m-Name: Coinputer[m
+[31m-Token ID: GSRkwgt5uioDBUm59nHVb67FS9aQMGAfrmnGZqeVpump[m
+[31m-Pair ID: 6cHBrkEtu8ndQUZu7nsS1qFSuvKnu9ohT8qgnzxXnuQP[m
+[31m-Pair URL: https://dexscreener.com/solana/6chbrketu8ndquzu7nss1qfsuvknu9oht8qgnzxxnuqp[m
+[31m-Price: $0.00039030[m
+[31m-Score: 84/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $57,538.92[m
+[31m-5M Volume: $22,751.92[m
+[31m-5M Buys: 239[m
+[31m-5M Sells: 173[m
+[31m-Buy Pressure: 58.01%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:19:36 UTC][m
+[31m-Symbol: HOOKMIND[m
+[31m-Name: HookMind[m
+[31m-Token ID: 4aWiDn94fH8yuJD6PyQ13tzjRswzG9qX7oVbbPDiZsFR[m
+[31m-Pair ID: HdYjT9LtaQUywfZ5oFaewkSgGDxZcWzmmkVV996sfVQB[m
+[31m-Pair URL: https://dexscreener.com/solana/hdyjt9ltaquywfz5ofaewksggdxzcwzmmkvv996sfvqb[m
+[31m-Price: $0.00006987[m
+[31m-Score: 72/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $23,031.43[m
+[31m-5M Volume: $87,023.39[m
+[31m-5M Buys: 940[m
+[31m-5M Sells: 768[m
+[31m-Buy Pressure: 55.04%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:19:37 UTC][m
+[31m-Symbol: SH[m
+[31m-Name: Super Human[m
+[31m-Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump[m
+[31m-Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ[m
+[31m-Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz[m
+[31m-Price: $0.00016940[m
+[31m-Score: 85/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $37,337.49[m
+[31m-5M Volume: $38,115.84[m
+[31m-5M Buys: 995[m
+[31m-5M Sells: 100[m
+[31m-Buy Pressure: 90.87%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:19:41 UTC][m
+[31m-Symbol: GOMO[m
+[31m-Name: Gomo App[m
+[31m-Token ID: 9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump[m
+[31m-Pair ID: 5a7QurJLARt146JajJYPe5nh6vLyFpN2QrHUSLqbsCZy[m
+[31m-Pair URL: https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy[m
+[31m-Price: $0.00057240[m
+[31m-Score: 76/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $67,746.67[m
+[31m-5M Volume: $6,175.99[m
+[31m-5M Buys: 31[m
+[31m-5M Sells: 9[m
+[31m-Buy Pressure: 77.50%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:19:47 UTC][m
+[31m-Symbol: AGENTCAT[m
+[31m-Name: Agent Cat[m
+[31m-Token ID: CZJfrAmMs5Cz4H22PWzfqTJu5FkP7Q2Vvx1oPVL9pump[m
+[31m-Pair ID: HyLTPacbYR4V8yQw5bbWwAETZkjcsRw9xzCbayMnU45o[m
+[31m-Pair URL: https://dexscreener.com/solana/hyltpacbyr4v8yqw5bbwwaetzkjcsrw9xzcbaymnu45o[m
+[31m-Price: $0.022110[m
+[31m-Score: 73/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $470,363.56[m
+[31m-5M Volume: $14,052.80[m
+[31m-5M Buys: 725[m
+[31m-5M Sells: 20[m
+[31m-Buy Pressure: 97.32%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:19:50 UTC][m
+[31m-Symbol: DAFTPUNK51[m
+[31m-Name: Daft Punk: Area 51 Edition[m
+[31m-Token ID: J17koXnKcqLJCB4nU8doAE8PURo8ynVAFinQ49n8pump[m
+[31m-Pair ID: FoZh64Dv9SFTk6Xoz4GMqx3JEXF21Fpdv8VZLv9y5VZT[m
+[31m-Pair URL: https://dexscreener.com/solana/fozh64dv9sftk6xoz4gmqx3jexf21fpdv8vzlv9y5vzt[m
+[31m-Price: $0.00010760[m
+[31m-Score: 100/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $28,452.79[m
+[31m-5M Volume: $252,121.32[m
+[31m-5M Buys: 1032[m
+[31m-5M Sells: 663[m
+[31m-Buy Pressure: 60.88%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:19:55 UTC][m
+[31m-Symbol: ore[m
+[31m-Name: ore[m
+[31m-Token ID: 76fvXLL5hPsr6CQUs6PrXTY7VgdyY5tPidjPrpaepump[m
+[31m-Pair ID: 7LKLcSiDQw9zEpM6hXekDwWqxEkw4jUcGcGVR28s86AR[m
+[31m-Pair URL: https://dexscreener.com/solana/7lklcsidqw9zepm6hxekdwwqxekw4jucgcgvr28s86ar[m
+[31m-Price: $0.00027540[m
+[31m-Score: 87/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $50,447.79[m
+[31m-5M Volume: $68,436.07[m
+[31m-5M Buys: 413[m
+[31m-5M Sells: 335[m
+[31m-Buy Pressure: 55.21%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:19:58 UTC][m
+[31m-Symbol: COINPUTER[m
+[31m-Name: Coinputer[m
+[31m-Token ID: GSRkwgt5uioDBUm59nHVb67FS9aQMGAfrmnGZqeVpump[m
+[31m-Pair ID: 6cHBrkEtu8ndQUZu7nsS1qFSuvKnu9ohT8qgnzxXnuQP[m
+[31m-Pair URL: https://dexscreener.com/solana/6chbrketu8ndquzu7nss1qfsuvknu9oht8qgnzxxnuqp[m
+[31m-Price: $0.00039660[m
+[31m-Score: 89/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $58,021.94[m
+[31m-5M Volume: $25,136.47[m
+[31m-5M Buys: 269[m
+[31m-5M Sells: 188[m
+[31m-Buy Pressure: 58.86%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:20:01 UTC][m
+[31m-Symbol: SH[m
+[31m-Name: Super Human[m
+[31m-Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump[m
+[31m-Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ[m
+[31m-Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz[m
+[31m-Price: $0.00016900[m
+[31m-Score: 85/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $37,305.59[m
+[31m-5M Volume: $40,764.73[m
+[31m-5M Buys: 910[m
+[31m-5M Sells: 102[m
+[31m-Buy Pressure: 89.92%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:20:02 UTC][m
+[31m-Symbol: Stompy[m
+[31m-Name: Stompy[m
+[31m-Token ID: 9KAPRaT35wY9FF1NYhfKyLtt9sq3CgGtB6ChrMgVSTNK[m
+[31m-Pair ID: 9iZxBRz4qMXKDJ3y5ZWwKemxc2CJqvLMQ2PM8QXT5Gh1[m
+[31m-Pair URL: https://dexscreener.com/solana/9izxbrz4qmxkdj3y5zwwkemxc2cjqvlmq2pm8qxt5gh1[m
+[31m-Price: $0.00010910[m
+[31m-Score: 73/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $32,793.64[m
+[31m-5M Volume: $1,230.73[m
+[31m-5M Buys: 8[m
+[31m-5M Sells: 8[m
+[31m-Buy Pressure: 50.00%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:20:15 UTC][m
+[31m-Symbol: AGENTCAT[m
+[31m-Name: Agent Cat[m
+[31m-Token ID: CZJfrAmMs5Cz4H22PWzfqTJu5FkP7Q2Vvx1oPVL9pump[m
+[31m-Pair ID: HyLTPacbYR4V8yQw5bbWwAETZkjcsRw9xzCbayMnU45o[m
+[31m-Pair URL: https://dexscreener.com/solana/hyltpacbyr4v8yqw5bbwwaetzkjcsrw9xzcbaymnu45o[m
+[31m-Price: $0.022220[m
+[31m-Score: 77/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $471,594.23[m
+[31m-5M Volume: $15,686.60[m
+[31m-5M Buys: 800[m
+[31m-5M Sells: 23[m
+[31m-Buy Pressure: 97.21%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:20:18 UTC][m
+[31m-Symbol: DAFTPUNK51[m
+[31m-Name: Daft Punk: Area 51 Edition[m
+[31m-Token ID: J17koXnKcqLJCB4nU8doAE8PURo8ynVAFinQ49n8pump[m
+[31m-Pair ID: FoZh64Dv9SFTk6Xoz4GMqx3JEXF21Fpdv8VZLv9y5VZT[m
+[31m-Pair URL: https://dexscreener.com/solana/fozh64dv9sftk6xoz4gmqx3jexf21fpdv8vzlv9y5vzt[m
+[31m-Price: $0.00012530[m
+[31m-Score: 100/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $30,936.98[m
+[31m-5M Volume: $285,673.12[m
+[31m-5M Buys: 1131[m
+[31m-5M Sells: 734[m
+[31m-Buy Pressure: 60.64%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:20:23 UTC][m
+[31m-Symbol: ore[m
+[31m-Name: ore[m
+[31m-Token ID: 76fvXLL5hPsr6CQUs6PrXTY7VgdyY5tPidjPrpaepump[m
+[31m-Pair ID: 7LKLcSiDQw9zEpM6hXekDwWqxEkw4jUcGcGVR28s86AR[m
+[31m-Pair URL: https://dexscreener.com/solana/7lklcsidqw9zepm6hxekdwwqxekw4jucgcgvr28s86ar[m
+[31m-Price: $0.00024580[m
+[31m-Score: 97/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $47,557.07[m
+[31m-5M Volume: $71,222.51[m
+[31m-5M Buys: 437[m
+[31m-5M Sells: 350[m
+[31m-Buy Pressure: 55.53%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:20:27 UTC][m
+[31m-Symbol: COINPUTER[m
+[31m-Name: Coinputer[m
+[31m-Token ID: GSRkwgt5uioDBUm59nHVb67FS9aQMGAfrmnGZqeVpump[m
+[31m-Pair ID: 6cHBrkEtu8ndQUZu7nsS1qFSuvKnu9ohT8qgnzxXnuQP[m
+[31m-Pair URL: https://dexscreener.com/solana/6chbrketu8ndquzu7nss1qfsuvknu9oht8qgnzxxnuqp[m
+[31m-Price: $0.00038250[m
+[31m-Score: 73/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $56,946.73[m
+[31m-5M Volume: $21,236.06[m
+[31m-5M Buys: 236[m
+[31m-5M Sells: 166[m
+[31m-Buy Pressure: 58.71%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:20:29 UTC][m
+[31m-Symbol: SH[m
+[31m-Name: Super Human[m
+[31m-Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump[m
+[31m-Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ[m
+[31m-Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz[m
+[31m-Price: $0.00017070[m
+[31m-Score: 91/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $37,520.89[m
+[31m-5M Volume: $44,258.61[m
+[31m-5M Buys: 998[m
+[31m-5M Sells: 114[m
+[31m-Buy Pressure: 89.75%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:20:30 UTC][m
+[31m-Symbol: Stompy[m
+[31m-Name: Stompy[m
+[31m-Token ID: 9KAPRaT35wY9FF1NYhfKyLtt9sq3CgGtB6ChrMgVSTNK[m
+[31m-Pair ID: 9iZxBRz4qMXKDJ3y5ZWwKemxc2CJqvLMQ2PM8QXT5Gh1[m
+[31m-Pair URL: https://dexscreener.com/solana/9izxbrz4qmxkdj3y5zwwkemxc2cjqvlmq2pm8qxt5gh1[m
+[31m-Price: $0.00010950[m
+[31m-Score: 73/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $32,861.93[m
+[31m-5M Volume: $1,278.97[m
+[31m-5M Buys: 10[m
+[31m-5M Sells: 9[m
+[31m-Buy Pressure: 52.63%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:20:34 UTC][m
+[31m-Symbol: GOMO[m
+[31m-Name: Gomo App[m
+[31m-Token ID: 9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump[m
+[31m-Pair ID: 5a7QurJLARt146JajJYPe5nh6vLyFpN2QrHUSLqbsCZy[m
+[31m-Pair URL: https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy[m
+[31m-Price: $0.00057870[m
+[31m-Score: 77/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $68,133.23[m
+[31m-5M Volume: $6,324.06[m
+[31m-5M Buys: 34[m
+[31m-5M Sells: 10[m
+[31m-Buy Pressure: 77.27%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:20:43 UTC][m
+[31m-Symbol: DAFTPUNK51[m
+[31m-Name: Daft Punk: Area 51 Edition[m
+[31m-Token ID: J17koXnKcqLJCB4nU8doAE8PURo8ynVAFinQ49n8pump[m
+[31m-Pair ID: FoZh64Dv9SFTk6Xoz4GMqx3JEXF21Fpdv8VZLv9y5VZT[m
+[31m-Pair URL: https://dexscreener.com/solana/fozh64dv9sftk6xoz4gmqx3jexf21fpdv8vzlv9y5vzt[m
+[31m-Price: $0.00013070[m
+[31m-Score: 99/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $31,725.82[m
+[31m-5M Volume: $321,339.90[m
+[31m-5M Buys: 1211[m
+[31m-5M Sells: 828[m
+[31m-Buy Pressure: 59.39%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:20:45 UTC][m
+[31m-Symbol: RESCUE[m
+[31m-Name: Rescuemon[m
+[31m-Token ID: Djpjj1L5dg6ryh4cHAJfy7P8pvQtjefZfSriz7pCpump[m
+[31m-Pair ID: HFcWNsyVnk2tDrXPVDhRASYijXnSbbjo3nMMAdTNisri[m
+[31m-Pair URL: https://dexscreener.com/solana/hfcwnsyvnk2tdrxpvdhrasyijxnsbbjo3nmmadtnisri[m
+[31m-Price: $0.00006342[m
+[31m-Score: 75/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $20,359.90[m
+[31m-5M Volume: $6,662.24[m
+[31m-5M Buys: 93[m
+[31m-5M Sells: 34[m
+[31m-Buy Pressure: 73.23%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:20:48 UTC][m
+[31m-Symbol: ore[m
+[31m-Name: ore[m
+[31m-Token ID: 76fvXLL5hPsr6CQUs6PrXTY7VgdyY5tPidjPrpaepump[m
+[31m-Pair ID: 7LKLcSiDQw9zEpM6hXekDwWqxEkw4jUcGcGVR28s86AR[m
+[31m-Pair URL: https://dexscreener.com/solana/7lklcsidqw9zepm6hxekdwwqxekw4jucgcgvr28s86ar[m
+[31m-Price: $0.00023000[m
+[31m-Score: 82/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $45,944.46[m
+[31m-5M Volume: $43,274.97[m
+[31m-5M Buys: 323[m
+[31m-5M Sells: 249[m
+[31m-Buy Pressure: 56.47%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:20:52 UTC][m
+[31m-Symbol: COINPUTER[m
+[31m-Name: Coinputer[m
+[31m-Token ID: GSRkwgt5uioDBUm59nHVb67FS9aQMGAfrmnGZqeVpump[m
+[31m-Pair ID: 6cHBrkEtu8ndQUZu7nsS1qFSuvKnu9ohT8qgnzxXnuQP[m
+[31m-Pair URL: https://dexscreener.com/solana/6chbrketu8ndquzu7nss1qfsuvknu9oht8qgnzxxnuqp[m
+[31m-Price: $0.00038250[m
+[31m-Score: 73/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $56,946.73[m
+[31m-5M Volume: $21,236.06[m
+[31m-5M Buys: 236[m
+[31m-5M Sells: 166[m
+[31m-Buy Pressure: 58.71%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:20:53 UTC][m
+[31m-Symbol: SH[m
+[31m-Name: Super Human[m
+[31m-Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump[m
+[31m-Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ[m
+[31m-Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz[m
+[31m-Price: $0.00019470[m
+[31m-Score: 91/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $40,219.49[m
+[31m-5M Volume: $42,756.99[m
+[31m-5M Buys: 922[m
+[31m-5M Sells: 106[m
+[31m-Buy Pressure: 89.69%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:21:00 UTC][m
+[31m-Symbol: GOMO[m
+[31m-Name: Gomo App[m
+[31m-Token ID: 9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump[m
+[31m-Pair ID: 5a7QurJLARt146JajJYPe5nh6vLyFpN2QrHUSLqbsCZy[m
+[31m-Pair URL: https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy[m
+[31m-Price: $0.00057270[m
+[31m-Score: 72/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $67,774.54[m
+[31m-5M Volume: $5,034.67[m
+[31m-5M Buys: 27[m
+[31m-5M Sells: 8[m
+[31m-Buy Pressure: 77.14%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:21:09 UTC][m
+[31m-Symbol: ASI[m
+[31m-Name: Artificial Super Inu[m
+[31m-Token ID: GgPEigvRUuWRf256egenFe3KrQSH8u7ba2C9TdLFpump[m
+[31m-Pair ID: CqQ9jJyyh24Ej4hP952wNw1u7ND3QkvRi4YCZxeQGMn7[m
+[31m-Pair URL: https://dexscreener.com/solana/cqq9jjyyh24ej4hp952wnw1u7nd3qkvri4yczxeqgmn7[m
+[31m-Price: $0.00005766[m
+[31m-Score: 70/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $20,093.56[m
+[31m-5M Volume: $1,964.50[m
+[31m-5M Buys: 26[m
+[31m-5M Sells: 16[m
+[31m-Buy Pressure: 61.90%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:21:09 UTC][m
+[31m-Symbol: DAFTPUNK51[m
+[31m-Name: Daft Punk: Area 51 Edition[m
+[31m-Token ID: J17koXnKcqLJCB4nU8doAE8PURo8ynVAFinQ49n8pump[m
+[31m-Pair ID: FoZh64Dv9SFTk6Xoz4GMqx3JEXF21Fpdv8VZLv9y5VZT[m
+[31m-Pair URL: https://dexscreener.com/solana/fozh64dv9sftk6xoz4gmqx3jexf21fpdv8vzlv9y5vzt[m
+[31m-Price: $0.00013070[m
+[31m-Score: 94/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $31,725.82[m
+[31m-5M Volume: $321,339.90[m
+[31m-5M Buys: 1211[m
+[31m-5M Sells: 828[m
+[31m-Buy Pressure: 59.39%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:21:10 UTC][m
+[31m-Symbol: RESCUE[m
+[31m-Name: Rescuemon[m
+[31m-Token ID: Djpjj1L5dg6ryh4cHAJfy7P8pvQtjefZfSriz7pCpump[m
+[31m-Pair ID: HFcWNsyVnk2tDrXPVDhRASYijXnSbbjo3nMMAdTNisri[m
+[31m-Pair URL: https://dexscreener.com/solana/hfcwnsyvnk2tdrxpvdhrasyijxnsbbjo3nmmadtnisri[m
+[31m-Price: $0.00005342[m
+[31m-Score: 74/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $18,537.14[m
+[31m-5M Volume: $12,850.39[m
+[31m-5M Buys: 133[m
+[31m-5M Sells: 80[m
+[31m-Buy Pressure: 62.44%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:21:14 UTC][m
+[31m-Symbol: ore[m
+[31m-Name: ore[m
+[31m-Token ID: 76fvXLL5hPsr6CQUs6PrXTY7VgdyY5tPidjPrpaepump[m
+[31m-Pair ID: 7LKLcSiDQw9zEpM6hXekDwWqxEkw4jUcGcGVR28s86AR[m
+[31m-Pair URL: https://dexscreener.com/solana/7lklcsidqw9zepm6hxekdwwqxekw4jucgcgvr28s86ar[m
+[31m-Price: $0.00021160[m
+[31m-Score: 80/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $43,995.75[m
+[31m-5M Volume: $46,272.05[m
+[31m-5M Buys: 351[m
+[31m-5M Sells: 265[m
+[31m-Buy Pressure: 56.98%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:21:18 UTC][m
+[31m-Symbol: COINPUTER[m
+[31m-Name: Coinputer[m
+[31m-Token ID: GSRkwgt5uioDBUm59nHVb67FS9aQMGAfrmnGZqeVpump[m
+[31m-Pair ID: 6cHBrkEtu8ndQUZu7nsS1qFSuvKnu9ohT8qgnzxXnuQP[m
+[31m-Pair URL: https://dexscreener.com/solana/6chbrketu8ndquzu7nss1qfsuvknu9oht8qgnzxxnuqp[m
+[31m-Price: $0.00040620[m
+[31m-Score: 100/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $58,757.27[m
+[31m-5M Volume: $24,649.45[m
+[31m-5M Buys: 277[m
+[31m-5M Sells: 181[m
+[31m-Buy Pressure: 60.48%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:21:19 UTC][m
+[31m-Symbol: BATONROGUE[m
+[31m-Name: Baton Rogue[m
+[31m-Token ID: 8nKp4JkesNtDgu3PiSjdTdNSrtBt8YCHhW8BU14wpump[m
+[31m-Pair ID: CGFDdPEpn1SfTJXDnRYb1BWS6aTAuWXBd4gCf1LddVt6[m
+[31m-Pair URL: https://dexscreener.com/solana/cgfddpepn1sftjxdnryb1bws6atauwxbd4gcf1lddvt6[m
+[31m-Price: $0.00072790[m
+[31m-Score: 76/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $86,729.88[m
+[31m-5M Volume: $11,060.30[m
+[31m-5M Buys: 456[m
+[31m-5M Sells: 227[m
+[31m-Buy Pressure: 66.76%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:21:21 UTC][m
+[31m-Symbol: SH[m
+[31m-Name: Super Human[m
+[31m-Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump[m
+[31m-Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ[m
+[31m-Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz[m
+[31m-Price: $0.00020580[m
+[31m-Score: 100/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $41,413.35[m
+[31m-5M Volume: $38,007.60[m
+[31m-5M Buys: 839[m
+[31m-5M Sells: 88[m
+[31m-Buy Pressure: 90.51%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:21:27 UTC][m
+[31m-Symbol: GOMO[m
+[31m-Name: Gomo App[m
+[31m-Token ID: 9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump[m
+[31m-Pair ID: 5a7QurJLARt146JajJYPe5nh6vLyFpN2QrHUSLqbsCZy[m
+[31m-Pair URL: https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy[m
+[31m-Price: $0.00058360[m
+[31m-Score: 82/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $68,431.76[m
+[31m-5M Volume: $5,410.78[m
+[31m-5M Buys: 31[m
+[31m-5M Sells: 8[m
+[31m-Buy Pressure: 79.49%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:21:37 UTC][m
+[31m-Symbol: DAFTPUNK51[m
+[31m-Name: Daft Punk: Area 51 Edition[m
+[31m-Token ID: J17koXnKcqLJCB4nU8doAE8PURo8ynVAFinQ49n8pump[m
+[31m-Pair ID: FoZh64Dv9SFTk6Xoz4GMqx3JEXF21Fpdv8VZLv9y5VZT[m
+[31m-Pair URL: https://dexscreener.com/solana/fozh64dv9sftk6xoz4gmqx3jexf21fpdv8vzlv9y5vzt[m
+[31m-Price: $0.00012090[m
+[31m-Score: 99/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $30,500.82[m
+[31m-5M Volume: $361,325.24[m
+[31m-5M Buys: 1352[m
+[31m-5M Sells: 957[m
+[31m-Buy Pressure: 58.55%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:21:41 UTC][m
+[31m-Symbol: ore[m
+[31m-Name: ore[m
+[31m-Token ID: 76fvXLL5hPsr6CQUs6PrXTY7VgdyY5tPidjPrpaepump[m
+[31m-Pair ID: 7LKLcSiDQw9zEpM6hXekDwWqxEkw4jUcGcGVR28s86AR[m
+[31m-Pair URL: https://dexscreener.com/solana/7lklcsidqw9zepm6hxekdwwqxekw4jucgcgvr28s86ar[m
+[31m-Price: $0.00023250[m
+[31m-Score: 74/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $46,218.46[m
+[31m-5M Volume: $37,705.64[m
+[31m-5M Buys: 319[m
+[31m-5M Sells: 245[m
+[31m-Buy Pressure: 56.56%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:21:47 UTC][m
+[31m-Symbol: SH[m
+[31m-Name: Super Human[m
+[31m-Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump[m
+[31m-Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ[m
+[31m-Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz[m
+[31m-Price: $0.00019010[m
+[31m-Score: 100/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $39,734.54[m
+[31m-5M Volume: $41,919.74[m
+[31m-5M Buys: 929[m
+[31m-5M Sells: 96[m
+[31m-Buy Pressure: 90.63%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:21:50 UTC][m
+[31m-Symbol: SWAP[m
+[31m-Name: Swaply[m
+[31m-Token ID: GYFLuEAZMDdpUsTmyGdHstuXQC3JB9ZqtZbfktpppump[m
+[31m-Pair ID: AgcjmdfxxoCJjnW5ZHQmJCoDqacEpeEQvbLpqpuBKne5[m
+[31m-Pair URL: https://dexscreener.com/solana/agcjmdfxxocjjnw5zhqmjcodqacepeeqvblpqpubkne5[m
+[31m-Price: $0.00042870[m
+[31m-Score: 73/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $62,521.70[m
+[31m-5M Volume: $3,180.23[m
+[31m-5M Buys: 45[m
+[31m-5M Sells: 24[m
+[31m-Buy Pressure: 65.22%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:21:54 UTC][m
+[31m-Symbol: GOMO[m
+[31m-Name: Gomo App[m
+[31m-Token ID: 9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump[m
+[31m-Pair ID: 5a7QurJLARt146JajJYPe5nh6vLyFpN2QrHUSLqbsCZy[m
+[31m-Pair URL: https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy[m
+[31m-Price: $0.00057370[m
+[31m-Score: 72/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $67,834.53[m
+[31m-5M Volume: $5,002.07[m
+[31m-5M Buys: 23[m
+[31m-5M Sells: 8[m
+[31m-Buy Pressure: 74.19%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:22:04 UTC][m
+[31m-Symbol: DAFTPUNK51[m
+[31m-Name: Daft Punk: Area 51 Edition[m
+[31m-Token ID: J17koXnKcqLJCB4nU8doAE8PURo8ynVAFinQ49n8pump[m
+[31m-Pair ID: FoZh64Dv9SFTk6Xoz4GMqx3JEXF21Fpdv8VZLv9y5VZT[m
+[31m-Pair URL: https://dexscreener.com/solana/fozh64dv9sftk6xoz4gmqx3jexf21fpdv8vzlv9y5vzt[m
+[31m-Price: $0.00012730[m
+[31m-Score: 86/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $31,416.74[m
+[31m-5M Volume: $305,915.86[m
+[31m-5M Buys: 1131[m
+[31m-5M Sells: 898[m
+[31m-Buy Pressure: 55.74%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:22:09 UTC][m
+[31m-Symbol: ore[m
+[31m-Name: ore[m
+[31m-Token ID: 76fvXLL5hPsr6CQUs6PrXTY7VgdyY5tPidjPrpaepump[m
+[31m-Pair ID: 7LKLcSiDQw9zEpM6hXekDwWqxEkw4jUcGcGVR28s86AR[m
+[31m-Pair URL: https://dexscreener.com/solana/7lklcsidqw9zepm6hxekdwwqxekw4jucgcgvr28s86ar[m
+[31m-Price: $0.00025100[m
+[31m-Score: 96/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $48,113.46[m
+[31m-5M Volume: $39,914.84[m
+[31m-5M Buys: 352[m
+[31m-5M Sells: 262[m
+[31m-Buy Pressure: 57.33%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:22:15 UTC][m
+[31m-Symbol: SH[m
+[31m-Name: Super Human[m
+[31m-Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump[m
+[31m-Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ[m
+[31m-Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz[m
+[31m-Price: $0.00019590[m
+[31m-Score: 100/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $40,367.66[m
+[31m-5M Volume: $44,528.77[m
+[31m-5M Buys: 1028[m
+[31m-5M Sells: 101[m
+[31m-Buy Pressure: 91.05%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:22:22 UTC][m
+[31m-Symbol: GOMO[m
+[31m-Name: Gomo App[m
+[31m-Token ID: 9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump[m
+[31m-Pair ID: 5a7QurJLARt146JajJYPe5nh6vLyFpN2QrHUSLqbsCZy[m
+[31m-Pair URL: https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy[m
+[31m-Price: $0.00057050[m
+[31m-Score: 76/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $67,644.26[m
+[31m-5M Volume: $5,165.70[m
+[31m-5M Buys: 26[m
+[31m-5M Sells: 9[m
+[31m-Buy Pressure: 74.29%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:22:28 UTC][m
+[31m-Symbol: AGENTCAT[m
+[31m-Name: Agent Cat[m
+[31m-Token ID: CZJfrAmMs5Cz4H22PWzfqTJu5FkP7Q2Vvx1oPVL9pump[m
+[31m-Pair ID: HyLTPacbYR4V8yQw5bbWwAETZkjcsRw9xzCbayMnU45o[m
+[31m-Pair URL: https://dexscreener.com/solana/hyltpacbyr4v8yqw5bbwwaetzkjcsrw9xzcbaymnu45o[m
+[31m-Price: $0.022110[m
+[31m-Score: 78/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $470,387.60[m
+[31m-5M Volume: $15,554.35[m
+[31m-5M Buys: 793[m
+[31m-5M Sells: 29[m
+[31m-Buy Pressure: 96.47%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:22:31 UTC][m
+[31m-Symbol: DAFTPUNK51[m
+[31m-Name: Daft Punk: Area 51 Edition[m
+[31m-Token ID: J17koXnKcqLJCB4nU8doAE8PURo8ynVAFinQ49n8pump[m
+[31m-Pair ID: FoZh64Dv9SFTk6Xoz4GMqx3JEXF21Fpdv8VZLv9y5VZT[m
+[31m-Pair URL: https://dexscreener.com/solana/fozh64dv9sftk6xoz4gmqx3jexf21fpdv8vzlv9y5vzt[m
+[31m-Price: $0.00012300[m
+[31m-Score: 84/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $30,940.38[m
+[31m-5M Volume: $350,962.62[m
+[31m-5M Buys: 1261[m
+[31m-5M Sells: 1030[m
+[31m-Buy Pressure: 55.04%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:22:36 UTC][m
+[31m-Symbol: ore[m
+[31m-Name: ore[m
+[31m-Token ID: 76fvXLL5hPsr6CQUs6PrXTY7VgdyY5tPidjPrpaepump[m
+[31m-Pair ID: 7LKLcSiDQw9zEpM6hXekDwWqxEkw4jUcGcGVR28s86AR[m
+[31m-Pair URL: https://dexscreener.com/solana/7lklcsidqw9zepm6hxekdwwqxekw4jucgcgvr28s86ar[m
+[31m-Price: $0.00025250[m
+[31m-Score: 87/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $48,277.29[m
+[31m-5M Volume: $34,003.75[m
+[31m-5M Buys: 308[m
+[31m-5M Sells: 221[m
+[31m-Buy Pressure: 58.22%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:22:41 UTC][m
+[31m-Symbol: SH[m
+[31m-Name: Super Human[m
+[31m-Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump[m
+[31m-Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ[m
+[31m-Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz[m
+[31m-Price: $0.00019590[m
+[31m-Score: 100/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $40,367.66[m
+[31m-5M Volume: $44,528.77[m
+[31m-5M Buys: 1028[m
+[31m-5M Sells: 101[m
+[31m-Buy Pressure: 91.05%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:22:45 UTC][m
+[31m-Symbol: SOLBORN[m
+[31m-Name: Solborn[m
+[31m-Token ID: 26ZixeXtGBQe3DBrN4448oZaY5rnhwPrZNhAjZPopump[m
+[31m-Pair ID: GWgcLfRFFTcUB8vtr6pGycWDGvjM4PD81uU1Xfj3saTA[m
+[31m-Pair URL: https://dexscreener.com/solana/gwgclfrfftcub8vtr6pgycwdgvjm4pd81uu1xfj3sata[m
+[31m-Price: $0.00007062[m
+[31m-Score: 74/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $22,343.77[m
+[31m-5M Volume: $34,011.18[m
+[31m-5M Buys: 298[m
+[31m-5M Sells: 246[m
+[31m-Buy Pressure: 54.78%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:22:51 UTC][m
+[31m-Symbol: AGENTCAT[m
+[31m-Name: Agent Cat[m
+[31m-Token ID: CZJfrAmMs5Cz4H22PWzfqTJu5FkP7Q2Vvx1oPVL9pump[m
+[31m-Pair ID: HyLTPacbYR4V8yQw5bbWwAETZkjcsRw9xzCbayMnU45o[m
+[31m-Pair URL: https://dexscreener.com/solana/hyltpacbyr4v8yqw5bbwwaetzkjcsrw9xzcbaymnu45o[m
+[31m-Price: $0.022200[m
+[31m-Score: 73/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $471,372.89[m
+[31m-5M Volume: $13,267.91[m
+[31m-5M Buys: 713[m
+[31m-5M Sells: 25[m
+[31m-Buy Pressure: 96.61%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:22:54 UTC][m
+[31m-Symbol: DAFTPUNK51[m
+[31m-Name: Daft Punk: Area 51 Edition[m
+[31m-Token ID: J17koXnKcqLJCB4nU8doAE8PURo8ynVAFinQ49n8pump[m
+[31m-Pair ID: FoZh64Dv9SFTk6Xoz4GMqx3JEXF21Fpdv8VZLv9y5VZT[m
+[31m-Pair URL: https://dexscreener.com/solana/fozh64dv9sftk6xoz4gmqx3jexf21fpdv8vzlv9y5vzt[m
+[31m-Price: $0.00010760[m
+[31m-Score: 95/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $28,870.71[m
+[31m-5M Volume: $296,346.02[m
+[31m-5M Buys: 1029[m
+[31m-5M Sells: 874[m
+[31m-Buy Pressure: 54.07%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:22:56 UTC][m
+[31m-Symbol: RESCUE[m
+[31m-Name: Rescuemon[m
+[31m-Token ID: Djpjj1L5dg6ryh4cHAJfy7P8pvQtjefZfSriz7pCpump[m
+[31m-Pair ID: HFcWNsyVnk2tDrXPVDhRASYijXnSbbjo3nMMAdTNisri[m
+[31m-Pair URL: https://dexscreener.com/solana/hfcwnsyvnk2tdrxpvdhrasyijxnsbbjo3nmmadtnisri[m
+[31m-Price: $0.00005590[m
+[31m-Score: 87/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $19,020.14[m
+[31m-5M Volume: $17,670.11[m
+[31m-5M Buys: 227[m
+[31m-5M Sells: 149[m
+[31m-Buy Pressure: 60.37%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:22:59 UTC][m
+[31m-Symbol: ore[m
+[31m-Name: ore[m
+[31m-Token ID: 76fvXLL5hPsr6CQUs6PrXTY7VgdyY5tPidjPrpaepump[m
+[31m-Pair ID: 7LKLcSiDQw9zEpM6hXekDwWqxEkw4jUcGcGVR28s86AR[m
+[31m-Pair URL: https://dexscreener.com/solana/7lklcsidqw9zepm6hxekdwwqxekw4jucgcgvr28s86ar[m
+[31m-Price: $0.00023820[m
+[31m-Score: 73/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $46,844.26[m
+[31m-5M Volume: $40,005.71[m
+[31m-5M Buys: 340[m
+[31m-5M Sells: 257[m
+[31m-Buy Pressure: 56.95%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:23:04 UTC][m
+[31m-Symbol: BATONROGUE[m
+[31m-Name: Baton Rogue[m
+[31m-Token ID: 8nKp4JkesNtDgu3PiSjdTdNSrtBt8YCHhW8BU14wpump[m
+[31m-Pair ID: CGFDdPEpn1SfTJXDnRYb1BWS6aTAuWXBd4gCf1LddVt6[m
+[31m-Pair URL: https://dexscreener.com/solana/cgfddpepn1sftjxdnryb1bws6atauwxbd4gcf1lddvt6[m
+[31m-Price: $0.00072110[m
+[31m-Score: 77/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $86,328.13[m
+[31m-5M Volume: $12,276.86[m
+[31m-5M Buys: 437[m
+[31m-5M Sells: 230[m
+[31m-Buy Pressure: 65.52%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:23:05 UTC][m
+[31m-Symbol: SH[m
+[31m-Name: Super Human[m
+[31m-Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump[m
+[31m-Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ[m
+[31m-Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz[m
+[31m-Price: $0.00021580[m
+[31m-Score: 95/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $42,481.70[m
+[31m-5M Volume: $42,061.92[m
+[31m-5M Buys: 925[m
+[31m-5M Sells: 100[m
+[31m-Buy Pressure: 90.24%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:23:07 UTC][m
+[31m-Symbol: SP[m
+[31m-Name: Super Pepe[m
+[31m-Token ID: 5nkEwLHNagMERJWWuiaFsuRukLvauWkoVTRxZ5TNP4eL[m
+[31m-Pair ID: GFoqbauawKqFgMDu6xHbeqDLFPq46ped4LuY8p6GbpY5[m
+[31m-Pair URL: https://dexscreener.com/solana/gfoqbauawkqfgmdu6xhbeqdlfpq46ped4luy8p6gbpy5[m
+[31m-Price: $0.00006958[m
+[31m-Score: 71/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $22,292.10[m
+[31m-5M Volume: $24.48[m
+[31m-5M Buys: 1[m
+[31m-5M Sells: 0[m
+[31m-Buy Pressure: 100.00%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:23:10 UTC][m
+[31m-Symbol: SOLBORN[m
+[31m-Name: Solborn[m
+[31m-Token ID: 26ZixeXtGBQe3DBrN4448oZaY5rnhwPrZNhAjZPopump[m
+[31m-Pair ID: GWgcLfRFFTcUB8vtr6pGycWDGvjM4PD81uU1Xfj3saTA[m
+[31m-Pair URL: https://dexscreener.com/solana/gwgclfrfftcub8vtr6pgycwdgvjm4pd81uu1xfj3sata[m
+[31m-Price: $0.00007062[m
+[31m-Score: 74/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $22,343.77[m
+[31m-5M Volume: $34,011.18[m
+[31m-5M Buys: 298[m
+[31m-5M Sells: 246[m
+[31m-Buy Pressure: 54.78%[m
+[31m-[m
+[31m-================================================================================[m
+[31m-[2026-10-05 15:23:18 UTC][m
+[31m-Symbol: AGENTCAT[m
+[31m-Name: Agent Cat[m
+[31m-Token ID: CZJfrAmMs5Cz4H22PWzfqTJu5FkP7Q2Vvx1oPVL9pump[m
+[31m-Pair ID: HyLTPacbYR4V8yQw5bbWwAETZkjcsRw9xzCbayMnU45o[m
+[31m-Pair URL: https://dexscreener.com/solana/hyltpacbyr4v8yqw5bbwwaetzkjcsrw9xzcbaymnu45o[m
+[31m-Price: $0.022570[m
+[31m-Score: 82/100[m
+[31m-Reason: WATCH / QUALITY CANDIDATE[m
+[31m-Liquidity: $475,276.06[m
+[31m-5M Volume: $16,129.49[m
