@@ -1,0 +1,179 @@
+ALVIN MEME GOD V6.1 TARGET LOG
+========================================
+
+
+================================================================================
+[2026-10-05 15:02:06 UTC]
+Symbol: COINPUTER
+Name: Coinputer
+Token ID: GSRkwgt5uioDBUm59nHVb67FS9aQMGAfrmnGZqeVpump
+Pair ID: 6cHBrkEtu8ndQUZu7nsS1qFSuvKnu9ohT8qgnzxXnuQP
+Pair URL: https://dexscreener.com/solana/6chbrketu8ndquzu7nss1qfsuvknu9oht8qgnzxxnuqp
+Price: $0.00034410
+Score: 77/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $53,673.89
+5M Volume: $23,574.89
+5M Buys: 272
+5M Sells: 177
+Buy Pressure: 60.58%
+
+================================================================================
+[2026-10-05 15:05:06 UTC]
+Symbol: COINPUTER
+Name: Coinputer
+Token ID: GSRkwgt5uioDBUm59nHVb67FS9aQMGAfrmnGZqeVpump
+Pair ID: 6cHBrkEtu8ndQUZu7nsS1qFSuvKnu9ohT8qgnzxXnuQP
+Pair URL: https://dexscreener.com/solana/6chbrketu8ndquzu7nss1qfsuvknu9oht8qgnzxxnuqp
+Price: $0.00035000
+Score: 73/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $54,202.09
+5M Volume: $25,184.34
+5M Buys: 254
+5M Sells: 197
+Buy Pressure: 56.32%
+
+================================================================================
+[2026-10-05 15:05:09 UTC]
+Symbol: XSALE
+Name: XSALE
+Token ID: 6ZKcpDYU7pEY7GwpUTZhExyGwGSYG5CsHVAHVX3wpump
+Pair ID: BJX7FJPw8Lgwf4ED3NQX7V6ugH9bGcLt5CkyfrkCVfxV
+Pair URL: https://dexscreener.com/solana/bjx7fjpw8lgwf4ed3nqx7v6ugh9bgclt5ckyfrkcvfxv
+Price: $0.00005663
+Score: 76/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $19,807.90
+5M Volume: $26,289.05
+5M Buys: 372
+5M Sells: 238
+Buy Pressure: 60.98%
+
+================================================================================
+[2026-10-05 15:05:10 UTC]
+Symbol: ore
+Name: ore
+Token ID: 76fvXLL5hPsr6CQUs6PrXTY7VgdyY5tPidjPrpaepump
+Pair ID: 7LKLcSiDQw9zEpM6hXekDwWqxEkw4jUcGcGVR28s86AR
+Pair URL: https://dexscreener.com/solana/7lklcsidqw9zepm6hxekdwwqxekw4jucgcgvr28s86ar
+Price: $0.00021140
+Score: 79/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $42,937.12
+5M Volume: $61,578.51
+5M Buys: 618
+5M Sells: 423
+Buy Pressure: 59.37%
+
+================================================================================
+[2026-10-05 15:05:26 UTC]
+Symbol: SH
+Name: Super Human
+Token ID: HVEyhCnbmSLWYmxmYC9gc2tvUDmWSm1ayeai4LVTpump
+Pair ID: AvCmvF5M2nxrJ2aXiKRpuTc8e3QQkhvTq1ertu4uwZHZ
+Pair URL: https://dexscreener.com/solana/avcmvf5m2nxrj2axikrputc8e3qqkhvtq1ertu4uwzhz
+Price: $0.00025680
+Score: 98/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $46,132.55
+5M Volume: $34,392.92
+5M Buys: 213
+5M Sells: 51
+Buy Pressure: 80.68%
+
+================================================================================
+[2026-10-05 15:05:28 UTC]
+Symbol: GOMO
+Name: Gomo App
+Token ID: 9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump
+Pair ID: 5a7QurJLARt146JajJYPe5nh6vLyFpN2QrHUSLqbsCZy
+Pair URL: https://dexscreener.com/solana/5a7qurjlart146jajjype5nh6vlyfpn2qrhuslqbsczy
+Price: $0.00060020
+Score: 81/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $69,399.14
+5M Volume: $10,514.68
+5M Buys: 51
+5M Sells: 23
+Buy Pressure: 68.92%
+
+================================================================================
+[2026-10-05 15:05:36 UTC]
+Symbol: COINPUTER
+Name: Coinputer
+Token ID: GSRkwgt5uioDBUm59nHVb67FS9aQMGAfrmnGZqeVpump
+Pair ID: 6cHBrkEtu8ndQUZu7nsS1qFSuvKnu9ohT8qgnzxXnuQP
+Pair URL: https://dexscreener.com/solana/6chbrketu8ndquzu7nss1qfsuvknu9oht8qgnzxxnuqp
+Price: $0.00035290
+Score: 84/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $54,432.43
+5M Volume: $21,294.80
+5M Buys: 228
+5M Sells: 169
+Buy Pressure: 57.43%
+
+================================================================================
+[2026-10-05 15:05:37 UTC]
+Symbol: XSALE
+Name: XSALE
+Token ID: 6ZKcpDYU7pEY7GwpUTZhExyGwGSYG5CsHVAHVX3wpump
+Pair ID: BJX7FJPw8Lgwf4ED3NQX7V6ugH9bGcLt5CkyfrkCVfxV
+Pair URL: https://dexscreener.com/solana/bjx7fjpw8lgwf4ed3nqx7v6ugh9bgclt5ckyfrkcvfxv
+Price: $0.00005284
+Score: 76/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $19,069.62
+5M Volume: $26,144.05
+5M Buys: 366
+5M Sells: 235
+Buy Pressure: 60.90%
+
+================================================================================
+[2026-10-05 15:05:38 UTC]
+Symbol: ore
+Name: ore
+Token ID: 76fvXLL5hPsr6CQUs6PrXTY7VgdyY5tPidjPrpaepump
+Pair ID: 7LKLcSiDQw9zEpM6hXekDwWqxEkw4jUcGcGVR28s86AR
+Pair URL: https://dexscreener.com/solana/7lklcsidqw9zepm6hxekdwwqxekw4jucgcgvr28s86ar
+Price: $0.00021110
+Score: 86/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $42,922.94
+5M Volume: $48,582.70
+5M Buys: 493
+5M Sells: 329
+Buy Pressure: 59.98%
+
+================================================================================
+[2026-10-05 15:05:38 UTC]
+Symbol: AGENTCAT
+Name: Agent Cat
+Token ID: CZJfrAmMs5Cz4H22PWzfqTJu5FkP7Q2Vvx1oPVL9pump
+Pair ID: HyLTPacbYR4V8yQw5bbWwAETZkjcsRw9xzCbayMnU45o
+Pair URL: https://dexscreener.com/solana/hyltpacbyr4v8yqw5bbwwaetzkjcsrw9xzcbaymnu45o
+Price: $0.022650
+Score: 77/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $475,654.75
+5M Volume: $24,985.06
+5M Buys: 680
+5M Sells: 40
+Buy Pressure: 94.44%
+
+================================================================================
+[2026-10-05 15:05:46 UTC]
+Symbol: BATONROGUE
+Name: Baton Rogue
+Token ID: 8nKp4JkesNtDgu3PiSjdTdNSrtBt8YCHhW8BU14wpump
+Pair ID: CGFDdPEpn1SfTJXDnRYb1BWS6aTAuWXBd4gCf1LddVt6
+Pair URL: https://dexscreener.com/solana/cgfddpepn1sftjxdnryb1bws6atauwxbd4gcf1lddvt6
+Price: $0.00071030
+Score: 72/100
+Reason: WATCH / QUALITY CANDIDATE
+Liquidity: $85,512.59
+5M Volume: $10,559.28
+5M Buys: 461
+5M Sells: 229
+Buy Pressure: 66.81%

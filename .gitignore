@@ -1,0 +1,10 @@
+.env
+*.key
+*.pem
+*.pub
+authorized_keys
+known_hosts
+credentials.json
+secrets.json
+__pycache__/
+*.pyc
