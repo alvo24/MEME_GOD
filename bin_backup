@@ -1,0 +1,29 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+if [ ! -d ".git" ]; then
+    echo "❌ This is not a Git project."
+    echo "➡️ cd into your project folder first."
+    exit 1
+fi
+
+echo "📦 Adding changes..."
+git add .
+
+if git diff --cached --quiet; then
+    echo "ℹ️ No new changes to commit."
+    exit 0
+fi
+
+echo "📝 Creating commit..."
+git commit -m "Backup $(date '+%Y-%m-%d %H:%M:%S')"
+
+echo "☁️ Pushing to GitHub..."
+git push origin main
+
+if [ $? -eq 0 ]; then
+    echo "✅ BACKUP COMPLETE!"
+    echo "☁️ GitHub is up to date."
+else
+    echo "❌ Push failed."
+    exit 1
+fi
