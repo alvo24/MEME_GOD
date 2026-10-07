@@ -1,1459 +1,3137 @@
 #!/usr/bin/env python3
 
 """
-============================================================
-        ALVIN MEME GOD V1.1
-   HUMANIZED SOLANA MEME PAPER-TRADING ENGINE
-============================================================
+===============================================================
+                 ALVIN MEME GOD V3.0
+                  BRAINIAC ENGINE
+===============================================================
 
-PUBLIC MARKET DATA + PAPER TRADING ONLY
+PAPER-TRADING / RESEARCH ENGINE ONLY
 
-Features:
-- Solana token discovery through DexScreener
-- Multi-factor humanized scoring
-- Momentum analysis
-- Volume analysis
-- Buy-pressure analysis
-- Liquidity analysis
-- Anti-chasing
-- Risk assessment
-- WATCH / WAIT / PAPER ENTER decisions
-- Simulated positions
-- Trailing protection
-- Runner alerts
-- Persistent state
-- Trade logging
-- Colourful Termux dashboard
+Architecture:
 
-NO REAL TRADES
-NO WALLET
-NO PRIVATE KEYS
-============================================================
+DISCOVERY
+    ↓
+MEME BRAIN
+    ↓
+MARKET BRAIN
+    ↓
+VOLUME BRAIN
+    ↓
+MOMENTUM BRAIN
+    ↓
+BUYER BRAIN
+    ↓
+AGE BRAIN
+    ↓
+RISK BRAIN
+    ↓
+SKEPTIC BRAIN
+    ↓
+TIMING BRAIN
+    ↓
+MEMORY BRAIN
+    ↓
+JUDGMENT ENGINE
+    ↓
+PAPER ENTER / WATCH / WAIT / AVOID
+
+No wallet.
+No private keys.
+No real-money transactions.
+===============================================================
 """
 
 import os
-import time
 import json
-import requests
+import time
 from datetime import datetime, timezone
 
+import requests
 
-# ============================================================
+
+# ===============================================================
 # CONFIG
-# ============================================================
+# ===============================================================
 
-BOT_NAME = "ALVIN MEME GOD V1.1"
+BOT_NAME = "ALVIN MEME GOD"
+VERSION = "V3.0 BRAINIAC"
 
-BASE_URL = "https://api.dexscreener.com"
 CHAIN = "solana"
 
-SCAN_INTERVAL = 10
-REQUEST_TIMEOUT = 15
+PROFILE_URL = "https://api.dexscreener.com/token-profiles/latest/v1"
+PAIR_URL = "https://api.dexscreener.com/token-pairs/v1/solana/{}"
 
-STARTING_BALANCE = 100.0
-PAPER_TRADE_SIZE = 10.0
+SCAN_INTERVAL = 10
+
+STARTING_BALANCE = 100.00
+PAPER_TRADE_SIZE = 10.00
 MAX_OPEN_TRADES = 5
 
 MIN_LIQUIDITY = 25_000
 MIN_VOLUME_5M = 5_000
 MIN_VOLUME_1H = 15_000
 
-MIN_QUALITY_SCORE = 55
-MIN_ENTRY_SCORE = 72
+MIN_MEME_SCORE = 45
+MIN_QUALITY = 55
+
+PAPER_ENTRY_SCORE = 72
 
 MAX_HOLD_HOURS = 6
 
+# How many historical observations to retain per token.
+MAX_TOKEN_MEMORY = 30
 
-# ============================================================
+
+# ===============================================================
 # FILES
-# ============================================================
+# ===============================================================
 
-STATE_FILE = "MEME_GOD_V1_STATE.json"
-TRADE_LOG = "MEME_GOD_V1_TRADES.txt"
+STATE_FILE = "MEME_GOD_V30_STATE.json"
+SEARCH_LOG = "MEME_GOD_V30_SEARCH_HISTORY.txt"
+TRADE_LOG = "MEME_GOD_V30_TRADES.txt"
+BRAIN_LOG = "MEME_GOD_V30_BRAIN_JOURNAL.txt"
 
 
-# ============================================================
+# ===============================================================
 # COLORS
-# ============================================================
+# ===============================================================
 
 RESET = "\033[0m"
 BOLD = "\033[1m"
-DIM = "\033[2m"
 
-BLACK = "\033[30m"
-RED = "\033[31m"
-GREEN = "\033[32m"
-YELLOW = "\033[33m"
-BLUE = "\033[34m"
-MAGENTA = "\033[35m"
-CYAN = "\033[36m"
-WHITE = "\033[37m"
-
-BRIGHT_RED = "\033[91m"
-BRIGHT_GREEN = "\033[92m"
-BRIGHT_YELLOW = "\033[93m"
-BRIGHT_BLUE = "\033[94m"
-BRIGHT_MAGENTA = "\033[95m"
-BRIGHT_CYAN = "\033[96m"
-BRIGHT_WHITE = "\033[97m"
+RED = "\033[91m"
+GREEN = "\033[92m"
+YELLOW = "\033[93m"
+BLUE = "\033[94m"
+MAGENTA = "\033[95m"
+CYAN = "\033[96m"
+WHITE = "\033[97m"
 
 
-def C(color, text):
-    return f"{color}{text}{RESET}"
+# ===============================================================
+# HTTP
+# ===============================================================
+
+session = requests.Session()
+
+session.headers.update({
+    "User-Agent": "ALVIN-MEME-GOD/3.0",
+    "Accept": "application/json",
+})
 
 
-def score_color(score):
-    if score >= 80:
-        return BRIGHT_GREEN
-    if score >= 70:
-        return GREEN
-    if score >= 60:
-        return YELLOW
-    return RED
-
-
-def risk_color(risk):
-    if risk >= 70:
-        return BRIGHT_RED
-    if risk >= 45:
-        return YELLOW
-    return BRIGHT_GREEN
-
-
-def pct_color(value):
-    if value > 0:
-        return BRIGHT_GREEN
-    if value < 0:
-        return BRIGHT_RED
-    return WHITE
-
-
-def decision_color(decision):
-    if decision == "PAPER ENTER":
-        return BRIGHT_GREEN
-    if decision == "WATCH":
-        return BRIGHT_YELLOW
-    if decision == "WAIT":
-        return YELLOW
-    if decision == "AVOID":
-        return BRIGHT_RED
-    if decision == "HOLD":
-        return BRIGHT_CYAN
-    if decision == "EXIT":
-        return BRIGHT_RED
-    return WHITE
-
-
-def decision_icon(decision):
-    icons = {
-        "PAPER ENTER": "🚀",
-        "WATCH": "👀",
-        "WAIT": "⏳",
-        "AVOID": "⛔",
-        "HOLD": "💎",
-        "EXIT": "🔴",
-    }
-    return icons.get(decision, "•")
-
-
-# ============================================================
-# GENERAL HELPERS
-# ============================================================
+# ===============================================================
+# HELPERS
+# ===============================================================
 
 def clear_screen():
     os.system("clear")
 
 
-def current_time():
-    return datetime.now(timezone.utc)
-
-
 def timestamp():
-    return current_time().strftime("%Y-%m-%d %H:%M:%S UTC")
+    return datetime.now(timezone.utc).strftime(
+        "%Y-%m-%d %H:%M:%S UTC"
+    )
 
 
-def number(value, default=0.0):
+def safe_float(value, default=0.0):
     try:
+        if value is None:
+            return default
         return float(value)
-    except (TypeError, ValueError):
+    except (ValueError, TypeError):
         return default
 
 
-def safe_div(a, b):
-    if b == 0:
-        return 0.0
-    return a / b
+def safe_int(value, default=0):
+    try:
+        if value is None:
+            return default
+        return int(value)
+    except (ValueError, TypeError):
+        return default
 
 
-def clamp(value, low, high):
+def clamp(value, low=0, high=100):
     return max(low, min(high, value))
 
 
-# ============================================================
-# STATE
-# ============================================================
-
-def default_state():
-    return {
-        "balance": STARTING_BALANCE,
-        "starting_balance": STARTING_BALANCE,
-        "realized_pnl": 0.0,
-        "total_trades": 0,
-        "wins": 0,
-        "losses": 0,
-        "best_trade": 0.0,
-        "worst_trade": 0.0,
-        "open_positions": {},
-        "runner_alerts": [],
-    }
+def money(value):
+    return f"${safe_float(value):,.2f}"
 
 
-def load_state():
-    if not os.path.exists(STATE_FILE):
-        return default_state()
+def percent(value):
+    value = safe_float(value)
+
+    if value >= 0:
+        return f"+{value:.2f}%"
+
+    return f"{value:.2f}%"
+
+
+def append_log(filename, text):
 
     try:
-        with open(STATE_FILE, "r", encoding="utf-8") as file:
-            saved = json.load(file)
 
-        state = default_state()
-        state.update(saved)
-        return state
+        with open(
+            filename,
+            "a",
+            encoding="utf-8"
+        ) as f:
 
-    except Exception:
-        return default_state()
+            f.write(text + "\n")
 
-
-def save_state(state):
-    temp_file = STATE_FILE + ".tmp"
-
-    try:
-        with open(temp_file, "w", encoding="utf-8") as file:
-            json.dump(state, file, indent=2)
-
-        os.replace(temp_file, STATE_FILE)
-
-    except Exception as error:
-        print(C(BRIGHT_RED, f"State error: {error}"))
-
-
-def log_trade(message):
-    try:
-        with open(TRADE_LOG, "a", encoding="utf-8") as file:
-            file.write(f"[{timestamp()}] {message}\n")
     except Exception:
         pass
 
 
-# ============================================================
-# HTTP SESSION
-# ============================================================
+# ===============================================================
+# STATE
+# ===============================================================
 
-session = requests.Session()
+def default_state():
 
-session.headers.update({
-    "User-Agent": "ALVIN-MEME-GOD-PAPER/1.1"
-})
+    return {
+        "balance": STARTING_BALANCE,
+
+        "open_trades": [],
+
+        "closed_trades": [],
+
+        "token_memory": {},
+
+        "watchlist": {},
+
+        "total_scans": 0,
+
+        "total_entries": 0,
+
+        "total_exits": 0,
+
+        "total_tokens_analyzed": 0,
+    }
 
 
-def api_get(url):
+def load_state():
+
+    if not os.path.exists(STATE_FILE):
+        return default_state()
+
     try:
-        response = session.get(
-            url,
-            timeout=REQUEST_TIMEOUT
+
+        with open(
+            STATE_FILE,
+            "r",
+            encoding="utf-8"
+        ) as f:
+
+            state = json.load(f)
+
+        base = default_state()
+        base.update(state)
+
+        return base
+
+    except Exception as e:
+
+        print(
+            f"{YELLOW}"
+            f"Could not load state: {e}"
+            f"{RESET}"
         )
 
-        if response.status_code != 200:
-            return None
-
-        return response.json()
-
-    except Exception:
-        return None
+        return default_state()
 
 
-# ============================================================
+def save_state(state):
+
+    try:
+
+        with open(
+            STATE_FILE,
+            "w",
+            encoding="utf-8"
+        ) as f:
+
+            json.dump(
+                state,
+                f,
+                indent=2
+            )
+
+    except Exception as e:
+
+        print(
+            f"{RED}"
+            f"State save error: {e}"
+            f"{RESET}"
+        )
+
+
+# ===============================================================
 # DISCOVERY
-# ============================================================
+# ===============================================================
 
 def discover_tokens():
 
-    url = f"{BASE_URL}/token-profiles/latest/v1"
+    try:
 
-    data = api_get(url)
+        response = session.get(
+            PROFILE_URL,
+            timeout=15
+        )
 
-    if not isinstance(data, list):
+        response.raise_for_status()
+
+        data = response.json()
+
+        if not isinstance(data, list):
+            return []
+
+        results = []
+
+        seen = set()
+
+        for item in data:
+
+            if not isinstance(item, dict):
+                continue
+
+            chain = str(
+                item.get("chainId") or ""
+            ).lower()
+
+            if chain != CHAIN:
+                continue
+
+            address = (
+                item.get("tokenAddress")
+                or item.get("address")
+            )
+
+            if not address:
+                continue
+
+            address = str(address)
+
+            if address in seen:
+                continue
+
+            seen.add(address)
+
+            results.append({
+                "address": address,
+                "profile": item
+            })
+
+        return results
+
+    except Exception as e:
+
+        print(
+            f"{RED}"
+            f"Discovery error: {e}"
+            f"{RESET}"
+        )
+
         return []
 
-    results = []
 
-    for item in data:
-
-        if item.get("chainId") != CHAIN:
-            continue
-
-        address = item.get("tokenAddress")
-
-        if not address:
-            continue
-
-        results.append(address)
-
-    return results
-
-
-# ============================================================
-# TOKEN PAIRS
-# ============================================================
+# ===============================================================
+# PAIR LOOKUP
+# ===============================================================
 
 def get_pairs(address):
 
-    url = f"{BASE_URL}/token-pairs/v1/{CHAIN}/{address}"
+    try:
 
-    data = api_get(url)
+        response = session.get(
+            PAIR_URL.format(address),
+            timeout=15
+        )
 
-    if not isinstance(data, list):
+        response.raise_for_status()
+
+        data = response.json()
+
+        if isinstance(data, list):
+            return data
+
         return []
 
-    return data
+    except Exception:
+
+        return []
 
 
-# ============================================================
-# NORMALIZE MARKET DATA
-# ============================================================
+def best_pair(pairs):
 
-def normalize_pair(pair):
+    valid = []
 
-    txns = pair.get("txns") or {}
-    volume = pair.get("volume") or {}
-    liquidity = pair.get("liquidity") or {}
-    price_change = pair.get("priceChange") or {}
+    for pair in pairs:
 
-    m5 = txns.get("m5") or {}
-    h1 = txns.get("h1") or {}
+        if not isinstance(pair, dict):
+            continue
 
-    buys_5m = number(m5.get("buys"))
-    sells_5m = number(m5.get("sells"))
+        if str(
+            pair.get("chainId") or ""
+        ).lower() != CHAIN:
+            continue
 
-    total_trades = buys_5m + sells_5m
+        valid.append(pair)
 
-    buy_pressure = safe_div(
-        buys_5m,
-        total_trades
+    if not valid:
+        return None
+
+    def liquidity(pair):
+
+        liq = pair.get("liquidity") or {}
+
+        return safe_float(
+            liq.get("usd")
+        )
+
+    return max(
+        valid,
+        key=liquidity
     )
 
-    base_token = pair.get("baseToken") or {}
+
+# ===============================================================
+# MARKET DATA
+# ===============================================================
+
+def prepare_pair(pair, profile=None):
+
+    liquidity = pair.get("liquidity") or {}
+
+    volume = pair.get("volume") or {}
+
+    txns = pair.get("txns") or {}
+
+    changes = pair.get("priceChange") or {}
+
+    m5 = txns.get("m5") or {}
+
+    buys = safe_int(
+        m5.get("buys")
+    )
+
+    sells = safe_int(
+        m5.get("sells")
+    )
+
+    total = buys + sells
+
+    if total > 0:
+
+        buy_pressure = (
+            buys / total
+        ) * 100
+
+    else:
+
+        buy_pressure = 50
+
+    pair["_profile"] = profile or {}
+
+    pair["_price"] = safe_float(
+        pair.get("priceUsd")
+    )
+
+    pair["_liquidity"] = safe_float(
+        liquidity.get("usd")
+    )
+
+    pair["_volume_5m"] = safe_float(
+        volume.get("m5")
+    )
+
+    pair["_volume_1h"] = safe_float(
+        volume.get("h1")
+    )
+
+    pair["_volume_24h"] = safe_float(
+        volume.get("h24")
+    )
+
+    pair["_buys"] = buys
+    pair["_sells"] = sells
+
+    pair["_buy_pressure"] = buy_pressure
+
+    pair["_change_5m"] = safe_float(
+        changes.get("m5")
+    )
+
+    pair["_change_1h"] = safe_float(
+        changes.get("h1")
+    )
+
+    pair["_change_6h"] = safe_float(
+        changes.get("h6")
+    )
+
+    pair["_change_24h"] = safe_float(
+        changes.get("h24")
+    )
+
+    return pair
+
+
+# ===============================================================
+# MEME BRAIN
+# ===============================================================
+
+MEME_KEYWORDS = {
+    "meme",
+    "memecoin",
+    "meme coin",
+    "pepe",
+    "wojak",
+    "chad",
+    "degen",
+    "based",
+    "dog",
+    "doge",
+    "shib",
+    "shiba",
+    "inu",
+    "cat",
+    "kitty",
+    "frog",
+    "ape",
+    "monkey",
+    "hamster",
+    "rat",
+    "goat",
+    "pig",
+    "duck",
+    "chicken",
+    "penguin",
+    "fish",
+    "whale",
+    "wolf",
+    "fox",
+    "lion",
+    "tiger",
+    "sigma",
+    "gigachad",
+    "skibidi",
+    "brainrot",
+    "rizz",
+    "gm",
+    "wagmi",
+    "moon",
+    "rocket",
+    "bonk",
+    "floki",
+    "wif",
+}
+
+
+def meme_brain(pair):
+
+    token = pair.get("baseToken") or {}
+
+    name = str(
+        token.get("name") or ""
+    )
+
+    symbol = str(
+        token.get("symbol") or ""
+    )
+
+    profile = pair.get("_profile") or {}
+
+    description = str(
+        profile.get("description") or ""
+    )
+
+    text = (
+        name
+        + " "
+        + symbol
+        + " "
+        + description
+    ).lower()
+
+    matches = []
+
+    for keyword in MEME_KEYWORDS:
+
+        if keyword in text:
+            matches.append(keyword)
+
+    score = 0
+
+    # Identity
+    score += min(
+        len(matches) * 10,
+        55
+    )
+
+    # Market behavior
+    if pair["_volume_5m"] >= 10_000:
+        score += 5
+
+    if pair["_volume_1h"] >= 50_000:
+        score += 5
+
+    if pair["_liquidity"] >= 25_000:
+        score += 5
+
+    if pair["_change_5m"] >= 5:
+        score += 5
+
+    # Social/profile information
+    if profile.get("links"):
+        score += 10
+
+    score = int(
+        clamp(score)
+    )
+
+    if score >= 75:
+
+        classification = "STRONG MEME"
+
+    elif score >= 55:
+
+        classification = "POSSIBLE MEME"
+
+    elif score >= 35:
+
+        classification = "WEAK MEME"
+
+    else:
+
+        classification = "UNKNOWN"
 
     return {
-        "pair_address": pair.get("pairAddress"),
-        "token_address": base_token.get("address"),
-        "symbol": base_token.get("symbol") or "UNKNOWN",
-        "name": base_token.get("name") or "Unknown",
-
-        "price": number(pair.get("priceUsd")),
-
-        "liquidity": number(
-            liquidity.get("usd")
-        ),
-
-        "volume_5m": number(
-            volume.get("m5")
-        ),
-
-        "volume_1h": number(
-            volume.get("h1")
-        ),
-
-        "volume_6h": number(
-            volume.get("h6")
-        ),
-
-        "volume_24h": number(
-            volume.get("h24")
-        ),
-
-        "buys_5m": buys_5m,
-        "sells_5m": sells_5m,
-
-        "buys_1h": number(
-            h1.get("buys")
-        ),
-
-        "sells_1h": number(
-            h1.get("sells")
-        ),
-
-        "buy_pressure": buy_pressure,
-
-        "change_5m": number(
-            price_change.get("m5")
-        ),
-
-        "change_1h": number(
-            price_change.get("h1")
-        ),
-
-        "change_6h": number(
-            price_change.get("h6")
-        ),
-
-        "change_24h": number(
-            price_change.get("h24")
-        ),
-
-        "url": pair.get("url") or "",
+        "score": score,
+        "classification": classification,
+        "matches": matches,
     }
 
 
-# ============================================================
-# MOMENTUM
-# ============================================================
+# ===============================================================
+# MARKET BRAIN
+# ===============================================================
 
-def momentum_score(m):
+def market_brain(pair):
 
-    score = 0.0
+    liquidity = pair["_liquidity"]
 
-    change_5m = m["change_5m"]
-    change_1h = m["change_1h"]
-    change_6h = m["change_6h"]
+    volume_5m = pair["_volume_5m"]
 
-    if 2 <= change_5m <= 8:
+    volume_1h = pair["_volume_1h"]
+
+    volume_24h = pair["_volume_24h"]
+
+    buy_pressure = pair["_buy_pressure"]
+
+    score = 0
+
+    reasons = []
+
+    # Liquidity
+    if liquidity >= 250_000:
+
+        score += 30
+        reasons.append("strong liquidity")
+
+    elif liquidity >= 100_000:
+
+        score += 25
+        reasons.append("good liquidity")
+
+    elif liquidity >= 50_000:
+
+        score += 18
+        reasons.append("acceptable liquidity")
+
+    elif liquidity >= 25_000:
+
+        score += 10
+        reasons.append("minimum liquidity")
+
+    else:
+
+        reasons.append("low liquidity")
+
+    # Volume
+    if volume_5m >= 50_000:
+
         score += 20
 
-    elif 8 < change_5m <= 15:
-        score += 17
+    elif volume_5m >= 20_000:
 
-    elif 15 < change_5m <= 25:
+        score += 16
+
+    elif volume_5m >= 5_000:
+
         score += 10
 
-    elif change_5m > 25:
-        score += 2
+    # Hourly activity
+    if volume_1h >= 250_000:
 
-    elif change_5m > 0:
-        score += 8
-
-    if change_1h > 15:
-        score += 25
-
-    elif change_1h > 8:
         score += 20
 
-    elif change_1h > 3:
-        score += 14
+    elif volume_1h >= 100_000:
 
-    elif change_1h > 0:
+        score += 16
+
+    elif volume_1h >= 50_000:
+
+        score += 12
+
+    elif volume_1h >= 15_000:
+
         score += 8
 
-    if change_6h > 30:
-        score += 20
+    # Daily activity
+    if volume_24h >= 1_000_000:
 
-    elif change_6h > 15:
         score += 15
 
-    elif change_6h > 5:
+    elif volume_24h >= 500_000:
+
+        score += 12
+
+    elif volume_24h >= 100_000:
+
+        score += 8
+
+    # Buyers
+    if buy_pressure >= 65:
+
+        score += 15
+        reasons.append("buyers dominant")
+
+    elif buy_pressure >= 55:
+
         score += 10
+        reasons.append("buyers stronger")
 
-    return clamp(score, 0, 65)
+    elif buy_pressure < 40:
+
+        reasons.append("seller pressure")
+
+    score = int(
+        clamp(score)
+    )
+
+    return score, reasons
 
 
-# ============================================================
-# VOLUME
-# ============================================================
+# ===============================================================
+# VOLUME BRAIN
+# ===============================================================
 
-def volume_score(m):
+def volume_brain(pair):
 
-    score = 0.0
+    volume_5m = pair["_volume_5m"]
 
-    if m["volume_5m"] >= MIN_VOLUME_5M:
-        score += 20
+    volume_1h = pair["_volume_1h"]
 
-    if m["volume_1h"] >= MIN_VOLUME_1H:
-        score += 20
+    if volume_1h <= 0:
 
-    expected_5m = m["volume_1h"] / 12
+        return 50, 1.0, "insufficient history"
 
-    if expected_5m > 0:
+    baseline = volume_1h / 12
 
-        acceleration = safe_div(
-            m["volume_5m"],
-            expected_5m
+    if baseline <= 0:
+
+        return 50, 1.0, "insufficient baseline"
+
+    acceleration = (
+        volume_5m / baseline
+    )
+
+    if acceleration >= 5:
+
+        score = 100
+        label = "EXPLOSIVE"
+
+    elif acceleration >= 3:
+
+        score = 90
+        label = "VERY STRONG"
+
+    elif acceleration >= 2:
+
+        score = 80
+        label = "STRONG"
+
+    elif acceleration >= 1.5:
+
+        score = 70
+        label = "BUILDING"
+
+    elif acceleration >= 1:
+
+        score = 55
+        label = "NORMAL"
+
+    elif acceleration >= 0.75:
+
+        score = 40
+        label = "COOLING"
+
+    else:
+
+        score = 25
+        label = "WEAK"
+
+    return score, acceleration, label
+
+
+# ===============================================================
+# MOMENTUM BRAIN
+# ===============================================================
+
+def momentum_brain(pair):
+
+    c5 = pair["_change_5m"]
+
+    c1 = pair["_change_1h"]
+
+    c6 = pair["_change_6h"]
+
+    volume_score, acceleration, volume_label = (
+        volume_brain(pair)
+    )
+
+    score = 50
+
+    reasons = []
+
+    # 5m
+    if c5 >= 10:
+
+        score += 18
+        reasons.append("strong short-term momentum")
+
+    elif c5 >= 5:
+
+        score += 12
+        reasons.append("positive short-term momentum")
+
+    elif c5 >= 2:
+
+        score += 6
+
+    elif c5 < -5:
+
+        score -= 18
+        reasons.append("short-term weakness")
+
+    elif c5 < 0:
+
+        score -= 5
+
+    # 1h
+    if c1 >= 20:
+
+        score += 15
+        reasons.append("strong hourly trend")
+
+    elif c1 >= 10:
+
+        score += 10
+        reasons.append("positive hourly trend")
+
+    elif c1 < -15:
+
+        score -= 15
+        reasons.append("negative hourly trend")
+
+    # 6h
+    if c6 >= 30:
+
+        score += 8
+
+    elif c6 < -20:
+
+        score -= 8
+
+    # Volume acceleration
+    if acceleration >= 3:
+
+        score += 15
+        reasons.append("volume exploding")
+
+    elif acceleration >= 2:
+
+        score += 10
+        reasons.append("volume accelerating")
+
+    elif acceleration >= 1.5:
+
+        score += 6
+        reasons.append("volume building")
+
+    elif acceleration < 0.75:
+
+        score -= 8
+        reasons.append("volume cooling")
+
+    score = int(
+        clamp(score)
+    )
+
+    return score, reasons
+
+
+# ===============================================================
+# BUYER BRAIN
+# ===============================================================
+
+def buyer_brain(pair, previous):
+
+    current = pair["_buy_pressure"]
+
+    previous_pressure = None
+
+    if previous:
+
+        previous_pressure = safe_float(
+            previous.get("buy_pressure"),
+            50
         )
 
-        if acceleration >= 2.0:
-            score += 20
+    score = current
 
-        elif acceleration >= 1.4:
+    reasons = []
+
+    if current >= 70:
+
+        score = min(
+            100,
+            score + 15
+        )
+
+        reasons.append(
+            "strong buyer control"
+        )
+
+    elif current >= 60:
+
+        score = min(
+            100,
+            score + 10
+        )
+
+        reasons.append(
+            "buyers in control"
+        )
+
+    elif current < 40:
+
+        score -= 15
+
+        reasons.append(
+            "sellers in control"
+        )
+
+    if previous_pressure is not None:
+
+        delta = current - previous_pressure
+
+        if delta >= 10:
+
             score += 15
 
-        elif acceleration >= 1.0:
-            score += 10
+            reasons.append(
+                "buyer pressure accelerating"
+            )
 
-    return clamp(score, 0, 60)
+        elif delta >= 5:
+
+            score += 8
+
+            reasons.append(
+                "buyer pressure improving"
+            )
+
+        elif delta <= -10:
+
+            score -= 15
+
+            reasons.append(
+                "buyer pressure collapsing"
+            )
+
+        elif delta <= -5:
+
+            score -= 8
+
+            reasons.append(
+                "buyer pressure weakening"
+            )
+
+    return int(
+        clamp(score)
+    ), reasons
 
 
-def volume_label(m):
+# ===============================================================
+# AGE BRAIN
+# ===============================================================
 
-    expected = safe_div(
-        m["volume_1h"],
-        12
+def age_brain(pair):
+
+    created = pair.get("pairCreatedAt")
+
+    if not created:
+
+        return 50, "AGE UNKNOWN", 0
+
+    try:
+
+        created_ms = safe_float(
+            created
+        )
+
+        now_ms = (
+            time.time() * 1000
+        )
+
+        age_hours = (
+            now_ms - created_ms
+        ) / 3_600_000
+
+        if age_hours < 0:
+            age_hours = 0
+
+    except Exception:
+
+        return 50, "AGE UNKNOWN", 0
+
+    if age_hours < 0.083:
+
+        return (
+            20,
+            "EXTREMELY NEW",
+            age_hours
+        )
+
+    if age_hours < 0.5:
+
+        return (
+            40,
+            "VERY NEW",
+            age_hours
+        )
+
+    if age_hours < 2:
+
+        return (
+            65,
+            "EARLY",
+            age_hours
+        )
+
+    if age_hours < 12:
+
+        return (
+            80,
+            "ESTABLISHED",
+            age_hours
+        )
+
+    if age_hours < 48:
+
+        return (
+            90,
+            "MATURE",
+            age_hours
+        )
+
+    return (
+        85,
+        "OLD MARKET",
+        age_hours
     )
 
-    if expected <= 0:
-        return "UNKNOWN"
 
-    acceleration = safe_div(
-        m["volume_5m"],
-        expected
-    )
+# ===============================================================
+# RISK BRAIN
+# ===============================================================
 
-    if acceleration >= 2:
-        return "🔥 ACCELERATING"
+def risk_brain(pair):
 
-    if acceleration >= 1.4:
-        return "📈 INCREASING"
+    risk = 20
 
-    if acceleration >= 0.8:
-        return "😐 NORMAL"
+    reasons = []
 
-    return "🔴 LOW"
+    liquidity = pair["_liquidity"]
 
+    c5 = pair["_change_5m"]
 
-# ============================================================
-# BUY PRESSURE
-# ============================================================
+    c1 = pair["_change_1h"]
 
-def pressure_score(m):
+    pressure = pair["_buy_pressure"]
 
-    pressure = m["buy_pressure"]
+    volume_5m = pair["_volume_5m"]
 
-    if pressure >= 0.70:
-        return 30
+    # Liquidity
+    if liquidity < 25_000:
 
-    if pressure >= 0.65:
-        return 25
+        risk += 35
+        reasons.append("very low liquidity")
 
-    if pressure >= 0.60:
-        return 20
+    elif liquidity < 50_000:
 
-    if pressure >= 0.55:
-        return 12
+        risk += 20
+        reasons.append("limited liquidity")
 
-    return 0
+    elif liquidity < 100_000:
 
+        risk += 10
 
-# ============================================================
-# LIQUIDITY
-# ============================================================
+    # Short-term pump
+    if c5 >= 30:
 
-def liquidity_score(m):
-
-    liquidity = m["liquidity"]
-
-    if liquidity >= 100_000:
-        return 25
-
-    if liquidity >= 50_000:
-        return 22
-
-    if liquidity >= 25_000:
-        return 17
-
-    return 0
-
-
-def liquidity_label(m):
-
-    liquidity = m["liquidity"]
-
-    if liquidity >= 100_000:
-        return "💧 VERY HEALTHY"
-
-    if liquidity >= 50_000:
-        return "💧 HEALTHY"
-
-    if liquidity >= 25_000:
-        return "🟡 ACCEPTABLE"
-
-    return "🔴 THIN"
-
-
-# ============================================================
-# CHASE RISK
-# ============================================================
-
-def chase_risk(m):
-
-    change = m["change_5m"]
-
-    if change >= 30:
-        return 90
-
-    if change >= 20:
-        return 70
-
-    if change >= 12:
-        return 45
-
-    if change >= 5:
-        return 20
-
-    return 10
-
-
-# ============================================================
-# GENERAL RISK
-# ============================================================
-
-def risk_score(m):
-
-    risk = 0.0
-
-    if m["liquidity"] < MIN_LIQUIDITY:
         risk += 30
+        reasons.append("extreme 5m pump")
 
-    if m["buy_pressure"] < 0.55:
+    elif c5 >= 20:
+
         risk += 20
+        reasons.append("large 5m pump")
 
-    if m["volume_5m"] < MIN_VOLUME_5M:
-        risk += 15
+    elif c5 >= 12:
 
-    if m["change_5m"] > 25:
-        risk += 20
+        risk += 10
+        reasons.append("extended 5m move")
 
-    if m["change_5m"] < -10:
+    # Hourly extension
+    if c1 >= 100:
+
         risk += 25
+        reasons.append("extreme hourly extension")
 
-    if m["change_1h"] < -15:
-        risk += 20
+    elif c1 >= 60:
 
-    return clamp(risk, 0, 100)
+        risk += 18
+        reasons.append("large hourly extension")
+
+    elif c1 >= 40:
+
+        risk += 10
+        reasons.append("extended hourly move")
+
+    # Sellers
+    if pressure < 35:
+
+        risk += 25
+        reasons.append("heavy selling")
+
+    elif pressure < 45:
+
+        risk += 10
+        reasons.append("weak buyer control")
+
+    # Volume/liquidity stress
+    if liquidity > 0:
+
+        ratio = volume_5m / liquidity
+
+        if ratio > 1:
+
+            risk += 15
+            reasons.append(
+                "extreme volume/liquidity ratio"
+            )
+
+        elif ratio > 0.5:
+
+            risk += 8
+
+    return int(
+        clamp(risk)
+    ), reasons
 
 
-# ============================================================
-# STRUCTURE
-# ============================================================
+# ===============================================================
+# SKEPTIC BRAIN
+# ===============================================================
 
-def structure_label(m):
+def skeptic_brain(
+    pair,
+    meme_score,
+    quality,
+    momentum,
+    buyers,
+    risk,
+    age_score
+):
 
-    short = m["change_5m"]
-    hour = m["change_1h"]
-    six = m["change_6h"]
+    objections = []
 
-    if short > 0 and hour > 0 and six > 0:
-        return "BUILDING"
+    confidence_penalty = 0
 
-    if short > 0 and hour > 0:
-        return "POSITIVE"
+    # Meme uncertainty
+    if meme_score < 55:
 
-    if short > 0 and hour < 0:
-        return "RECOVERY"
+        objections.append(
+            "meme identity is not strongly established"
+        )
 
-    if short < 0 and hour < 0:
-        return "WEAK"
+        confidence_penalty += 8
 
-    return "MIXED"
+    # Liquidity
+    if pair["_liquidity"] < MIN_LIQUIDITY:
+
+        objections.append(
+            "liquidity is below minimum"
+        )
+
+        confidence_penalty += 20
+
+    # Momentum contradiction
+    if momentum >= 70 and pair["_change_5m"] < 0:
+
+        objections.append(
+            "momentum score conflicts with current 5m price"
+        )
+
+        confidence_penalty += 8
+
+    # Buyer contradiction
+    if buyers >= 70 and pair["_buy_pressure"] < 45:
+
+        objections.append(
+            "buyer score conflicts with transaction pressure"
+        )
+
+        confidence_penalty += 10
+
+    # Risk
+    if risk >= 70:
+
+        objections.append(
+            "risk is elevated"
+        )
+
+        confidence_penalty += 15
+
+    # New market
+    if age_score < 40:
+
+        objections.append(
+            "market is extremely young"
+        )
+
+        confidence_penalty += 10
+
+    # Pump
+    if pair["_change_5m"] >= 20:
+
+        objections.append(
+            "possible chase situation"
+        )
+
+        confidence_penalty += 12
+
+    if not objections:
+
+        objections.append(
+            "no major contradiction detected"
+        )
+
+    return objections, confidence_penalty
 
 
-# ============================================================
-# HUMAN ANALYSIS
-# ============================================================
+# ===============================================================
+# MEMORY BRAIN
+# ===============================================================
 
-def analyze(m):
+def get_memory(state, address):
 
-    momentum = momentum_score(m)
-    volume = volume_score(m)
-    pressure = pressure_score(m)
-    liquidity = liquidity_score(m)
-
-    quality = (
-        momentum
-        + volume
-        + pressure
-        + liquidity
-    ) / 1.8
-
-    quality = clamp(
-        quality,
-        0,
-        100
+    return state.get(
+        "token_memory",
+        {}
+    ).get(
+        address,
+        []
     )
 
-    chase = chase_risk(m)
-    risk = risk_score(m)
 
-    entry = (
-        quality * 0.40
-        + momentum * 0.25
-        + pressure * 0.15
-        + liquidity * 0.20
+def previous_observation(state, address):
+
+    history = get_memory(
+        state,
+        address
     )
 
-    entry -= chase * 0.20
-    entry -= risk * 0.15
+    if not history:
+        return None
 
-    entry = clamp(
-        entry,
-        0,
-        100
+    return history[-1]
+
+
+def memory_brain(state, address, current):
+
+    history = get_memory(
+        state,
+        address
     )
 
-    signals = []
-    warnings = []
+    if not history:
 
-    if momentum >= 35:
-        signals.append(
-            "Momentum is positive"
+        return {
+            "status": "FIRST OBSERVATION",
+            "trend": "UNKNOWN",
+            "delta_entry": 0,
+            "delta_momentum": 0,
+            "delta_risk": 0,
+            "delta_volume": 0,
+        }
+
+    previous = history[-1]
+
+    delta_entry = (
+        current["_entry"]
+        - safe_float(
+            previous.get("entry")
+        )
+    )
+
+    delta_momentum = (
+        current["_momentum"]
+        - safe_float(
+            previous.get("momentum")
+        )
+    )
+
+    delta_risk = (
+        current["_risk"]
+        - safe_float(
+            previous.get("risk")
+        )
+    )
+
+    old_volume = safe_float(
+        previous.get("volume_5m")
+    )
+
+    current_volume = current["_volume_5m"]
+
+    if old_volume > 0:
+
+        delta_volume = (
+            current_volume / old_volume
         )
 
-    if volume >= 30:
-        signals.append(
-            "Volume supports the move"
+    else:
+
+        delta_volume = 1
+
+    improving = (
+        delta_entry > 5
+        and delta_risk <= 5
+    )
+
+    deteriorating = (
+        delta_entry < -5
+        or delta_risk >= 10
+    )
+
+    if improving:
+
+        trend = "IMPROVING"
+
+    elif deteriorating:
+
+        trend = "DETERIORATING"
+
+    else:
+
+        trend = "STABLE"
+
+    return {
+        "status": "REMEMBERED",
+        "trend": trend,
+        "delta_entry": delta_entry,
+        "delta_momentum": delta_momentum,
+        "delta_risk": delta_risk,
+        "delta_volume": delta_volume,
+    }
+
+
+def save_observation(
+    state,
+    address,
+    pair
+):
+
+    history = state[
+        "token_memory"
+    ].setdefault(
+        address,
+        []
+    )
+
+    observation = {
+
+        "time": timestamp(),
+
+        "price":
+            pair["_price"],
+
+        "volume_5m":
+            pair["_volume_5m"],
+
+        "buy_pressure":
+            pair["_buy_pressure"],
+
+        "meme":
+            pair["_meme"]["score"],
+
+        "quality":
+            pair["_quality"],
+
+        "momentum":
+            pair["_momentum"],
+
+        "buyers":
+            pair["_buyers"],
+
+        "risk":
+            pair["_risk"],
+
+        "entry":
+            pair["_entry"],
+
+        "confidence":
+            pair["_confidence"],
+
+        "decision":
+            pair["_decision"],
+    }
+
+    history.append(observation)
+
+    if len(history) > MAX_TOKEN_MEMORY:
+
+        del history[
+            :-MAX_TOKEN_MEMORY
+        ]
+
+
+# ===============================================================
+# TIMING BRAIN
+# ===============================================================
+
+def timing_brain(pair, memory):
+
+    score = 50
+
+    reasons = []
+
+    c5 = pair["_change_5m"]
+
+    volume_score = pair["_volume_score"]
+
+    risk = pair["_risk"]
+
+    momentum = pair["_momentum"]
+
+    # Momentum
+    if momentum >= 75:
+
+        score += 15
+
+        reasons.append(
+            "momentum supports timing"
         )
 
-    if pressure >= 20:
-        signals.append(
-            "Buyers are gaining control"
+    elif momentum >= 60:
+
+        score += 8
+
+    elif momentum < 40:
+
+        score -= 12
+
+        reasons.append(
+            "momentum is weak"
         )
 
-    if liquidity >= 17:
-        signals.append(
-            "Liquidity is reasonably healthy"
+    # Volume
+    if volume_score >= 80:
+
+        score += 15
+
+        reasons.append(
+            "volume confirms activity"
         )
 
-    if (
-        m["change_5m"] > 0
-        and m["change_1h"] > 0
-    ):
-        signals.append(
-            "Short and hourly direction agree"
+    elif volume_score >= 65:
+
+        score += 8
+
+    elif volume_score < 40:
+
+        score -= 10
+
+        reasons.append(
+            "volume confirmation weak"
         )
 
-    if chase >= 70:
-        warnings.append(
-            "Price is becoming extended."
+    # Risk
+    if risk < 35:
+
+        score += 10
+
+    elif risk >= 70:
+
+        score -= 20
+
+        reasons.append(
+            "risk hurts timing"
+        )
+
+    # Chasing
+    if c5 >= 25:
+
+        score -= 20
+
+        reasons.append(
+            "too extended"
+        )
+
+    elif c5 >= 15:
+
+        score -= 10
+
+        reasons.append(
+            "some chasing risk"
+        )
+
+    # Memory
+    if memory["trend"] == "IMPROVING":
+
+        score += 12
+
+        reasons.append(
+            "historical state improving"
+        )
+
+    elif memory["trend"] == "DETERIORATING":
+
+        score -= 12
+
+        reasons.append(
+            "historical state deteriorating"
+        )
+
+    return int(
+        clamp(score)
+    ), reasons
+
+
+# ===============================================================
+# FINAL JUDGMENT
+# ===============================================================
+
+def final_judgment(pair):
+
+    meme = pair["_meme"]["score"]
+
+    quality = pair["_quality"]
+
+    momentum = pair["_momentum"]
+
+    buyers = pair["_buyers"]
+
+    risk = pair["_risk"]
+
+    timing = pair["_timing"]
+
+    opportunity = pair["_opportunity"]
+
+    confidence = pair["_confidence"]
+
+    reasons = []
+
+    # -----------------------------------------------------------
+    # Hard filters
+    # -----------------------------------------------------------
+
+    if pair["_liquidity"] < MIN_LIQUIDITY:
+
+        return (
+            "AVOID",
+            [
+                "liquidity below minimum"
+            ]
+        )
+
+    if pair["_volume_5m"] < MIN_VOLUME_5M:
+
+        return (
+            "WAIT",
+            [
+                "5m volume insufficient"
+            ]
+        )
+
+    if pair["_volume_1h"] < MIN_VOLUME_1H:
+
+        return (
+            "WAIT",
+            [
+                "1h volume insufficient"
+            ]
+        )
+
+    if meme < MIN_MEME_SCORE:
+
+        return (
+            "AVOID",
+            [
+                "meme fit below threshold"
+            ]
+        )
+
+    if risk >= 80:
+
+        return (
+            "AVOID",
+            [
+                "risk too high"
+            ]
+        )
+
+    # -----------------------------------------------------------
+    # Human reasoning
+    # -----------------------------------------------------------
+
+    if meme >= 75:
+
+        reasons.append(
+            "strong meme identity"
+        )
+
+    elif meme >= 55:
+
+        reasons.append(
+            "recognizable meme characteristics"
+        )
+
+    if quality >= 75:
+
+        reasons.append(
+            "strong market quality"
+        )
+
+    elif quality >= 55:
+
+        reasons.append(
+            "acceptable market quality"
+        )
+
+    if momentum >= 75:
+
+        reasons.append(
+            "strong momentum"
+        )
+
+    elif momentum >= 60:
+
+        reasons.append(
+            "constructive momentum"
+        )
+
+    if buyers >= 70:
+
+        reasons.append(
+            "buyers showing strong control"
+        )
+
+    elif buyers >= 60:
+
+        reasons.append(
+            "buyers showing control"
+        )
+
+    if timing >= 75:
+
+        reasons.append(
+            "entry timing favorable"
+        )
+
+    elif timing < 50:
+
+        reasons.append(
+            "entry timing weak"
         )
 
     if risk >= 60:
-        warnings.append(
-            "Overall risk is elevated."
+
+        reasons.append(
+            "risk requires caution"
         )
 
-    if m["buy_pressure"] < 0.55:
-        warnings.append(
-            "Selling pressure remains significant."
-        )
+    # -----------------------------------------------------------
+    # Decision
+    # -----------------------------------------------------------
 
-    if risk >= 75:
-        decision = "AVOID"
-
-    elif chase >= 80:
-        decision = "WAIT"
-
-    elif (
-        entry >= MIN_ENTRY_SCORE
-        and quality >= MIN_QUALITY_SCORE
-        and risk < 50
-        and chase < 70
+    if (
+        opportunity >= 78
+        and timing >= 72
+        and confidence >= 70
+        and risk < 55
+        and momentum >= 60
     ):
+
         decision = "PAPER ENTER"
 
-    elif quality >= MIN_QUALITY_SCORE:
+    elif (
+        opportunity >= 65
+        and confidence >= 55
+    ):
+
         decision = "WATCH"
 
-    else:
+    elif timing < 45:
+
         decision = "WAIT"
 
-    if len(signals) >= 5:
-        reason = (
-            "Strong agreement across momentum, "
-            "volume, buyers and liquidity."
-        )
-
-    elif len(signals) >= 3:
-        reason = (
-            "Several positive signals agree, "
-            "but risk still needs monitoring."
-        )
-
-    elif signals:
-        reason = (
-            "There is positive activity, "
-            "but confirmation is limited."
-        )
-
     else:
-        reason = (
-            "Market evidence is currently weak."
+
+        decision = "WAIT"
+
+    return decision, reasons
+
+
+# ===============================================================
+# ANALYSIS ENGINE
+# ===============================================================
+
+def analyze(pair, state):
+
+    token = pair.get("baseToken") or {}
+
+    address = token.get("address")
+
+    previous = previous_observation(
+        state,
+        address
+    )
+
+    # Brains
+    meme = meme_brain(pair)
+
+    quality, quality_reasons = (
+        market_brain(pair)
+    )
+
+    volume_score, acceleration, volume_label = (
+        volume_brain(pair)
+    )
+
+    momentum, momentum_reasons = (
+        momentum_brain(pair)
+    )
+
+    buyers, buyer_reasons = (
+        buyer_brain(
+            pair,
+            previous
         )
+    )
 
-    if warnings:
-        reason += " " + warnings[0]
+    age_score, age_label, age_hours = (
+        age_brain(pair)
+    )
 
-    return {
-        "momentum": momentum,
-        "volume": volume,
-        "pressure": pressure,
-        "liquidity": liquidity,
+    risk, risk_reasons = (
+        risk_brain(pair)
+    )
 
-        "quality": quality,
-        "entry": entry,
-        "risk": risk,
-        "chase": chase,
+    skepticism, penalty = (
+        skeptic_brain(
+            pair,
+            meme["score"],
+            quality,
+            momentum,
+            buyers,
+            risk,
+            age_score
+        )
+    )
 
-        "structure": structure_label(m),
-        "volume_label": volume_label(m),
-        "liquidity_label": liquidity_label(m),
+    # Opportunity
+    opportunity = (
+        meme["score"] * 0.20
+        + quality * 0.20
+        + momentum * 0.25
+        + buyers * 0.15
+        + volume_score * 0.10
+        + age_score * 0.10
+    )
 
-        "signals": signals,
-        "warnings": warnings,
+    opportunity = int(
+        clamp(opportunity)
+    )
 
-        "decision": decision,
-        "reason": reason,
+    # Memory
+    temporary = {
+        "_entry": opportunity,
+        "_momentum": momentum,
+        "_risk": risk,
+        "_volume_5m": pair["_volume_5m"],
     }
 
+    memory = memory_brain(
+        state,
+        address,
+        temporary
+    )
 
-# ============================================================
-# DASHBOARD
-# ============================================================
+    pair["_memory"] = memory
 
-def print_header(state):
+    # Timing
+    pair["_momentum"] = momentum
 
-    clear_screen()
+    pair["_risk"] = risk
 
-    width = 68
+    pair["_volume_score"] = volume_score
 
-    print(
-        C(
-            BRIGHT_CYAN,
-            "╔" + "═" * width + "╗"
+    timing, timing_reasons = (
+        timing_brain(
+            pair,
+            memory
         )
     )
 
-    title_text = " 🧠 ALVIN MEME GOD V1.1"
-
-    print(
-        C(BRIGHT_CYAN, "║")
-        + C(BOLD + BRIGHT_WHITE, title_text)
-        + " " * (width - len(title_text))
-        + C(BRIGHT_CYAN, "║")
+    # Entry score
+    entry = (
+        opportunity * 0.60
+        + timing * 0.40
     )
 
-    subtitle = "     HUMANIZED PAPER TRADING ENGINE"
+    entry = int(
+        clamp(entry)
+    )
+
+    # Confidence
+    confidence = (
+        opportunity * 0.45
+        + timing * 0.25
+        + quality * 0.15
+        + (100 - risk) * 0.15
+        - penalty
+    )
+
+    confidence = int(
+        clamp(confidence)
+    )
+
+    pair["_meme"] = meme
+
+    pair["_quality"] = quality
+
+    pair["_quality_reasons"] = (
+        quality_reasons
+    )
+
+    pair["_volume_score"] = volume_score
+
+    pair["_volume_acceleration"] = (
+        acceleration
+    )
+
+    pair["_volume_label"] = (
+        volume_label
+    )
+
+    pair["_momentum"] = momentum
+
+    pair["_momentum_reasons"] = (
+        momentum_reasons
+    )
+
+    pair["_buyers"] = buyers
+
+    pair["_buyer_reasons"] = (
+        buyer_reasons
+    )
+
+    pair["_age_score"] = age_score
+
+    pair["_age_label"] = age_label
+
+    pair["_age_hours"] = age_hours
+
+    pair["_risk"] = risk
+
+    pair["_risk_reasons"] = (
+        risk_reasons
+    )
+
+    pair["_skepticism"] = skepticism
+
+    pair["_skeptic_penalty"] = penalty
+
+    pair["_opportunity"] = opportunity
+
+    pair["_timing"] = timing
+
+    pair["_timing_reasons"] = (
+        timing_reasons
+    )
+
+    pair["_entry"] = entry
+
+    pair["_confidence"] = confidence
+
+    decision, judgment_reasons = (
+        final_judgment(pair)
+    )
+
+    pair["_decision"] = decision
+
+    pair["_judgment_reasons"] = (
+        judgment_reasons
+    )
+
+    return pair
+
+
+# ===============================================================
+# DISPLAY
+# ===============================================================
+
+def decision_color(decision):
+
+    if decision == "PAPER ENTER":
+        return GREEN
+
+    if decision == "WATCH":
+        return YELLOW
+
+    if decision == "AVOID":
+        return RED
+
+    return CYAN
+
+
+def display_pair(pair, number):
+
+    token = pair.get("baseToken") or {}
+
+    name = token.get("name") or "Unknown"
+
+    symbol = token.get("symbol") or "UNKNOWN"
+
+    address = token.get("address") or "UNKNOWN"
+
+    print()
 
     print(
-        C(BRIGHT_CYAN, "║")
-        + C(BRIGHT_YELLOW, subtitle)
-        + " " * (width - len(subtitle))
-        + C(BRIGHT_CYAN, "║")
+        f"{MAGENTA}{BOLD}"
+        f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+        f"{RESET}"
     )
 
     print(
-        C(
-            BRIGHT_CYAN,
-            "╚" + "═" * width + "╝"
+        f"{WHITE}{BOLD}"
+        f"[{number}] {name} ({symbol})"
+        f"{RESET}"
+    )
+
+    print(
+        f"{CYAN}FULL TOKEN ID:{RESET}"
+    )
+
+    print(address)
+
+    print(
+        f"{CYAN}PAIR:{RESET} "
+        f"{pair.get('pairAddress', 'UNKNOWN')}"
+    )
+
+    print(
+        f"{CYAN}DEX:{RESET} "
+        f"{pair.get('dexId', 'UNKNOWN')}"
+    )
+
+    print(
+        f"{CYAN}PRICE:{RESET} "
+        f"{money(pair['_price'])}"
+    )
+
+    print()
+
+    print(
+        f"{BOLD}{YELLOW}"
+        f"🧬 MEME BRAIN"
+        f"{RESET}"
+    )
+
+    print(
+        f"Meme Fit: "
+        f"{pair['_meme']['score']}/100"
+    )
+
+    print(
+        f"Type: "
+        f"{pair['_meme']['classification']}"
+    )
+
+    if pair["_meme"]["matches"]:
+
+        print(
+            "Signals: "
+            + ", ".join(
+                pair["_meme"]["matches"][:12]
+            )
         )
-    )
 
-    pnl = (
-        state["balance"]
-        - state["starting_balance"]
-    )
-
-    if pnl >= 0:
-        pnl_text = C(
-            BRIGHT_GREEN,
-            f"+${pnl:.2f}"
-        )
     else:
-        pnl_text = C(
-            BRIGHT_RED,
-            f"-${abs(pnl):.2f}"
+
+        print(
+            "Signals: none"
         )
 
     print()
 
     print(
-        f"💰 Balance: "
-        f"{C(BRIGHT_WHITE, '${:.2f}'.format(state['balance']))}"
-        f"   📈 P/L: {pnl_text}"
+        f"{BOLD}{BLUE}"
+        f"📊 MARKET BRAIN"
+        f"{RESET}"
     )
 
     print(
-        f"🟢 Wins: {C(BRIGHT_GREEN, state['wins'])}"
-        f"   🔴 Losses: {C(BRIGHT_RED, state['losses'])}"
-        f"   📊 Trades: {state['total_trades']}"
+        f"Liquidity: "
+        f"{money(pair['_liquidity'])}"
     )
 
     print(
-        f"🚀 Open: "
-        f"{len(state['open_positions'])}/{MAX_OPEN_TRADES}"
+        f"5m Volume: "
+        f"{money(pair['_volume_5m'])}"
     )
 
     print(
-        C(BLUE, "─" * 68)
-    )
-
-
-def print_candidate(m, analysis):
-
-    decision = analysis["decision"]
-
-    print(
-        C(
-            decision_color(decision),
-            f"{decision_icon(decision)} "
-            f"{m['symbol'][:12]:<12}"
-        )
-        + " "
-        + C(
-            score_color(analysis["quality"]),
-            f"Q:{analysis['quality']:5.1f}"
-        )
-        + " "
-        + C(
-            score_color(analysis["entry"]),
-            f"E:{analysis['entry']:5.1f}"
-        )
-        + " "
-        + C(
-            risk_color(analysis["risk"]),
-            f"R:{analysis['risk']:5.1f}"
-        )
+        f"1h Volume: "
+        f"{money(pair['_volume_1h'])}"
     )
 
     print(
-        f"   💵 ${m['price']:.10f}"
-        f"   5m {C(pct_color(m['change_5m']), f'{m['change_5m']:+.1f}%')}"
-        f"   1h {C(pct_color(m['change_1h']), f'{m['change_1h']:+.1f}%')}"
+        f"24h Volume: "
+        f"{money(pair['_volume_24h'])}"
     )
-
-    print(
-        f"   💧 ${m['liquidity']:,.0f}"
-        f"   🟢 Buy {m['buy_pressure'] * 100:.1f}%"
-    )
-
-
-def print_analysis(m, analysis):
 
     print()
 
     print(
-        C(
-            BOLD + BRIGHT_CYAN,
-            "┌─ HUMAN ANALYSIS ───────────────────────────────────────────"
-        )
+        f"{BOLD}{CYAN}"
+        f"📈 MOMENTUM BRAIN"
+        f"{RESET}"
     )
 
     print(
-        f"│ 🪙 {C(BOLD + BRIGHT_WHITE, m['symbol'])}"
-        f" — {m['name'][:35]}"
+        f"5m: "
+        f"{percent(pair['_change_5m'])}"
     )
 
     print(
-        f"│ 📈 Momentum: "
-        f"{C(score_color(analysis['momentum']), f'{analysis['momentum']:.0f}/65')}"
+        f"1h: "
+        f"{percent(pair['_change_1h'])}"
     )
 
     print(
-        f"│ 📊 Volume: "
-        f"{C(BRIGHT_WHITE, analysis['volume_label'])}"
+        f"6h: "
+        f"{percent(pair['_change_6h'])}"
     )
 
     print(
-        f"│ 🟢 Buy pressure: "
-        f"{C(score_color(m['buy_pressure'] * 100), f'{m['buy_pressure'] * 100:.1f}%')}"
+        f"Momentum: "
+        f"{pair['_momentum']}/100"
     )
 
     print(
-        f"│ 🏗️ Structure: "
-        f"{C(BRIGHT_WHITE, analysis['structure'])}"
+        f"Volume Acceleration: "
+        f"{pair['_volume_acceleration']:.2f}x"
     )
 
     print(
-        f"│ 💧 Liquidity: "
-        f"${m['liquidity']:,.0f} "
-        f"{analysis['liquidity_label']}"
+        f"Volume State: "
+        f"{pair['_volume_label']}"
+    )
+
+    print()
+
+    print(
+        f"{BOLD}{GREEN}"
+        f"🟢 BUYER BRAIN"
+        f"{RESET}"
     )
 
     print(
-        f"│ 🏃 Chase risk: "
-        f"{C(risk_color(analysis['chase']), f'{analysis['chase']:.0f}/100')}"
+        f"Buys: {pair['_buys']} | "
+        f"Sells: {pair['_sells']}"
     )
 
     print(
-        f"│ ⚠️ Risk: "
-        f"{C(risk_color(analysis['risk']), f'{analysis['risk']:.0f}/100')}"
+        f"Current Buy Pressure: "
+        f"{pair['_buy_pressure']:.1f}%"
     )
 
     print(
-        f"│ 🎯 Quality: "
-        f"{C(score_color(analysis['quality']), f'{analysis['quality']:.1f}/100')}"
+        f"Buyer Score: "
+        f"{pair['_buyers']}/100"
+    )
+
+    print()
+
+    print(
+        f"{BOLD}{WHITE}"
+        f"🕐 AGE BRAIN"
+        f"{RESET}"
     )
 
     print(
-        f"│ 🚪 Entry: "
-        f"{C(score_color(analysis['entry']), f'{analysis['entry']:.1f}/100')}"
+        f"Market Age: "
+        f"{pair['_age_hours']:.2f} hours"
     )
 
-    print("│")
+    print(
+        f"Age Classification: "
+        f"{pair['_age_label']}"
+    )
 
-    for signal in analysis["signals"]:
+    print()
+
+    print(
+        f"{BOLD}{RED}"
+        f"⚠️ RISK BRAIN"
+        f"{RESET}"
+    )
+
+    print(
+        f"Risk: "
+        f"{pair['_risk']}/100"
+    )
+
+    if pair["_risk_reasons"]:
+
+        for reason in pair["_risk_reasons"]:
+
+            print(
+                f"• {reason}"
+            )
+
+    print()
+
+    print(
+        f"{BOLD}{MAGENTA}"
+        f"🕵️ SKEPTIC BRAIN"
+        f"{RESET}"
+    )
+
+    for objection in pair["_skepticism"]:
+
         print(
-            f"│ {C(BRIGHT_GREEN, '✓')} {signal}"
+            f"• {objection}"
         )
 
-    for warning in analysis["warnings"]:
+    print()
+
+    print(
+        f"{BOLD}{CYAN}"
+        f"🧠 BRAINIAC MEMORY"
+        f"{RESET}"
+    )
+
+    memory = pair["_memory"]
+
+    print(
+        f"Memory: "
+        f"{memory['status']}"
+    )
+
+    print(
+        f"Trend: "
+        f"{memory['trend']}"
+    )
+
+    if memory["status"] == "REMEMBERED":
+
         print(
-            f"│ {C(BRIGHT_YELLOW, '⚠')} {warning}"
+            f"Entry Score Change: "
+            f"{memory['delta_entry']:+.1f}"
         )
 
-    print("│")
-
-    decision = analysis["decision"]
-
-    print(
-        f"│ {C(BOLD + decision_color(decision), decision_icon(decision) + ' ' + decision)}"
-    )
-
-    print(
-        f"│ 💭 {analysis['reason']}"
-    )
-
-    print(
-        C(
-            BRIGHT_CYAN,
-            "└──────────────────────────────────────────────────────────────"
+        print(
+            f"Momentum Change: "
+            f"{memory['delta_momentum']:+.1f}"
         )
+
+        print(
+            f"Risk Change: "
+            f"{memory['delta_risk']:+.1f}"
+        )
+
+        print(
+            f"5m Volume Change: "
+            f"{memory['delta_volume']:.2f}x"
+        )
+
+    print()
+
+    print(
+        f"{BOLD}{YELLOW}"
+        f"🎯 TIMING BRAIN"
+        f"{RESET}"
+    )
+
+    print(
+        f"Opportunity: "
+        f"{pair['_opportunity']}/100"
+    )
+
+    print(
+        f"Entry Timing: "
+        f"{pair['_timing']}/100"
+    )
+
+    print(
+        f"Entry Score: "
+        f"{pair['_entry']}/100"
+    )
+
+    print(
+        f"Confidence: "
+        f"{pair['_confidence']}/100"
+    )
+
+    print()
+
+    print(
+        f"{BOLD}{WHITE}"
+        f"🧠 BRAINIAC THINKING"
+        f"{RESET}"
+    )
+
+    for reason in pair["_judgment_reasons"]:
+
+        print(
+            f"• {reason}"
+        )
+
+    print()
+
+    color = decision_color(
+        pair["_decision"]
+    )
+
+    print(
+        f"{BOLD}{color}"
+        f"FINAL JUDGMENT: "
+        f"{pair['_decision']}"
+        f"{RESET}"
+    )
+
+    print(
+        f"{MAGENTA}{BOLD}"
+        f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+        f"{RESET}"
     )
 
 
-# ============================================================
+# ===============================================================
+# WATCHLIST
+# ===============================================================
+
+def update_watchlist(state, pair):
+
+    token = pair.get("baseToken") or {}
+
+    address = token.get("address")
+
+    if not address:
+        return
+
+    decision = pair["_decision"]
+
+    if decision in (
+        "WATCH",
+        "PAPER ENTER"
+    ):
+
+        state["watchlist"][address] = {
+
+            "name":
+                token.get("name") or "Unknown",
+
+            "symbol":
+                token.get("symbol") or "UNKNOWN",
+
+            "last_seen":
+                timestamp(),
+
+            "decision":
+                decision,
+
+            "meme":
+                pair["_meme"]["score"],
+
+            "opportunity":
+                pair["_opportunity"],
+
+            "timing":
+                pair["_timing"],
+
+            "risk":
+                pair["_risk"],
+
+            "entry":
+                pair["_entry"],
+        }
+
+    elif decision == "AVOID":
+
+        # Remove from active watchlist if it has
+        # clearly deteriorated.
+        state["watchlist"].pop(
+            address,
+            None
+        )
+
+
+# ===============================================================
 # PAPER TRADING
-# ============================================================
+# ===============================================================
 
-def position_pnl(position, price):
+def paper_enter(state, pair):
 
-    entry = position["entry_price"]
+    if len(
+        state["open_trades"]
+    ) >= MAX_OPEN_TRADES:
 
-    if entry <= 0:
-        return 0.0
-
-    return (
-        (price - entry)
-        / entry
-    ) * 100
-
-
-def enter_paper_trade(
-    state,
-    market,
-    analysis
-):
-
-    if len(state["open_positions"]) >= MAX_OPEN_TRADES:
         return False
 
-    address = market["token_address"]
+    if state["balance"] < PAPER_TRADE_SIZE:
+
+        return False
+
+    token = pair.get("baseToken") or {}
+
+    address = token.get("address")
 
     if not address:
         return False
 
-    if address in state["open_positions"]:
+    for trade in state["open_trades"]:
+
+        if trade.get(
+            "token_address"
+        ) == address:
+
+            return False
+
+    price = pair["_price"]
+
+    if price <= 0:
         return False
 
-    if state["balance"] < PAPER_TRADE_SIZE:
-        return False
+    trade = {
 
-    position = {
-        "symbol": market["symbol"],
-        "address": address,
-        "pair_address": market["pair_address"],
-        "entry_price": market["price"],
-        "highest_price": market["price"],
-        "amount": PAPER_TRADE_SIZE,
-        "entry_time": timestamp(),
-        "entry_score": analysis["entry"],
+        "name":
+            token.get("name") or "Unknown",
+
+        "symbol":
+            token.get("symbol") or "UNKNOWN",
+
+        "token_address":
+            address,
+
+        "pair_address":
+            pair.get("pairAddress"),
+
+        "entry_price":
+            price,
+
+        "amount":
+            PAPER_TRADE_SIZE,
+
+        "entry_timestamp":
+            time.time(),
+
+        "entry_time":
+            timestamp(),
+
+        "meme":
+            pair["_meme"]["score"],
+
+        "opportunity":
+            pair["_opportunity"],
+
+        "timing":
+            pair["_timing"],
+
+        "risk":
+            pair["_risk"],
+
+        "entry":
+            pair["_entry"],
+
+        "confidence":
+            pair["_confidence"],
     }
 
     state["balance"] -= PAPER_TRADE_SIZE
 
-    state["open_positions"][address] = position
+    state["open_trades"].append(
+        trade
+    )
 
-    state["total_trades"] += 1
+    state["total_entries"] += 1
 
-    log_trade(
-        f"PAPER ENTRY | "
-        f"{market['symbol']} | "
-        f"price={market['price']} | "
-        f"entry={analysis['entry']:.1f}"
+    append_log(
+        TRADE_LOG,
+        (
+            f"{timestamp()} | "
+            f"PAPER ENTRY | "
+            f"{trade['name']} | "
+            f"{trade['symbol']} | "
+            f"{address} | "
+            f"price={price} | "
+            f"meme={trade['meme']} | "
+            f"opportunity={trade['opportunity']} | "
+            f"timing={trade['timing']} | "
+            f"risk={trade['risk']} | "
+            f"entry={trade['entry']} | "
+            f"confidence={trade['confidence']}"
+        )
     )
 
     return True
 
 
-def exit_paper_trade(
+def paper_exit(
     state,
-    address,
-    price,
+    trade,
+    current_price,
     reason
 ):
 
-    position = state["open_positions"].get(address)
+    entry_price = safe_float(
+        trade.get("entry_price")
+    )
 
-    if not position:
+    amount = safe_float(
+        trade.get("amount")
+    )
+
+    if entry_price <= 0:
         return
 
-    pnl_percent = position_pnl(
-        position,
-        price
+    change = (
+        (current_price - entry_price)
+        / entry_price
+    ) * 100
+
+    exit_value = (
+        amount
+        * (1 + change / 100)
     )
 
-    pnl_money = (
-        PAPER_TRADE_SIZE
-        * pnl_percent
-        / 100
+    pnl = (
+        exit_value - amount
     )
 
-    state["balance"] += (
-        PAPER_TRADE_SIZE
-        + pnl_money
+    state["balance"] += exit_value
+
+    trade["exit_price"] = current_price
+
+    trade["exit_time"] = timestamp()
+
+    trade["exit_reason"] = reason
+
+    trade["pnl_percent"] = change
+
+    trade["pnl"] = pnl
+
+    state["closed_trades"].append(
+        trade
     )
 
-    state["realized_pnl"] += pnl_money
+    state["total_exits"] += 1
 
-    if pnl_money >= 0:
-        state["wins"] += 1
-    else:
-        state["losses"] += 1
-
-    state["best_trade"] = max(
-        state["best_trade"],
-        pnl_money
+    append_log(
+        TRADE_LOG,
+        (
+            f"{timestamp()} | "
+            f"PAPER EXIT | "
+            f"{trade.get('name')} | "
+            f"{trade.get('symbol')} | "
+            f"{trade.get('token_address')} | "
+            f"entry={entry_price} | "
+            f"exit={current_price} | "
+            f"pnl={pnl:+.4f} | "
+            f"change={change:+.2f}% | "
+            f"reason={reason}"
+        )
     )
 
-    state["worst_trade"] = min(
-        state["worst_trade"],
-        pnl_money
-    )
 
-    log_trade(
-        f"PAPER EXIT | "
-        f"{position['symbol']} | "
-        f"pnl={pnl_percent:+.2f}% | "
-        f"${pnl_money:+.2f} | "
-        f"reason={reason}"
-    )
-
-    del state["open_positions"][address]
-
-
-# ============================================================
+# ===============================================================
 # POSITION MANAGEMENT
-# ============================================================
+# ===============================================================
 
 def manage_positions(
     state,
-    markets
+    pairs
 ):
 
-    for address, position in list(
-        state["open_positions"].items()
-    ):
+    if not state["open_trades"]:
+        return
 
-        market = markets.get(address)
+    lookup = {}
 
-        if not market:
-            continue
+    for pair in pairs:
 
-        price = market["price"]
+        token = pair.get(
+            "baseToken"
+        ) or {}
 
-        if price <= 0:
-            continue
-
-        if price > position["highest_price"]:
-            position["highest_price"] = price
-
-        pnl = position_pnl(
-            position,
-            price
+        address = token.get(
+            "address"
         )
 
-        # Hard paper protection
-        if pnl <= -5:
-            exit_paper_trade(
+        if address:
+
+            lookup[address] = pair
+
+    remaining = []
+
+    for trade in state["open_trades"]:
+
+        address = trade.get(
+            "token_address"
+        )
+
+        pair = lookup.get(address)
+
+        if not pair:
+
+            remaining.append(trade)
+            continue
+
+        current_price = pair["_price"]
+
+        if current_price <= 0:
+
+            remaining.append(trade)
+            continue
+
+        entry_price = safe_float(
+            trade.get("entry_price")
+        )
+
+        change = 0
+
+        if entry_price > 0:
+
+            change = (
+                (current_price - entry_price)
+                / entry_price
+            ) * 100
+
+        age_hours = (
+            time.time()
+            - safe_float(
+                trade.get(
+                    "entry_timestamp"
+                )
+            )
+        ) / 3600
+
+        reason = None
+
+        # Deterioration
+        if (
+            pair["_risk"] >= 85
+            and change < -5
+        ):
+
+            reason = "risk deterioration"
+
+        # Heavy selling
+        elif (
+            pair["_buy_pressure"] < 35
+            and change < -3
+        ):
+
+            reason = "selling pressure"
+
+        # Momentum collapse
+        elif (
+            pair["_momentum"] < 30
+            and change < -3
+        ):
+
+            reason = "momentum collapse"
+
+        # Paper profit protection
+        elif change >= 15:
+
+            reason = "paper profit protection"
+
+        # Maximum holding time
+        elif age_hours >= MAX_HOLD_HOURS:
+
+            reason = "maximum hold time"
+
+        if reason:
+
+            paper_exit(
                 state,
-                address,
-                price,
-                "Paper risk protection"
-            )
-            continue
-
-        # Time protection
-        try:
-
-            entry_time = datetime.strptime(
-                position["entry_time"],
-                "%Y-%m-%d %H:%M:%S UTC"
-            ).replace(
-                tzinfo=timezone.utc
+                trade,
+                current_price,
+                reason
             )
 
-            hours = (
-                current_time()
-                - entry_time
-            ).total_seconds() / 3600
-
-        except Exception:
-
-            hours = 0
-
-        if hours >= MAX_HOLD_HOURS:
-            exit_paper_trade(
-                state,
-                address,
-                price,
-                "Maximum hold time"
+            print(
+                f"{GREEN}"
+                f"PAPER EXIT: "
+                f"{trade.get('symbol')} | "
+                f"{change:+.2f}% | "
+                f"{reason}"
+                f"{RESET}"
             )
-            continue
-
-        # Trailing protection
-        peak = position["highest_price"]
-
-        if peak <= position["entry_price"]:
-            continue
-
-        drawdown = safe_div(
-            price - peak,
-            peak
-        ) * 100
-
-        if peak >= position["entry_price"] * 1.50:
-            trailing = 15
-
-        elif peak >= position["entry_price"] * 1.25:
-            trailing = 12
-
-        elif peak >= position["entry_price"] * 1.10:
-            trailing = 10
 
         else:
-            trailing = 8
 
-        if drawdown <= -trailing:
-            exit_paper_trade(
-                state,
-                address,
-                price,
-                "Trailing protection"
-            )
+            remaining.append(trade)
+
+    state["open_trades"] = remaining
 
 
-# ============================================================
-# RUNNER DETECTION
-# ============================================================
+# ===============================================================
+# PORTFOLIO
+# ===============================================================
 
-def is_runner(market, analysis):
+def portfolio(state):
 
-    return (
-        analysis["quality"] >= 65
-        and analysis["momentum"] >= 35
-        and market["buy_pressure"] >= 0.62
-        and market["volume_5m"] >= MIN_VOLUME_5M
-        and market["liquidity"] >= MIN_LIQUIDITY
+    print()
+
+    print(
+        f"{BOLD}{MAGENTA}"
+        f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+        f"{RESET}"
+    )
+
+    print(
+        f"{BOLD}{WHITE}"
+        f"💰 PAPER PORTFOLIO"
+        f"{RESET}"
+    )
+
+    print(
+        f"Available: "
+        f"{GREEN}"
+        f"{money(state['balance'])}"
+        f"{RESET}"
+    )
+
+    print(
+        f"Open trades: "
+        f"{len(state['open_trades'])}/"
+        f"{MAX_OPEN_TRADES}"
+    )
+
+    print(
+        f"Entries: "
+        f"{state['total_entries']}"
+    )
+
+    print(
+        f"Exits: "
+        f"{state['total_exits']}"
+    )
+
+    print(
+        f"Watchlist: "
+        f"{len(state['watchlist'])}"
+    )
+
+    print(
+        f"{BOLD}{MAGENTA}"
+        f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+        f"{RESET}"
     )
 
 
-# ============================================================
-# SCAN
-# ============================================================
+# ===============================================================
+# JOURNAL
+# ===============================================================
 
-def scan(state):
+def journal(pair):
 
-    discovered = discover_tokens()
+    token = pair.get(
+        "baseToken"
+    ) or {}
 
-    candidates = []
+    address = token.get(
+        "address"
+    )
 
-    for address in discovered[:30]:
+    append_log(
+        BRAIN_LOG,
+        (
+            f"\n"
+            f"{timestamp()}\n"
+            f"TOKEN: "
+            f"{token.get('name', 'Unknown')}\n"
+            f"SYMBOL: "
+            f"{token.get('symbol', 'UNKNOWN')}\n"
+            f"ADDRESS: "
+            f"{address}\n"
+            f"MEME: "
+            f"{pair['_meme']['score']}\n"
+            f"QUALITY: "
+            f"{pair['_quality']}\n"
+            f"MOMENTUM: "
+            f"{pair['_momentum']}\n"
+            f"BUYERS: "
+            f"{pair['_buyers']}\n"
+            f"RISK: "
+            f"{pair['_risk']}\n"
+            f"OPPORTUNITY: "
+            f"{pair['_opportunity']}\n"
+            f"TIMING: "
+            f"{pair['_timing']}\n"
+            f"ENTRY: "
+            f"{pair['_entry']}\n"
+            f"CONFIDENCE: "
+            f"{pair['_confidence']}\n"
+            f"DECISION: "
+            f"{pair['_decision']}\n"
+            f"MEMORY: "
+            f"{pair['_memory']['trend']}\n"
+            f"SKEPTIC: "
+            f"{' | '.join(pair['_skepticism'])}\n"
+            f"--------------------------------------------"
+        )
+    )
 
-        pairs = get_pairs(address)
 
-        best_market = None
+# ===============================================================
+# MAIN SCAN
+# ===============================================================
 
-        for pair in pairs:
+def run_scan(state):
 
-            if pair.get("chainId") != CHAIN:
-                continue
+    print(
+        f"{CYAN}"
+        f"Discovering Solana candidates..."
+        f"{RESET}"
+    )
 
-            market = normalize_pair(pair)
+    tokens = discover_tokens()
 
-            if market["price"] <= 0:
-                continue
+    if not tokens:
 
-            if market["liquidity"] < MIN_LIQUIDITY:
-                continue
+        print(
+            f"{RED}"
+            f"No candidates discovered."
+            f"{RESET}"
+        )
 
-            if market["volume_5m"] < MIN_VOLUME_5M:
-                continue
+        return []
 
-            if (
-                best_market is None
-                or market["liquidity"]
-                > best_market["liquidity"]
-            ):
-                best_market = market
+    print(
+        f"{GREEN}"
+        f"Discovered {len(tokens)} candidates."
+        f"{RESET}"
+    )
 
-        if best_market is None:
+    analyzed = []
+
+    for token_data in tokens:
+
+        address = token_data[
+            "address"
+        ]
+
+        profile = token_data.get(
+            "profile"
+        ) or {}
+
+        pairs = get_pairs(
+            address
+        )
+
+        pair = best_pair(
+            pairs
+        )
+
+        if not pair:
             continue
 
-        analysis = analyze(
-            best_market
+        pair = prepare_pair(
+            pair,
+            profile
         )
 
-        candidates.append(
-            (best_market, analysis)
+        if pair["_price"] <= 0:
+            continue
+
+        pair = analyze(
+            pair,
+            state
         )
 
-    candidates.sort(
-        key=lambda item: (
-            item[1]["entry"],
-            item[1]["quality"]
+        analyzed.append(pair)
+
+        state[
+            "total_tokens_analyzed"
+        ] += 1
+
+        update_watchlist(
+            state,
+            pair
+        )
+
+        journal(pair)
+
+        append_log(
+            SEARCH_LOG,
+            (
+                f"{timestamp()} | "
+                f"{pair.get('baseToken', {}).get('name', 'Unknown')} | "
+                f"{pair.get('baseToken', {}).get('symbol', 'UNKNOWN')} | "
+                f"{address} | "
+                f"meme={pair['_meme']['score']} | "
+                f"quality={pair['_quality']} | "
+                f"momentum={pair['_momentum']} | "
+                f"buyers={pair['_buyers']} | "
+                f"risk={pair['_risk']} | "
+                f"opportunity={pair['_opportunity']} | "
+                f"timing={pair['_timing']} | "
+                f"entry={pair['_entry']} | "
+                f"confidence={pair['_confidence']} | "
+                f"decision={pair['_decision']}"
+            )
+        )
+
+    return analyzed
+
+
+# ===============================================================
+# RANKING
+# ===============================================================
+
+def rank_pairs(pairs):
+
+    return sorted(
+        pairs,
+        key=lambda x: (
+            x["_entry"],
+            x["_confidence"],
+            x["_opportunity"],
+            x["_meme"]["score"],
         ),
         reverse=True
     )
 
-    markets = {}
 
-    for market, analysis in candidates:
-        markets[
-            market["token_address"]
-        ] = market
+# ===============================================================
+# HEADER
+# ===============================================================
 
-    manage_positions(
-        state,
-        markets
-    )
-
-    print_header(state)
+def header(state):
 
     print(
-        C(
-            BOLD + BRIGHT_WHITE,
-            f"🔎 Discoveries: {len(discovered)}"
-            f"   Qualified: {len(candidates)}"
-        )
+        f"{BOLD}{MAGENTA}"
+        f"╔══════════════════════════════════════════════════════╗"
+        f"{RESET}"
     )
 
-    print()
+    print(
+        f"{BOLD}{MAGENTA}"
+        f"║              ALVIN MEME GOD V3.0                   ║"
+        f"{RESET}"
+    )
 
-    for market, analysis in candidates[:10]:
+    print(
+        f"{BOLD}{CYAN}"
+        f"║                 BRAINIAC ENGINE                    ║"
+        f"{RESET}"
+    )
 
-        print_candidate(
-            market,
-            analysis
-        )
+    print(
+        f"{BOLD}{YELLOW}"
+        f"║              PAPER TRADING ONLY                   ║"
+        f"{RESET}"
+    )
 
-    if candidates:
+    print(
+        f"{BOLD}{MAGENTA}"
+        f"╚══════════════════════════════════════════════════════╝"
+        f"{RESET}"
+    )
 
-        best_market, best_analysis = candidates[0]
+    print(
+        timestamp()
+    )
 
-        print_analysis(
-            best_market,
-            best_analysis
-        )
-
-        if (
-            best_analysis["decision"]
-            == "PAPER ENTER"
-        ):
-
-            entered = enter_paper_trade(
-                state,
-                best_market,
-                best_analysis
-            )
-
-            if entered:
-
-                print()
-
-                print(
-                    C(
-                        BOLD + BRIGHT_GREEN,
-                        f"🚀 PAPER ENTRY: "
-                        f"{best_market['symbol']}"
-                    )
-                )
-
-    # Runner alerts
-    for market, analysis in candidates:
-
-        if not is_runner(
-            market,
-            analysis
-        ):
-            continue
-
-        address = market["token_address"]
-
-        if address not in state["runner_alerts"]:
-
-            state["runner_alerts"].append(
-                address
-            )
-
-            print()
-
-            print(
-                C(
-                    BOLD + BRIGHT_MAGENTA,
-                    f"🚀 RUNNER ALERT: "
-                    f"{market['symbol']}"
-                )
-            )
-
-    save_state(state)
+    print(
+        f"Balance: "
+        f"{GREEN}"
+        f"{money(state['balance'])}"
+        f"{RESET}"
+    )
 
 
-# ============================================================
+# ===============================================================
 # MAIN
-# ============================================================
+# ===============================================================
 
 def main():
 
     state = load_state()
 
-    print_header(state)
-
     print(
-        C(
-            BOLD + BRIGHT_YELLOW,
-            "⚠️ PAPER TRADING MODE ONLY"
-        )
+        f"{GREEN}"
+        f"Starting {BOT_NAME} {VERSION}"
+        f"{RESET}"
     )
 
     print(
-        C(
-            BRIGHT_CYAN,
-            "No wallet • No private key • No real orders"
-        )
+        f"{YELLOW}"
+        f"Paper research mode ACTIVE."
+        f"{RESET}"
     )
 
-    time.sleep(2)
+    time.sleep(1)
 
     while True:
 
         try:
 
-            scan(state)
+            clear_screen()
+
+            header(state)
+
+            # ---------------------------------------------------
+            # Refresh open positions
+            # ---------------------------------------------------
+
+            position_pairs = []
+
+            for trade in state[
+                "open_trades"
+            ]:
+
+                address = trade.get(
+                    "token_address"
+                )
+
+                if not address:
+                    continue
+
+                pairs = get_pairs(
+                    address
+                )
+
+                pair = best_pair(
+                    pairs
+                )
+
+                if pair:
+
+                    pair = prepare_pair(
+                        pair
+                    )
+
+                    if pair["_price"] > 0:
+
+                        pair = analyze(
+                            pair,
+                            state
+                        )
+
+                        position_pairs.append(
+                            pair
+                        )
+
+            manage_positions(
+                state,
+                position_pairs
+            )
+
+            # ---------------------------------------------------
+            # New scan
+            # ---------------------------------------------------
 
             print()
 
             print(
-                C(
-                    DIM,
-                    f"⏱️ Next scan in "
-                    f"{SCAN_INTERVAL} seconds..."
+                f"{BLUE}"
+                f"🧠 BRAINIAC SCAN STARTING..."
+                f"{RESET}"
+            )
+
+            pairs = run_scan(
+                state
+            )
+
+            ranked = rank_pairs(
+                pairs
+            )
+
+            # ---------------------------------------------------
+            # Display all
+            # ---------------------------------------------------
+
+            print()
+
+            print(
+                f"{BOLD}{GREEN}"
+                f"========== BRAINIAC MARKET =========="
+                f"{RESET}"
+            )
+
+            for number, pair in enumerate(
+                ranked,
+                start=1
+            ):
+
+                display_pair(
+                    pair,
+                    number
                 )
+
+                # Save memory AFTER display
+                token = pair.get(
+                    "baseToken"
+                ) or {}
+
+                address = token.get(
+                    "address"
+                )
+
+                if address:
+
+                    save_observation(
+                        state,
+                        address,
+                        pair
+                    )
+
+            # ---------------------------------------------------
+            # Paper entries
+            # ---------------------------------------------------
+
+            entered = 0
+
+            for pair in ranked:
+
+                if (
+                    pair["_decision"]
+                    != "PAPER ENTER"
+                ):
+
+                    continue
+
+                if len(
+                    state["open_trades"]
+                ) >= MAX_OPEN_TRADES:
+
+                    break
+
+                if paper_enter(
+                    state,
+                    pair
+                ):
+
+                    entered += 1
+
+                    token = pair.get(
+                        "baseToken"
+                    ) or {}
+
+                    print()
+
+                    print(
+                        f"{BOLD}{GREEN}"
+                        f"🟢 BRAINIAC PAPER ENTRY"
+                        f"{RESET}"
+                    )
+
+                    print(
+                        f"Token: "
+                        f"{token.get('name', 'Unknown')}"
+                    )
+
+                    print(
+                        f"Symbol: "
+                        f"{token.get('symbol', 'UNKNOWN')}"
+                    )
+
+                    print(
+                        f"Full ID: "
+                        f"{token.get('address')}"
+                    )
+
+                    print(
+                        f"Opportunity: "
+                        f"{pair['_opportunity']}"
+                    )
+
+                    print(
+                        f"Timing: "
+                        f"{pair['_timing']}"
+                    )
+
+                    print(
+                        f"Confidence: "
+                        f"{pair['_confidence']}"
+                    )
+
+            if entered == 0:
+
+                print()
+
+                print(
+                    f"{YELLOW}"
+                    f"No new paper entries."
+                    f"{RESET}"
+                )
+
+            portfolio(state)
+
+            save_state(state)
+
+            print()
+
+            print(
+                f"{CYAN}"
+                f"Scan #{state['total_scans']} complete."
+                f"{RESET}"
+            )
+
+            # Increment after successful scan.
+            state["total_scans"] += 1
+
+            save_state(state)
+
+            print(
+                f"{CYAN}"
+                f"Next Brainiac scan in "
+                f"{SCAN_INTERVAL} seconds..."
+                f"{RESET}"
             )
 
             time.sleep(
@@ -1465,27 +3143,38 @@ def main():
             print()
 
             print(
-                C(
-                    BRIGHT_YELLOW,
-                    "👋 ALVIN MEME GOD stopped."
-                )
+                f"{YELLOW}"
+                f"ALVIN MEME GOD stopped."
+                f"{RESET}"
+            )
+
+            save_state(
+                state
             )
 
             break
 
-        except Exception as error:
+        except Exception as e:
 
             print()
 
             print(
-                C(
-                    BRIGHT_RED,
-                    f"⚠️ Engine error: {error}"
-                )
+                f"{RED}"
+                f"ENGINE ERROR: {e}"
+                f"{RESET}"
+            )
+
+            save_state(
+                state
             )
 
             time.sleep(10)
 
 
+# ===============================================================
+# START
+# ===============================================================
+
 if __name__ == "__main__":
+
     main()
