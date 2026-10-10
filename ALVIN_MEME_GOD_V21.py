@@ -3026,6 +3026,13 @@ def run_scan(state):
         state
     )
 
+    # Telegram notifications; paper/research mode only.
+    try:
+        from telegram_helper import telegram_notify_scan
+        telegram_notify_scan(results, state)
+    except Exception as exc:
+        print("Telegram integration error:", type(exc).__name__)
+
     print_stats(
         state
     )
