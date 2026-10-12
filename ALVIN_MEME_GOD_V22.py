@@ -1873,6 +1873,11 @@ def final_judgment(
             return "PAPER WATCH"
         return "WAIT"
 
+    if market.get("sniper_signal") not in {"BREAKOUT", "RETEST", "MOMENTUM"}:
+        if combined >= PAPER_WATCH_SCORE and market["market_score"] >= 50:
+            return "PAPER WATCH"
+        return "WAIT"
+
     # Paper candidate only.
     if (
         combined >= PAPER_ENTER_SCORE
@@ -2526,6 +2531,23 @@ def print_token(
     print(
         f"📈 MOMENTUM:   "
         f"{GREEN}{market['momentum_score']}/100{RESET}"
+    )
+
+    sniper_color = GREEN if market.get("sniper_signal") in {"BREAKOUT", "RETEST", "MOMENTUM"} else YELLOW
+    print(
+        f"🎯 SNIPER:      "
+        f"{sniper_color}{market.get('sniper_signal', 'WARM-UP')} "
+        f"({market.get('sniper_score', 0)}/100){RESET}"
+    )
+    print(
+        f"⚡ ACCEL:       "
+        f"{market.get('momentum_acceleration', 0):+.2f} pts | "
+        f"Vol {market.get('volume_acceleration_pct', 0):+.1f}%{RESET}"
+    )
+    print(
+        f"💧 LIQ CHANGE:  "
+        f"{market.get('liquidity_change_pct', 0):+.1f}% | "
+        f"Safety: {market.get('safety_status', 'UNVERIFIED')}{RESET}"
     )
 
     print(
