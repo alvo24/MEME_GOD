@@ -1,27 +1,43 @@
+# Credentials and private configuration
 .env
+*.env
 *.key
 *.pem
 *.pub
+.config/
+.ssh/
+.gitconfig
 authorized_keys
 known_hosts
 credentials.json
 secrets.json
+
+# Python
 __pycache__/
-*.pyc
-.bash_history
-.bashrc
+*.py[cod]
+
+# Local environment
+.local/
 .cache/
-.config/
-.gitconfig
-.lesshst
-.ssh/
+.npm/
+.termux/
 storage/
+.wget-hsts
+.lesshst
+.bash_history
+
+# Backups and temporary files
+*.backup
+*.bak
+*.tmp
 gitbackup
+bin_backup
+
+# Generated scanner and paper-trading data
 *_STATE.json
 *_STATS.txt
 *_TARGETS.txt
 *_TRADES.txt
-
-.npm/
-.termux/
-*.save
+*_HISTORY.txt
+*_JOURNAL.txt
+*_SEARCH_HISTORY.txt

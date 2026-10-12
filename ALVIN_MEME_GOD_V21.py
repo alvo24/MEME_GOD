@@ -3026,6 +3026,16 @@ def run_scan(state):
         state
     )
 
+    # PAPER TRADING: simulation only; no real orders.
+    try:
+        from paper_trader import process_scan
+        process_scan(results)
+    except Exception as exc:
+        print(
+            f"{RED}Paper trader error: "
+            f"{type(exc).__name__}: {exc}{RESET}"
+        )
+
     # Telegram notifications; paper/research mode only.
     try:
         from telegram_helper import telegram_notify_scan
