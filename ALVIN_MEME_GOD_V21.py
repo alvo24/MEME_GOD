@@ -1233,6 +1233,135 @@ def analyze_market(pair):
 
 
 # ============================================================
+# SNIPER SIGNAL BRAIN — OBSERVATION-BASED, PAPER RESEARCH ONLY
+# ============================================================
+
+def sniper_signal_brain(state, market):
+    """
+    Uses successive DexScreener observations to estimate momentum
+    acceleration, volume expansion, local breakout/retest, and
+    liquidity stability. This is a heuristic, not a safety audit.
+    """
+    address = market.get("address", "")
+    token = state.get("tokens", {}).get(address, {})
+    observations = token.get("observations", [])
+    observations = [
+        item for item in observations
+        if isinstance(item, dict) and safe_float(item.get("price")) > 0
+    ]
+
+    price = safe_float(market.get("price"))
+    volume5 = safe_float(market.get("volume_5m"))
+    liquidity = safe_float(market.get("liquidity"))
+    buy_pressure = safe_float(market.get("buy_pressure"), 50)
+
+    previous = observations[-1] if observations else {}
+    older = observations[-2] if len(observations) >= 2 else {}
+
+    prev_price = safe_float(previous.get("price"))
+    older_price = safe_float(older.get("price"))
+    prev_vol = safe_float(previous.get("volume_5m"))
+    prev_liq = safe_float(previous.get("liquidity"))
+
+    step_pct = ((price / prev_price) - 1) * 100 if prev_price > 0 else 0.0
+    prior_step_pct = ((prev_price / older_price) - 1) * 100 if older_price > 0 else 0.0
+    acceleration = step_pct - prior_step_pct
+
+    volume_acceleration = (
+        (volume5 / prev_vol) - 1
+        if prev_vol > 0 else 0.0
+    )
+    liquidity_change = (
+        ((liquidity / prev_liq) - 1) * 100
+        if prev_liq > 0 else 0.0
+    )
+    liquidity_stable = not (prev_liq > 0 and liquidity_change <= -15.0)
+
+    prior_prices = [
+        safe_float(item.get("price"))
+        for item in observations[-6:]
+        if safe_float(item.get("price")) > 0
+    ]
+    prior_high = max(prior_prices) if prior_prices else 0.0
+    breakout = len(prior_prices) >= 3 and price > prior_high * 1.002
+
+    # Retest approximation: an earlier observation cleared the local
+    # range, and current price has returned close to that range high.
+    older_window = prior_prices[:-1]
+    range_high = max(older_window) if len(older_window) >= 3 else 0.0
+    had_breakout = (
+        range_high > 0
+        and prior_prices[-1] > range_high * 1.002
+    )
+    retest = (
+        had_breakout
+        and price >= range_high * 0.975
+        and price <= range_high * 1.025
+    )
+
+    score = 45
+    if acceleration >= 1.5:
+        score += 18
+    elif acceleration >= 0.4:
+        score += 10
+    elif acceleration < -1.5:
+        score -= 18
+    elif acceleration < -0.5:
+        score -= 8
+
+    if volume_acceleration >= 1.0:
+        score += 18
+    elif volume_acceleration >= 0.25:
+        score += 10
+    elif volume_acceleration < -0.35:
+        score -= 8
+
+    if buy_pressure >= 65:
+        score += 12
+    elif buy_pressure >= 58:
+        score += 6
+    elif buy_pressure < 45:
+        score -= 10
+
+    if breakout:
+        score += 15
+    if retest:
+        score += 18
+    if not liquidity_stable:
+        score -= 25
+
+    score = int(clamp(score))
+    enough_history = len(observations) >= 3
+
+    if not liquidity_stable:
+        signal = "LIQUIDITY DROP"
+    elif retest:
+        signal = "RETEST"
+    elif breakout:
+        signal = "BREAKOUT"
+    elif acceleration >= 0.4 and volume_acceleration >= 0.25:
+        signal = "MOMENTUM"
+    elif not enough_history:
+        signal = "WARM-UP"
+    else:
+        signal = "NO CONFIRMATION"
+
+    market.update({
+        "sniper_score": score,
+        "sniper_signal": signal,
+        "momentum_acceleration": round(acceleration, 3),
+        "volume_acceleration_pct": round(volume_acceleration * 100, 1),
+        "liquidity_change_pct": round(liquidity_change, 1),
+        "liquidity_stable": liquidity_stable,
+        "sniper_history_count": len(observations),
+        # DexScreener pair data does not verify holders, deployer,
+        # mint/freeze authority, or sellability. Never imply it does.
+        "safety_status": "UNVERIFIED",
+    })
+    return market
+
+
+# ============================================================
 # EARLY ENTRY BRAIN
 # ============================================================
 
@@ -1729,6 +1858,21 @@ def final_judgment(
     if market["momentum_score"] < 30:
         return "WAIT"
 
+    # Require a warm-up history and a confirmed short-term signal.
+    # First-seen tokens remain WATCH/WAIT until enough observations exist.
+    if market.get("sniper_history_count", 0) < 3:
+        if combined >= PAPER_WATCH_SCORE and market["market_score"] >= 50:
+            return "PAPER WATCH"
+        return "WAIT"
+
+    if not market.get("liquidity_stable", True):
+        return "WAIT"
+
+    if market.get("sniper_score", 0) < 55:
+        if combined >= PAPER_WATCH_SCORE and market["market_score"] >= 50:
+            return "PAPER WATCH"
+        return "WAIT"
+
     # Paper candidate only.
     if (
         combined >= PAPER_ENTER_SCORE
@@ -1805,6 +1949,16 @@ def update_token_memory(
             market["buy_pressure"],
         "price_change_5m":
             market["price_change_5m"],
+        "sniper_score":
+            market.get("sniper_score", 0),
+        "sniper_signal":
+            market.get("sniper_signal", "WARM-UP"),
+        "momentum_acceleration":
+            market.get("momentum_acceleration", 0),
+        "volume_acceleration_pct":
+            market.get("volume_acceleration_pct", 0),
+        "liquidity_change_pct":
+            market.get("liquidity_change_pct", 0),
         "combined":
             combined,
         "early":
@@ -2824,6 +2978,8 @@ def run_scan(state):
         if not market:
             continue
 
+        sniper_signal_brain(state, market)
+
         # Exact token address from selected pair
         if not market["address"]:
             market["address"] = address
@@ -2960,6 +3116,10 @@ def run_scan(state):
                 risk,
             "combined":
                 combined,
+            "sniper_score":
+                market.get("sniper_score", 0),
+            "sniper_signal":
+                market.get("sniper_signal", "WARM-UP"),
             "verdict":
                 verdict,
         })
