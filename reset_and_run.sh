@@ -57,7 +57,7 @@ echo "[3/5] Removing saved scanner and paper-trading state..."
 for dir in "$HOME_DIR" "$ROOT" "$SHARED_DIR"; do
   [[ -d "$dir" ]] || continue
   # Search nested project folders but never traverse Git metadata or credentials.
-  find "$dir" -type d \\( -name .git -o -iname '*backup*' -o -name 'alvin_meme_god_reset_safety_*' \\) -prune -o -type f \
+  find "$dir" -type d \( -name .git -o -iname '*backup*' -o -name 'alvin_meme_god_reset_safety_*' \) -prune -o -type f \
     \( -name 'ALVIN_MEME_GOD_V*_STATE.json' \
        -o -name 'ALVIN_MEME_GOD_V*_HISTORY.txt' \
        -o -name 'ALVIN_MEME_GOD_V*_JOURNAL.txt' \
@@ -71,7 +71,7 @@ done
 echo "[4/5] Removing superseded version scripts from project/shared workspace..."
 for dir in "$ROOT" "$SHARED_DIR"; do
   [[ -d "$dir" ]] || continue
-  find "$dir" -type d -name .git -prune -o -type f \
+  find "$dir" -type d \( -name .git -o -iname '*backup*' -o -name 'alvin_meme_god_reset_safety_*' \) -prune -o -type f \
     \( -name 'ALVIN_MEME_GOD_V*.py' -o -name 'meme_god_v*.py' \) \
     ! -name "$BOT_FILE" -delete
 done
