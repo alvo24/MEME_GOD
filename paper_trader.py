@@ -29,6 +29,8 @@ WATCH_MIN_COMBINED = 62
 WATCH_MIN_EARLY = 55
 WATCH_MAX_RISK = 59
 WATCH_MAX_FOMO = 79
+WATCH_MIN_SNIPER = 55
+WATCH_ALLOWED_SIGNALS = {"BREAKOUT", "RETEST", "MOMENTUM"}
 
 GREEN = "\033[92m"
 RED = "\033[91m"
@@ -133,6 +135,9 @@ def watch_candidate_qualifies(item, market):
         and number(market, "market_score") >= WATCH_MIN_MARKET_SCORE
         and number(market, "buy_pressure") >= WATCH_MIN_BUY_PRESSURE
         and number(market, "momentum_score") >= WATCH_MIN_MOMENTUM
+        and number(market, "sniper_score") >= WATCH_MIN_SNIPER
+        and str(market.get("sniper_signal", "")).upper() in WATCH_ALLOWED_SIGNALS
+        and market.get("liquidity_stable", False) is True
     )
 
 
