@@ -53,25 +53,24 @@ fi
 echo "[2/5] Removing saved scanner and paper-trading state..."
 for dir in "$HOME_DIR" "$ROOT" "$SHARED_DIR"; do
   [[ -d "$dir" ]] || continue
-  rm -f \
-    "$dir"/ALVIN_MEME_GOD_V*_STATE.json \
-    "$dir"/ALVIN_MEME_GOD_V*_HISTORY.txt \
-    "$dir"/ALVIN_MEME_GOD_V*_JOURNAL.txt \
-    "$dir"/ALVIN_MEME_GOD_PAPER_STATE.json \
-    "$dir"/ALVIN_MEME_GOD_STATS.txt \
-    "$dir"/ALVIN_MEME_GOD_TARGETS.txt \
-    "$dir"/ALVIN_MEME_GOD_TRADES.txt \
-    "$dir"/ALVIN_MEME_GOD_SEARCH_HISTORY.txt
+  # Search nested project folders but never traverse Git metadata or credentials.
+  find "$dir" -path "$dir/.git" -prune -o -type f \\
+    \\( -name 'ALVIN_MEME_GOD_V*_STATE.json' \\
+       -o -name 'ALVIN_MEME_GOD_V*_HISTORY.txt' \\
+       -o -name 'ALVIN_MEME_GOD_V*_JOURNAL.txt' \\
+       -o -name 'ALVIN_MEME_GOD_PAPER_STATE.json' \\
+       -o -name 'ALVIN_MEME_GOD_STATS.txt' \\
+       -o -name 'ALVIN_MEME_GOD_TARGETS.txt' \\
+       -o -name 'ALVIN_MEME_GOD_TRADES.txt' \\
+       -o -name 'ALVIN_MEME_GOD_SEARCH_HISTORY.txt' \\) -delete
 done
 
 echo "[3/5] Removing superseded version scripts from project/shared workspace..."
 for dir in "$ROOT" "$SHARED_DIR"; do
   [[ -d "$dir" ]] || continue
-  for file in "$dir"/ALVIN_MEME_GOD_V*.py "$dir"/meme_god_v*.py; do
-    [[ -f "$file" ]] || continue
-    [[ "$(basename "$file")" == "$BOT_FILE" ]] && continue
-    rm -f -- "$file"
-  done
+  find "$dir" -path "$dir/.git" -prune -o -type f \\
+    \\( -name 'ALVIN_MEME_GOD_V*.py' -o -name 'meme_god_v*.py' \\) \\
+    ! -name "$BOT_FILE" -delete
 done
 
 echo "[4/5] Checking Python syntax..."
